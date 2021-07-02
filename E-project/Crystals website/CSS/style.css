@@ -47,7 +47,7 @@
 
 
 
-
+/*----------------------- The Tiffany Experience -------------*/
 .exper {
     background-color: #f8f6f6;
     padding: 20px 0 70px;
@@ -84,9 +84,7 @@
 .col-lg a:hover {
     color: var(--underline--color);
 }
-.carousel-control-prev {
-    color: var(--underline--color);
-}
+/*------------- The Tiffany Experience (responsive) ------------------*/
 #carouselExampleIndicators {
     display: none;
     background-color: #f8f6f6;
@@ -104,7 +102,7 @@
         display: block;
     }       
 }
-/*-- foooter --*/
+/*----------------------------- Foooter ---------------------------------*/
 footer {
     position: relative;
     padding-top: 50px;
@@ -232,7 +230,7 @@ form .txt_field {
     max-width: 215px;
     margin-left: 100px;
 }
-.row row-cols-3{
+.row row-cols-3 {
     margin-left: 200px;
 }
 .web-end {
@@ -242,7 +240,7 @@ form .txt_field {
     text-align: center;
     margin-top: 100px;
 }
-/*----------------- tablet ---------------------------*/
+/*----------------- Footer (tablet) ---------------------------*/
 .footer-email-tablet {
     max-width: 415px;
     position: relative;
@@ -269,7 +267,7 @@ form .txt_field {
     color: white;
     background-color: var(--underline--color);
 }        
-/*----------------- smartphone ---------------------------*/
+/*----------------- Footer (smartphone) ---------------------------*/
 .accordion {
     display: none;
 }
