@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Tangerine:wght@700&family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Tangerine:wght@700&family=Lobster+Two:ital,wght@1,400;1,700&display=swap');
 
 *::after,
 *::before,
@@ -10,14 +10,89 @@
 /*-- global-var --*/
 :root {
     --logo--font: 'Viaoda Libre', cursive;
-    --head--font: 'Tangerine', cursive;
+    --head--font: 'Lobster Two', cursive;;
     --content--font: 'Poppins', sans-serif;
     --underline--color: #81d8d0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hr {
+    color: var(--underline--color);
+}
+.exper {
+    background-color: #f8f6f6;
+    padding: 20px 0 70px;
+    margin-top: 1000px;
+}
+.header-content {
+    text-align: center;
+    font-family: var(--head--font);
+    font-weight: bold;
+}
+
+.col-lg {
+    text-align: center;
+    margin-top: 70px;
+}
+.col-lg h5 {
+    text-align: center;
+    font-family: var(--content--font);
+    font-size: 15px;
+    font-weight: 500;
+}
+.col-lg p {
+    text-align: center;
+    font-family: var(--content--font);
+    font-size: 13px;
+    letter-spacing: 1.2px;
+}
+.col-lg a {
+    text-decoration: none;
+    color: #000;
+    font-family: var(--content--font);
+    font-size: 14px;
+    font-weight: 600;
+}
+.col-lg a:hover {
+    color: var(--underline--color);
 }
 /*-- foooter --*/
 footer {
     position: relative;
-    padding-top: 1000px;
+    padding-top: 50px;
+    border-top: 5px solid var(--underline--color);
+    margin-top: 30px;
 }
 #footer-email h5 {
     font-family: var(--content--font);
@@ -146,7 +221,7 @@ form .txt_field {
 .web-end {
     width: 100%;
 }
-.col p {
+.col-md p {
     text-align: center;
     margin-top: 100px;
 }
@@ -218,7 +293,6 @@ button .accordion-button collapsed {
 .accordion-item a:hover {
     font-weight: bold;
 }
-
 @media screen and (max-width: 1024px){
     .container-sm {
         padding-right: 100px;
@@ -229,16 +303,19 @@ button .accordion-button collapsed {
     .col-5 {
         margin-top: 50px;
         position: relative;
-        left: 50%;
-        top: 50px;
+        left: 55%;
+        top: 10px;
         display: block;
     }
     .footer-email-tablet {
         display: block;
     }
+    .container-sm {
+        border-bottom: 1px solid var(--underline--color);
+    }
 }
 @media screen and (max-width: 900px){
-    .container-fluid {
+    #footer-pc {
         display: none;
     }
     .accordion {
