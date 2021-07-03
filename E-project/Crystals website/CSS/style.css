@@ -123,27 +123,29 @@
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
 }
+#footer-banner .lead {
+    justify-content: center;
+    align-items: center;
+}
 #footer-banner-text {
     text-align: center;
     max-width: 550px;
     margin-left: 10px;
     margin-top: 150px;
 }
-#footer-banner .display-3 {
+#footer-banner-text .display-3 {
     text-align: center;
     font-family: var(--head--font);
     font-weight: 200;
     font-size: 35px;
 }
-#footer-banner .lead {
+#footer-banner-text .lead {
     font-family: var(--content--font);
     font-size: 15px;
     font-weight: 400;
     margin-top: 10px;
-    justify-content: center;
-    align-items: center
 }
-#footer-banner .lead a {
+#footer-banner-text .lead a {
     text-decoration: none;
     color: #000;
     font-family: var(--content--font);
@@ -157,28 +159,32 @@
     padding: 20px 0 70px;
     margin-top: 10px;
 }
-.exper .header-content {
+.header-content {
     text-align: center;
     font-family: var(--head--font);
     font-weight: bold;
     font-size: 35px;
 }
+#exper-res .col-lg,
 .exper .col-lg {
     text-align: center;
     margin-top: 50px;
 }
+#exper-res .col-lg h5,
 .exper .col-lg h5 {
     text-align: center;
     font-family: var(--content--font);
     font-size: 15px;
     font-weight: 500;
 }
+#exper-res .col-lg p,
 .exper .col-lg p {
     text-align: center;
     font-family: var(--content--font);
     font-size: 13px;
     letter-spacing: 1.2px;
 }
+#exper-res .col-lg a,
 .exper .col-lg a {
     text-decoration: none;
     color: #000;
@@ -186,6 +192,7 @@
     font-size: 14px;
     font-weight: 600;
 }
+#exper-res .col-lg a:hover,
 .exper .col-lg a:hover {
     color: var(--underline--color);
 }
@@ -196,10 +203,11 @@
     padding: 20px 0 70px;
     margin-top: 10px;
 }
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 750px) {
     .exper {
         display: none;
     }
+    #exper-res .col-lg,
     .exper .col-lg {
         margin-top: 30px;
     }
@@ -235,7 +243,7 @@ form .txt_field {
     border-bottom: 2px solid #adadad;
     margin: 30px 0
 }
-footer .txt_field input {
+.txt_field input {
     width: 100%;
     padding: 0 5px;
     height: 40px;
@@ -244,7 +252,7 @@ footer .txt_field input {
     background: none;
     outline: none;
 }
-footer .txt_field label {
+.txt_field label {
     position: absolute;
     top: 50%;
     left: 5px;
@@ -253,7 +261,7 @@ footer .txt_field label {
     font-size: 16px;
     pointer-events: none;
 }
-footer .txt_field span::before {
+.txt_field span::before {
     content: '';
     position: absolute;
     top: 40px;
@@ -263,17 +271,17 @@ footer .txt_field span::before {
     background: var(--underline--color);
     transition: .7s;
 }
-footer .txt_field input:focus ~ label,
-footer .txt_field input:valid ~ label {
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label {
     top: -5px;
     color: var(--underline--color);
     font-size: 11px;
 }
-footer .txt_field input:focus ~ span::before,
-footer .txt_field input:valid ~ span::before{
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before{
     width: 100%;
 }
-footer .sign {
+.sign {
     border: 1px solid black;
     font-family: var(--content--font);
     font-size: 14px;
@@ -282,7 +290,7 @@ footer .sign {
     background-color: white;
     padding: 8px 52px;
 }
-footer .sign:hover {
+.sign:hover {
     border: 1px solid var(--underline--color);
     background-color: var(--underline--color);
     color: white;
@@ -307,7 +315,7 @@ footer .sign:hover {
     font-weight: 500;
     color:#000;
 }
-footer .details {
+.details {
     padding: 0;
 }
 #Care a::after, #Company a::after, #Social a::after {
@@ -322,27 +330,27 @@ footer .details {
     width: 135px;
     transition: width 0.5s;
 }
-footer .img-fluid {
+#map-img .img-fluid {
     min-width: 300px;
 }
-footer .col-5 {
+#map-img {
     max-width: 500px;
     min-width: 300px;
 }
-footer .col-6 {
+#footer-sign {
     max-width: 350px;
     min-width: 230px;
     position: relative;
     left: 20px;
 }
-footer .col-sm {
+#footer-text .col-sm {
     max-width: 215px;
     margin-left: 70px;
 }
-footer .row row-cols-3 {
+#footer-text .row row-cols-3 {
     margin-left: 200px;
 }
-footer .web-end {
+.web-end {
     width: 100%;
 }
 footer .col-md p {
@@ -423,13 +431,13 @@ button .accordion-button collapsed {
 }
 
 @media screen and (max-width: 1555px){
-    footer .container-sm {
+    #footer-text {
         padding-right: 100px;
     }
-    footer .col-6 {
+    #footer-sign {
         display: none;
     }
-    footer .col-5 {
+    #map-img {
         margin-top: 50px;
         position: relative;
         left: 55%;
@@ -439,7 +447,7 @@ button .accordion-button collapsed {
     .footer-email-tablet {
         display: block;
     }
-    footer .container-sm {
+    #footer-text {
         border-bottom: 1px solid var(--underline--color);
     }
 }
