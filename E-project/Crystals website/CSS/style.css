@@ -87,13 +87,7 @@
 
 
 
-
-
-
-
-
-
-
+/*----------------------- Products -------------*/
 
 
 
@@ -104,15 +98,54 @@
 
 
 /*----------------------- Footer-banner -------------*/
-#category {
+.shop-by-category {
     margin-top: 1000px;
+    border-top: 2px solid var(--underline--color);   
+}
+.category-content {
+    text-align: center;
+    margin-top: 50px;
+}
+.category-content h3 {
+    font-family: var(--head--font);
+    font-weight: 200;
+    font-size: 35px;
+}
+.category-content p{
+    font-family: var(--content--font);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+#category {
+    margin-top: 35px;
+    margin-bottom: 100px;
 }
 #category img {
-    width: 162px;
+    width: 100%;
+    border:1px solid #b7b7b7;
+    max-width: 100%;
 }
-
-
-
+#category .col {
+    text-align: center;
+}
+#category h5 {
+    font-family: var(--content--font);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+#category h5::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: var(--underline--color);
+    transition: width 0.5s;
+}
+#category h5:hover::after {
+    width: 100%;
+}
 /*----------------------- Footer-banner -------------*/
 #footer-banner {
     background-image: url(../Images/banner-footer.jpg);
@@ -152,6 +185,18 @@
     font-size: 14px;
     font-weight: 600;
 }
+#footer-banner-text .lead a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: var(--underline--color);
+    transition: width 0.5s;
+}
+#footer-banner-text .lead a:hover::after {
+    width: 100%;
+}
+
 
 /*----------------------- The Tiffany Experience -------------*/
 .exper {
@@ -192,17 +237,15 @@
     font-size: 14px;
     font-weight: 600;
 }
-#exper-res .col-lg a:hover,
-.exper .col-lg a:hover {
-    color: var(--underline--color);
-}
 /*------------- The Tiffany Experience (responsive) ------------------*/
 #carouselExampleIndicators {
     display: none;
     background-color: #f8f6f6;
     padding: 20px 0 70px;
     margin-top: 10px;
+    width: 100%;
 }
+
 @media screen and (max-width: 750px) {
     .exper {
         display: none;
@@ -430,7 +473,7 @@ button .accordion-button collapsed {
     font-weight: bold;
 }
 
-@media screen and (max-width: 1555px){
+@media screen and (max-width: 1024px){
     #footer-text {
         padding-right: 100px;
     }
@@ -457,5 +500,9 @@ button .accordion-button collapsed {
     }
     .accordion {
         display: block;
+    }
+    #category .col {
+        width: 50%;
+        padding-left: 15px;
     }
 }
