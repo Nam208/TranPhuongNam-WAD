@@ -301,8 +301,10 @@ form .txt_field {
     left: 5px;
     color: #adadad;
     transform: translateY(-50%);
-    font-size: 16px;
+    font-size: 15px;
     pointer-events: none;
+    font-family: var(--content--font);
+    transition: 0.5s;
 }
 .txt_field span::before {
     content: '';
@@ -321,7 +323,7 @@ form .txt_field {
     font-size: 11px;
 }
 .txt_field input:focus ~ span::before,
-.txt_field input:valid ~ span::before{
+.txt_field input:valid ~ span::before {
     width: 100%;
 }
 .sign {
@@ -378,7 +380,6 @@ form .txt_field {
 }
 #map-img {
     max-width: 500px;
-    min-width: 300px;
 }
 #footer-sign {
     max-width: 350px;
@@ -472,7 +473,6 @@ button .accordion-button collapsed {
 .accordion-item a:hover {
     font-weight: bold;
 }
-
 @media screen and (max-width: 1024px){
     #footer-text {
         padding-right: 100px;
@@ -493,6 +493,12 @@ button .accordion-button collapsed {
     #footer-text {
         border-bottom: 1px solid var(--underline--color);
     }
+    #signin-row .col {
+        min-width: 270px;
+    }
+    .createhead p {
+        margin: 0 30px;
+    }
 }
 @media screen and (max-width: 900px){
     #footer-pc {
@@ -505,4 +511,118 @@ button .accordion-button collapsed {
         width: 50%;
         padding-left: 15px;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------Sign-----------------------*/
+.sign-create {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+#signin-row .col {
+    text-align: center;
+    padding: 10px 0;
+}
+.createhead h3,
+.signin-head h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+}
+.createhead p,
+.signin-head p {
+    font-family: var(--content--font);
+    font-size: 15px;
+}
+.txt_field {
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.signin-form a {
+    font-family: var(--content--font);
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+}
+.signin-button {
+    border: 1px solid black;
+    font-family: var(--content--font);
+    font-size: 14px;
+    font-weight: 700;
+    color:#000;
+    background-color: white;
+    padding: 8px 52px;
+    height: 41px;
+    float: none;
+    margin-top: 20px;
+    width: 70%;
+}
+.signin-button:hover {
+    border: 1px solid var(--underline--color);
+    background-color: var(--underline--color);
+    color: white;
+}
+.create h4 {
+    text-align: center;
+    font-family: var(--head--font);
+    font-size: 35px;
+    margin-top: 32px;
+}
+#create,
+#google {
+    align-items: center;
+    border: 1px solid black;
+    font-family: var(--content--font);
+    font-size: 14px;
+    font-weight: 700;
+    color:#000;
+    background-color: white;
+    padding: 8px 52px;
+    width: 70%;
+    float: none;
+    margin-top: 28px;
+}
+#create:hover,
+#google:hover {
+    border: 1px solid var(--underline--color);
+    background-color: var(--underline--color);
+    color: white;
+}
+#create-col {
+    border-left: 1px solid var(--underline--color);
+    height: 110%;
 }
