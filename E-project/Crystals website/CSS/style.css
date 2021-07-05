@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Tangerine:wght@700&family=Lobster+Two:ital,wght@1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Acme&family=Lobster+Two:ital,wght@1,400;1,700&display=swap');
 
 *::after,
 *::before,
@@ -9,12 +9,78 @@
 }
 /*-- global-var --*/
 :root {
-    --logo--font: 'Viaoda Libre', cursive;
+    --logo--font: 'Acme', sans-serif;
     --head--font: 'Lobster Two', cursive;
     --content--font: 'Poppins', sans-serif;
     --underline--color: #81d8d0;
 }
 /*------------------------ header --------------------------------*/
+.header-top {
+    border-top: 3px solid var(--underline--color);
+    padding-top: 5px;
+}
+.header-top ul {
+    list-style: none;
+    display: flex;
+}
+#top-right ul li a,
+#top-left ul li a {
+    text-decoration: none;
+    color: #000;
+    font-family: var(--content--font);
+    font-size: 13px;
+}
+#top-left {
+    height: 30px;
+    padding-left: 0 0 0 16px;
+}
+#top-left ul {
+    padding: 0;
+    margin-left: 14px;
+}
+#top-left ul li {
+    padding-left: 20px;
+}
+#logo {
+    text-align: center;
+    font-family: var(--logo--font);   
+}
+#logo a {
+    text-decoration: none;
+    color: #000;
+}
+#top-right{
+    height: 30px;
+    padding-right: 0 0 0 16px;
+}
+#top-right ul {
+    float: right;
+    padding: 0;
+    margin-right: 14px;
+}
+#top-right ul li {
+    padding-right: 20px;
+}
+/*----------------- navbar ----------------------------*/
+#navbar {
+    overflow: hidden;
+}
+#navbar ul {
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+#navbar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-family: var(--content--font);
+    font-size: 15px;
+    margin: 5px 20px 0;
+}
+#navbar ul li a:hover {
+    font-weight: bold;
+    border-bottom: 2px solid var(--underline--color);
+}
 
 
 
@@ -83,11 +149,6 @@
 
 
 
-
-
-
-
-/*----------------------- Products -------------*/
 
 
 
@@ -204,7 +265,7 @@
 #footer-banner-text .lead a:hover::after {
     width: 100%;
 }
-/*----------------------- The Tiffany Experience -------------*/
+/*----------------------- The Tiffany Experience ----------------*/
 .exper {
     background-color: #f8f6f6;
     padding: 20px 0 70px;
@@ -243,7 +304,7 @@
     font-size: 14px;
     font-weight: 600;
 }
-/*------------- The Tiffany Experience (responsive) ------------------*/
+/*------------- The Tiffany Experience (responsive) --------------------*/
 #carouselExampleIndicators {
     display: none;
     background-color: #f8f6f6;
