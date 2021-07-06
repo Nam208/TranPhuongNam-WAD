@@ -19,7 +19,8 @@
     border-top: 3px solid var(--underline--color);
     padding-top: 5px;
 }
-.header-top ul {
+#top-left ul,
+#top-right ul {
     list-style: none;
     display: flex;
 }
@@ -62,37 +63,144 @@
     padding-right: 20px;
 }
 /*----------------- navbar ----------------------------*/
-#navbar {
-    overflow: hidden;
-}
-#navbar ul {
-    align-items: center;
+.navbar {
     justify-content: center;
-    padding: 0px;
 }
-#navbar ul li a {
+.navbar .navbar-col ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.navbar .navbar-col ul li a {
     text-decoration: none;
     color: #000;
     font-family: var(--content--font);
-    font-size: 15px;
-    margin: 5px 20px 0;
+    font-size: 14px;
 }
-#navbar ul li a:hover {
+.drop-btn a:hover, .drop-down:hover .drop-btn {
     font-weight: bold;
-    border-bottom: 2px solid var(--underline--color);
+    border-bottom: 1px solid var(--underline--color);
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.navbar a:hover, .navbar a h3:hover {
+    font-weight: 500;
+    border-bottom: 1px solid var(--underline--color);
+}
+/*----------------- dropdown ----------------------------*/
+.drop-down {
+    float: left;
+    overflow:hidden;
+    margin: 0 25px 0;
+} 
+.drop-down .drop-btn {  
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font: inherit;
+    margin:0 0px 0;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+.drop-down:hover .dropdown-content {
+    display: block;
+}
+.drop-column {
+    float: left;
+    height: 550px;
+    margin-top: 30px;
+}
+.drop-column ul {
+    display: inline-block !important;
+    margin-top: 10px;
+}
+.drop-column ul li {
+    line-height: 2.2;
+}
+.drop-column h3 {
+    font-family: var(--head--font);
+    font-size: 20px;
+    font-weight: bold;
+}
+.drop-column h5 {
+    font-family: var(--content--font);
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 5px;
+    text-decoration: underline;
+}
+.drop-column .img-content {
+    font-family: var(--content--font);
+    font-size: 14px;
+    margin-top: 5px;
+}
+.drop-column a {
+    font-family: var(--content--font);
+    font-size: 10px;
+}
+/*----------------- What's new ----------------------------*/
+#new-col1 {
+    width: 35%;
+    padding-left: 350px;
+}
+#new-col2 {
+    width: 15%;
+}
+#new-col3 {
+    width: 50%;
+}
+/*----------------- Crystal ----------------------------*/
+#cry-col1 {
+    width: 35%;
+    padding-left: 450px;
+}
+#cry-col2 {
+    width: 65%;
+}
+/*----------------- Jewelry ----------------------------*/
+#jew-col1 {
+    width: 35%;
+    padding-left: 350px;
+}
+#jew-col2 {
+    width: 15%;
+}
+#jel-col3 {
+    width: 50%;
+}
+/*----------------- Decor ----------------------------*/
+#decor-col1 {
+    width: 35%;
+    padding-left: 350px;
+}
+#decor-col2 {
+    width: 15%;
+}
+#decor-col3 {
+    width: 50%;
+}
+/*----------------- Gift ----------------------------*/
+#gift-col1 {
+    width: 35%;
+    padding-left: 350px;
+}
+#gift-col2 {
+    width: 15%;
+}
+#gift-col3 {
+    width: 50%;
+}
+/*----------------- About us ----------------------------*/
+#about-col1 {
+    width: 45%;
+    padding-left: 450px;
+}
+#about-col2 {
+    width: 55%;
+}
 
 
 
