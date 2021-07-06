@@ -24,6 +24,10 @@
     list-style: none;
     display: flex;
 }
+#top-left i:hover,
+#top-right i:hover {
+    color: var(--underline--color);
+}
 #top-right ul li a,
 #top-left ul li a {
     text-decoration: none;
@@ -81,7 +85,7 @@
     font-weight: bold;
     border-bottom: 1px solid var(--underline--color);
 }
-.navbar a:hover, .navbar a h3:hover {
+.navbar a:hover, .navbar a h3:hover, .hover-top:hover {
     font-weight: 500;
     border-bottom: 1px solid var(--underline--color);
 }
@@ -266,7 +270,7 @@
 
 
 
-/*----------------------- Footer-banner -------------*/
+/*----------------------- Shop by Category -------------*/
 .shop-by-category {
     margin-top: 1000px;
     border-top: 2px solid var(--underline--color);   
@@ -308,16 +312,9 @@
     font-weight: 400;
     margin-top: 20px;
 }
-#category h5::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 1px;
-    background: var(--underline--color);
-    transition: width 0.5s;
-}
-#category h5:hover::after {
-    width: 100%;
+#category a:hover {
+    border-bottom: 1px solid var(--underline--color);
+    font-weight: 500;
 }
 /*----------------------- Footer-banner -------------*/
 #footer-banner {
@@ -362,16 +359,8 @@
     font-size: 14px;
     font-weight: 600;
 }
-#footer-banner-text .lead a::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 1px;
-    background: var(--underline--color);
-    transition: width 0.5s;
-}
-#footer-banner-text .lead a:hover::after {
-    width: 100%;
+#footer-banner-text .lead a:hover {
+    border-bottom: 2px solid var(--underline--color);
 }
 /*----------------------- The Tiffany Experience ----------------*/
 .exper {
@@ -411,6 +400,10 @@
     font-family: var(--content--font);
     font-size: 14px;
     font-weight: 600;
+}
+#exper-res .col-lg a:hover,
+.exper .col-lg a:hover {
+    border-bottom: 2px solid var(--underline--color);
 }
 /*------------- The Tiffany Experience (responsive) --------------------*/
 #carouselExampleIndicators {
@@ -538,17 +531,8 @@ form .txt_field {
 .details {
     padding: 0;
 }
-#Care a::after, #Company a::after, #Social a::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 1px;
-    background: var(--underline--color);
-    transition: width 0.5s;
-}
-#Care a:hover::after, #Company a:hover::after, #Social a:hover::after {
-    width: 135px;
-    transition: width 0.5s;
+#Care a:hover, #Company a:hover, #Social a:hover {
+    border-bottom: 1px solid var(--underline--color);
 }
 #map-img .img-fluid {
     min-width: 300px;
@@ -633,17 +617,8 @@ button .accordion-button collapsed {
     font-weight: 500;
     color:#000;
 }
-.accordion-item a::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 1px;
-    background: var(--underline--color);
-    transition: width 0.5s;
-}
-.accordion-item a:hover::after {
-    transition: width 0.5s;
-    width: 21%;
+.accordion-item a:hover {
+    border-bottom: 2px solid var(--underline--color);
 }
 .accordion-item a:hover {
     font-weight: bold;
