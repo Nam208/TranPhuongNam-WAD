@@ -19,6 +19,10 @@
     border-top: 3px solid var(--underline--color);
     padding-top: 5px;
 }
+#res-nav,
+#sign-icon {
+    display: none;
+}
 #top-left ul,
 #top-right ul {
     list-style: none;
@@ -94,7 +98,10 @@
     float: left;
     overflow:hidden;
     margin: 0 25px 0;
-} 
+}
+.drop-row {
+    width: 100%;
+}
 .drop-down .drop-btn {  
     border: none;
     outline: none;
@@ -114,8 +121,9 @@
 }
 .drop-column {
     float: left;
-    height: 550px;
-    margin-top: 30px;
+    height: 500px;
+    margin-top: 23px;
+    background-color: white;
 }
 .drop-column ul {
     display: inline-block !important;
@@ -652,6 +660,16 @@ button .accordion-button collapsed {
     #create-col {
         margin-top: 30px;
     }
+    /*-------------------- navbar -----------------------------*/
+    .navbar .navbar-col,
+    #sign-nav, #sign-search,
+    #top-left .hover-top {
+        display: none;
+    }
+    #sign-icon,
+    #res-nav {
+        display: block;
+    }
 }
 @media screen and (max-width: 900px){
     #footer-pc {
@@ -664,6 +682,11 @@ button .accordion-button collapsed {
         width: 50%;
         padding-left: 15px;
     }
+    /*-------------------- navbar -----------------------------*/
+    #top-left .hover-top {
+        display: none;
+    }
+     
 }
 
 
