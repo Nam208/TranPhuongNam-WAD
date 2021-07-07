@@ -578,30 +578,30 @@ form .txt_field {
     font-weight: 500;
     color:#000;
 }
+#footer-text {
+    padding-left: 20%;
+}
 .details {
     padding: 0;
 }
 #Care a:hover, #Company a:hover, #Social a:hover {
     border-bottom: 1px solid var(--underline--color);
 }
-#map-img .img-fluid {
-    min-width: 300px;
-}
 #map-img {
-    max-width: 500px;
+    width: 25%;
+    float: right;
+    float: right;
 }
+#map-img img {
+    width: 100%;
+    float: right;
+} 
 #footer-sign {
-    max-width: 350px;
-    min-width: 230px;
-    position: relative;
-    left: 20px;
+    width: 20%;
+    float: left;
 }
-#footer-text .col-sm {
-    max-width: 215px;
-    margin-left: 70px;
-}
-#footer-text .row row-cols-3 {
-    margin-left: 200px;
+#footer-pc .col-sm-5 {
+    width: 55%;
 }
 .web-end {
     width: 100%;
@@ -609,33 +609,6 @@ form .txt_field {
 footer .col-md p {
     text-align: center;
     margin-top: 100px;
-}
-/*----------------- Footer (tablet) ---------------------------*/
-.footer-email-tablet {
-    max-width: 415px;
-    position: relative;
-    top: 50px;
-    right: 35%;
-    border-right: 1px solid var(--underline--color);
-    height: 250px;
-    padding-right: 50px;
-    display: none;
-}
-.footer-email-tablet h5 {
-    font-family: var(--content--font);
-    font-size: 15px;
-    font-weight: 600;
-    border-bottom: 1px solid #000;
-    margin-bottom: 10px;
-    padding-bottom: 2px;
-}
-.footer-email-tablet p {
-    font-family: var(--content--font);
-    font-size: 11px;
-}
-.accordion-button:not(.collapsed) {
-    color: white;
-    background-color: var(--underline--color);
 }        
 /*----------------- Footer (smartphone) ---------------------------*/
 .accordion {
@@ -674,25 +647,7 @@ button .accordion-button collapsed {
     font-weight: bold;
 }
 @media screen and (max-width: 1024px){
-    #footer-text {
-        padding-right: 100px;
-    }
-    #footer-sign {
-        display: none;
-    }
-    #map-img {
-        margin-top: 50px;
-        position: relative;
-        left: 55%;
-        top: 10px;
-        display: block;
-    }
-    .footer-email-tablet {
-        display: block;
-    }
-    #footer-text {
-        border-bottom: 1px solid var(--underline--color);
-    }
+
     #signin-row .col {
         min-width: 270px;
     }
