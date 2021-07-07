@@ -213,10 +213,52 @@
 #about-col2 {
     width: 55%;
 }
-
-
-
-
+/*------------------------------- Responsive-navbar -------------------------------------*/
+.res-header {
+    margin-top: 20px;
+    display: none;
+}
+.res-header a {
+    text-decoration: none;
+    color: #000;
+}
+.res-navbar {
+    padding-left: 15px;
+}
+.res-sub-menu {
+    padding-bottom: 32px;
+}
+.close {
+    padding-bottom: 25px;
+}
+.close i {
+    float: right;
+    font-size: 17px;
+    padding: 6px 10px 0 0;
+}
+.res-navbar span i {
+    padding: 6px 10px 0 0;
+    float: right;
+    font-size: 10px;   
+}
+.res-top a,
+.res-navbar a {
+    font-family: var(--content--font);
+    font-size: 16px;
+}
+.res-top a:hover,
+.res-navbar a:hover {
+    border-bottom: 1px solid var(--underline--color);
+    font-weight: bold;
+}
+.res-top {
+    padding-top: 25px;
+    border-top: 2px solid var(--underline--color);
+    padding-left: 15px;
+}
+.res-head-top {
+    padding-bottom: 25px;
+}
 
 
 
@@ -668,6 +710,9 @@ button .accordion-button collapsed {
     }
     #sign-icon,
     #res-nav {
+        display: block;
+    }
+    .res-header {
         display: block;
     }
 }
