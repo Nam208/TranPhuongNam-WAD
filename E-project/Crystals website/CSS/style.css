@@ -93,6 +93,67 @@
     font-weight: 500;
     border-bottom: 1px solid var(--underline--color);
 }
+#left-icon {
+    position: relative;
+    top: -16px;
+    left: -10px;
+}
+#left-res-icon i {
+    display: none;
+    position: relative; 
+    left: -35px;
+}
+#res-icon {
+    display: none;
+}
+.menu-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 30px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    left: -25px;
+    top: -2px;
+ /* border: 3px solid #fff; */
+}
+.menu-btn__burger {
+    width: 25px;
+    height: 2px;
+    background: rgb(0, 0, 0);
+    border-radius: 7px;
+    transition: all .5s ease-in-out;
+}
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background: rgb(0, 0, 0);
+    border-radius: 7px;
+    transition: all .5s ease-in-out;
+}
+.menu-btn__burger::before {
+    transform: translateY(-7px);
+}
+.menu-btn__burger::after {
+    transform: translateY(7px);
+}
+  /* ANIMATION */
+.menu-btn.open .menu-btn__burger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+  }
+.menu-btn.open .menu-btn__burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+}
+.menu-btn.open .menu-btn__burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+}  
 /*----------------- dropdown ----------------------------*/
 .drop-down {
     float: left;
@@ -156,66 +217,79 @@
 /*----------------- What's new ----------------------------*/
 #new-col1 {
     width: 35%;
-    padding-left: 350px;
+    padding-left: 18%;
 }
 #new-col2 {
     width: 15%;
+    padding-left: 1%;
 }
 #new-col3 {
     width: 50%;
+    padding-left: 2%;
 }
 /*----------------- Crystal ----------------------------*/
 #cry-col1 {
-    width: 35%;
-    padding-left: 450px;
+    width: 40%;
+    padding-left: 25%;
 }
 #cry-col2 {
-    width: 65%;
+    width: 60%;
+    padding-left: 2%;
 }
 /*----------------- Jewelry ----------------------------*/
 #jew-col1 {
     width: 35%;
-    padding-left: 350px;
+    padding-left: 22%;
 }
 #jew-col2 {
     width: 15%;
+    padding-left: 1%;
 }
 #jel-col3 {
     width: 50%;
+    padding-left: 2%;
 }
 /*----------------- Decor ----------------------------*/
 #decor-col1 {
     width: 35%;
-    padding-left: 350px;
+    padding-left: 20%;
 }
 #decor-col2 {
     width: 15%;
+    padding-left: 2%;
 }
 #decor-col3 {
     width: 50%;
+    padding-left: 2%;
 }
 /*----------------- Gift ----------------------------*/
 #gift-col1 {
-    width: 35%;
-    padding-left: 350px;
+    width: 30%;
+    padding-left: 20%;
 }
 #gift-col2 {
     width: 15%;
+    padding-left: 2%;
 }
 #gift-col3 {
-    width: 50%;
+    width: 55%;
+    padding-left: 2%;
 }
 /*----------------- About us ----------------------------*/
 #about-col1 {
-    width: 45%;
-    padding-left: 450px;
+    width: 35%;
+    padding-left: 20%;
 }
 #about-col2 {
-    width: 55%;
+    width: 65%;
+    padding-left: 2%;
 }
 /*------------------------------- Responsive-navbar -------------------------------------*/
 .res-header {
-    margin-top: 20px;
+    height: 500px;
+    width: 0px;
+    overflow: hidden;
+    z-index: 1;
     display: none;
 }
 .res-header a {
@@ -227,14 +301,6 @@
 }
 .res-sub-menu {
     padding-bottom: 32px;
-}
-.close {
-    padding-bottom: 25px;
-}
-.close i {
-    float: right;
-    font-size: 17px;
-    padding: 6px 10px 0 0;
 }
 .res-navbar span i {
     padding: 6px 10px 0 0;
@@ -259,8 +325,59 @@
 .res-head-top {
     padding-bottom: 25px;
 }
-/* body */
-/* Product */
+/*------------------------------- Responsive -------------------------------------*/
+.res-nav-details ul {
+    list-style: none;
+}
+#res-details li {
+    padding-bottom: 20px;
+}
+.res-nav-details a {
+    text-decoration: none;
+    color: #000;
+    font-family: var(--content--font);
+    font-size: 16px;
+}
+.res-nav-details h3 {
+    font-family: var(--head--font);
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.res-nav-details h5 {
+    font-family: var(--content--font);
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 5px;
+    text-decoration: underline;
+}
+.back {
+    margin-right: 20px;
+    height: 50px;
+}
+#res-details a:hover {
+    font-weight: bold;
+    border-bottom: 1px solid var(--underline--color);
+}
+/*------------------------------- Responsive-nav-details -------------------------------------*/
+#res-new,
+#res-crystal,
+#res-jew, 
+#res-home,
+#res-gift,
+#res-about {
+    display: none;
+    position: relative;
+    top: -500px;
+    overflow: hidden;
+    z-index: 1;
+    width: 0;
+    min-height: 500px;
+    background-color: white;
+}
+
+/*------------------------------------ body---------------------- */
+/*---------------------- Product----------------- */
 .overview-product{
     position: relative;
     display: flex;
@@ -704,7 +821,7 @@ form .txt_field {
 }
 footer .col-md p {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 15px;
 }        
 /*----------------- Footer (smartphone) ---------------------------*/
 .accordion {
@@ -743,26 +860,25 @@ button .accordion-button collapsed {
     font-weight: bold;
 }
 @media screen and (max-width: 1024px){
-
+    #map-img {
+        display: none;
+    }
     #signin-row .col {
         min-width: 270px;
     }
     .createhead p {
         margin: 0 30px;
     }
-    #create-col {
-        margin-top: 30px;
-    }
     /*-------------------- navbar -----------------------------*/
     .navbar .navbar-col,
     #sign-nav, #sign-search,
-    #top-left .hover-top {
+    #top-left .hover-top,
+    #close {
         display: none;
     }
     #sign-icon,
-    #res-nav {
-        display: block;
-    }
+    #left-res-icon li,
+    #left-res-icon i,
     .res-header {
         display: block;
     }
@@ -779,10 +895,17 @@ button .accordion-button collapsed {
         padding-left: 15px;
     }
     /*-------------------- navbar -----------------------------*/
-    #top-left .hover-top {
+    #top-left .hover-top,
+    #sign-icon,
+    .hover-top span {
         display: none;
     }
-     
+    #nav-heart,
+    #nav-bag {
+        font-size: 20px;
+        position: relative;
+        left: 25px;
+    }    
 }
 
 
