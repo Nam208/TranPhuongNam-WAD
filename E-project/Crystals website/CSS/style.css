@@ -295,7 +295,6 @@
     transition: 0.5s;
     opacity: 0;
 }
-
 .op-text {
     text-align: center;
     top:10%;
@@ -304,21 +303,19 @@
 }
 .op-text h3{
     margin:0;
-    font-family: 'Times New Roman', Times, serif ;
-    /* chưa đổi font */
+    font-family: var(--content--font);
     letter-spacing: 3px;
 }
 .op-text p{
     letter-spacing: 1px;
     font-size: 16px;
     margin-top: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* Chưa đổi font */
+    font-family: var(--content--font);
 }
-.col-md-3{
+.test{
     padding-left: 0 !important;
-    width: 304px;
-    height: 304px;}
+    width: 250px;
+    height: 250px;}
 .image-dt img{
     width: 100%;
     height: auto;
@@ -331,7 +328,6 @@
     bottom:0%;
     right: 10%;
 }
-
 
 
 
