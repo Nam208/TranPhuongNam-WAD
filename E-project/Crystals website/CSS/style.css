@@ -312,24 +312,54 @@
     margin-top: 10px;
     font-family: var(--content--font);
 }
-.test{
-    padding-left: 0 !important;
-    width: 250px;
-    height: 250px;}
 .image-dt img{
     width: 100%;
     height: auto;
 }
 .image-dt{
     position: relative;
+    width: 304px;
+    height: 304px;
 }
 .image-dt i{
     position: absolute ;
     bottom:0%;
     right: 10%;
 }
+/* Galery index */
+:root {
+    --logo--font: 'Viaoda Libre', cursive;
+    --head--font: 'Lobster Two', cursive;;
+    --content--font: 'Poppins', sans-serif;
+    --underline--color: #81d8d0;
+}
+#img-news {
+    width: 100%;
+    height: 14rem;
+}
+#img-news-M {
+    object-fit:cover;
+    height: 200px;
+    width: 100%;
+}
+.img-news-M1{
+    object-fit: cover;
+    height: 5.5rem;
+    width: 100%;
+}
 
-
+.img-news-M2{
+    object-fit: cover;
+    height: 5.5rem;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+#img-news-M3{
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1.5rem;
+}
 
 
 
