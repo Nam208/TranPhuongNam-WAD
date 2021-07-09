@@ -176,6 +176,8 @@
     position: absolute;
     width: 100%;
     left: 0;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
 }
 .drop-down:hover .dropdown-content {
     display: block;
@@ -372,10 +374,41 @@
     overflow: hidden;
     z-index: 1;
     width: 0;
-    min-height: 500px;
+    height: 500px;
     background-color: white;
 }
-
+/*------------------------------------ head-banner ---------------------- */
+.header-banner {
+    position: relative;
+}
+.header-banner img {
+    width: 100%;
+}
+.head-ban-text {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+#link-banner {
+    text-decoration: none;
+}
+.head-ban-text h3 {
+    font-family: var(--head--font);
+    font-weight: 200;
+    font-size: 35px;
+    text-decoration: underline;
+}
+.head-ban-text p {
+    font-family: var(--content--font);
+    font-size: 15px;
+    font-weight: 400;
+}
+.head-ban-text a {
+    font-family: var(--content--font);
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;   
+}
 /*------------------------------------ body---------------------- */
 /*---------------------- Product----------------- */
 .overview-product{
@@ -535,7 +568,7 @@
 
 /*----------------------- Shop by Category -------------*/
 .shop-by-category {
-    margin-top: 1000px;
+    margin-top: 100px;
     border-top: 2px solid var(--underline--color);   
 }
 .shop-by-category a {
@@ -580,50 +613,36 @@
     font-weight: 500;
 }
 /*----------------------- Footer-banner -------------*/
-#footer-banner {
-    background-image: url(../Images/banner-footer.jpg);
-    background-size: cover;
-    margin-top: 10px;
-    padding: 20px 0 100px;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
+.footer-banner {
+    position: relative;
 }
-#footer-banner .lead {
-    justify-content: center;
-    align-items: center;
+.footer-banner img {
+    width: 100%;
 }
-#footer-banner-text {
-    text-align: center;
-    max-width: 550px;
-    margin-left: 10px;
-    margin-top: 150px;
+.footer-ban-text {
+    position: absolute;
+    top: 30%;
+    left: 5%;
 }
-#footer-banner-text .display-3 {
-    text-align: center;
+.link-banner {
+    text-decoration: none;
+}
+.footer-ban-text h3 {
     font-family: var(--head--font);
     font-weight: 200;
     font-size: 35px;
+    text-decoration: underline;
 }
-#footer-banner-text .lead {
+.footer-ban-text p {
     font-family: var(--content--font);
     font-size: 15px;
     font-weight: 400;
-    margin-top: 10px;
 }
-#footer-banner-text a {
-    text-decoration: none;
-    color: #000;
-}
-#footer-banner-text .lead a {
-    text-decoration: none;
-    color: #000;
+.footer-ban-text a {
     font-family: var(--content--font);
     font-size: 14px;
     font-weight: 600;
-}
-#footer-banner-text .lead a:hover {
-    border-bottom: 2px solid var(--underline--color);
+    color: #000;   
 }
 /*----------------------- The Tiffany Experience ----------------*/
 .exper {
