@@ -1170,7 +1170,7 @@ h6{
     fill: red;
 }
 /*scape phones, 576px and up)*/
-@media screen and (max-width: 575.98px) { 
+@media screen and (max-width: 768px) { 
     .small_image_wrapper{
         display: none;
     }
@@ -1256,9 +1256,9 @@ h6{
         padding: 50px 10px 0px 10px;
     }
  }
- @media screen and  (max-width:1399.98px){
+ @media screen and (min-width:675px) and  (max-width:767px){
     .small_image_wrapper{
-        display: none;
+        display: none !important;
     }
     .big_image{
         width: 100%;
@@ -1274,5 +1274,46 @@ h6{
     }
     .product_content{
         padding: 50px 10px 0px 10px;
+    }
+    .small_image_wrapper{
+        display: block;
+    }
+    .big_image{
+        width: 100%;
+        height: auto;
+        padding: 0!important;
+    }
+    .big_image .big_image_detail{
+        width: 100%;
+        height: auto;
+    }
+ }
+ @media screen and (min-width:1199.98px) and  (max-width:1399.98px){
+    .big_image{
+        width: 100%;
+        height: auto;
+        padding: 0!important;
+        right: 10%;
+        left: 20%;
+        margin-bottom: 5%;
+    }
+    .big_image .big_image_detail{
+        max-width: 100%;
+        height: auto;
+    }
+    .product_content{
+        padding: 50px 10px 0px 10px;
+    }
+    .small_image_wrapper{
+        display: block;
+    }
+    .big_image{
+        width: 70%;
+        height: auto;
+        padding: 0!important;
+    }
+    .big_image .big_image_detail{
+        width: 100%;
+        height: auto;
     }
  }
