@@ -409,108 +409,21 @@
     font-weight: 600;
     color: #000;   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*------------------------------------ body---------------------- */
-/*---------------------- Product----------------- */
-.overview-product{
-    position: relative;
-    display: flex;
-    align-items: flex-end;
-    transition: .6s ease-out;
-    padding-right: 8px !important;
-}
-.overview-product:hover:before{
-    opacity: 1;
-}
-.overview-product:hover .op-text {
-    opacity: 1;
-    transform: translateY(0);
-}
-.overview-product .op-text{
-    position: absolute;
-    z-index: 3;
-    color: #000;
-    opacity: 0;
-    transform: translateY(60px);
-    transition: 0.5s;
-}
-.overview-product:before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    transition: 0.5s;
-    opacity: 0;
-}
-.op-text {
-    text-align: center;
-    top:10%;
-    width: 100%;
-    height: 100%;
-}
-.op-text h3{
-    margin:0;
-    font-family: var(--content--font);
-    letter-spacing: 3px;
-}
-.op-text p{
-    letter-spacing: 1px;
-    font-size: 16px;
-    margin-top: 10px;
-    font-family: var(--content--font);
-}
-.image-dt img{
-    width: 100%;
-    height: auto;
-}
-.image-dt{
-    position: relative;
-    width: 304px;
-    height: 304px;
-}
-.image-dt i{
-    position: absolute ;
-    bottom:0%;
-    right: 10%;
-}
-/* Galery index */
-:root {
-    --logo--font: 'Viaoda Libre', cursive;
-    --head--font: 'Lobster Two', cursive;;
-    --content--font: 'Poppins', sans-serif;
-    --underline--color: #81d8d0;
-}
-#img-news {
-    width: 100%;
-    height: 14rem;
-}
-#img-news-M {
-    object-fit:cover;
-    height: 200px;
-    width: 100%;
-}
-.img-news-M1{
-    object-fit: cover;
-    height: 5.5rem;
-    width: 100%;
-}
-
-.img-news-M2{
-    object-fit: cover;
-    height: 5.5rem;
-    width: 100%;
-    margin-top: 1.5rem;
-}
-#img-news-M3{
-    object-fit: cover;
-    height: 360px;
-    width: 100%;
-    margin-top: 1.5rem;
-}
-
 
 
 
