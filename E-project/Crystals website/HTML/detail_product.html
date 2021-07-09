@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/css/bootstrap.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Acme&family=Lobster+Two:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity ="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-3" id="top-left">
+                        <ul id="left-res-icon">
+                            <li id="res-icon">
+                                <div class="menu-btn">
+                                    <div class="menu-btn__burger"></div>
+                                </div>
+                            </li>
+                            <li id="res-search"><a href="#"><i class="bi bi-search" style="font-size: 20px; position: relative; top: -2px;"></i></a></li>
+                        </ul>
+                        <ul id="left-icon">
+                            <li><a href="#" class="hover-top"><i class="bi bi-geo-alt"></i> Vietnam</a></li>
+                            <li>
+                                <select class="form-select form-select-sm hover-top" style="border: none; padding: 0; margin-top: 2px; width: 72px;">
+                                    <option selected>English</option>
+                                    <option value="1">Vietnamese</option>
+                                    <option value="2">Deutsch</option>
+                                    <option value="3">简体中文</option>
+                                </select>
+                            </li>
+                            <li><a href="#" class="hover-top">Client Care <i class="bi bi-bell"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col" id="logo">
+                        <a href="#"><h1>CRYSTAL</h1></a>
+                    </div>
+                    <div class="col-3" id="top-right">
+                        <ul>
+                            <li id="sign-search"><a href="#"><i class="bi bi-search"></i></a></li>       
+                            <li id="sign-nav"><a href="../HTML/signin.html" class="hover-top">Sign In</a></li>
+                            <li id="sign-icon"><a href="../HTML/signin.html"><i class="bi bi-person" style="font-size: 17px; position: relative; top: 2px"></i></a></li>
+                            <li><a href="#"><i class="bi bi-suit-heart" id="nav-heart"></i></a></li>
+                            <li><a href="#" class="hover-top"><i class="bi bi-bag" id="nav-bag"></i> <span>Bag</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>           
+<!---------------------- Navbar -------------------------------------->    
+            <div class="navbar">  
+                <div class="navbar-col">
+                    <ul>
+                        <!---------------------- What's news -------------------------------------->    
+                        <li>
+                            <div class="drop-down">
+                                <p class="drop-btn">
+                                    <a href="#">What's New</a>  
+                                </p>
+                                <div class="dropdown-content">   
+                                    <div class="drop-row">
+                                        <div class="drop-column" id="new-col1">
+                                            <ul>
+                                                <li><h3>Top Stories</h3></li>
+                                                <li><a href="#">Big Drip</a></li>
+                                                <li><a href="#">CRYSTAL HardWear</a></li>
+                                                <li><a href="#">Ladies' Collection</a></li>
+                                                <li><a href="#">CRYSTAL at the Academy Awards</a></li>
+                                                <li>
+                                                    <a href="#">
+                                                        <h5>Explore All What's New&nbsp;<i class="fas fa-chevron-right" style="font-size: 10px"></i></h5>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="drop-column" id="new-col2">
+                                            <ul>
+                                                <li><h3>More to Explore</h3></li>
+                                                <li><a href="#">Subtainability</a></li>
+                                                <li><a href="#">Our Crystal traceability Story</a></li>
+                                                <li><a href="#">High Jewelry</a></li>
+                                                <li><a href="#">The World of CRYSTAL</a></li>
+                                            </ul>
+                                        </div>
+                                         <div class="drop-column" id="new-col3">
+                                            <ul>
+                                                <li><a href="#"><img src="../Images/New.jpg" style="display: inline-block; width: 85%; height: 350px;"></a></li>
+                                                <li class="img-content">Big Drip</li>
+                                                <li>                                            
+                                                    <a href="#">
+                                                        <h5>Shop by Story&nbsp;<i class="fas fa-chevron-right" style="font-size: 10px"></i></h5>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+                        </li>
+                        <!---------------------- Crystal -------------------------------------->
+                        <li>
+                            <div class="drop-down">
+                                <button class="drop-btn">
+                                    <a href="#">Crystal</a>  
+                                </button>
+                                <div class="dropdown-content">   
+                                    <div class="drop-row">
+                                        <div class="drop-column" id="cry-col1">
+                                            <ul>
+                                                <li><h3>Shop by Collection</h3></li>
+                                                <li><a href="#">Diamond</a></li>
+                                                <li><a href="#">Sapphire</a></li>
+                                                <li><a href="#">Ruby</a></li>
+                                                <li><a href="#">Crystal decor</a></li>
+                                                <li>
+                                                    <a href="#">
+                                                        <h5>Shop All Collection&nbsp;<i class="fas fa-chevron-right" style="font-size: 10px"></i></h5>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="drop-column" id="cry-col2">
+                                            <ul>
+                                                <li><a href="#"><img src="../Images/crystal.jpg" style="display: inline-block; width: 80%; height: 350px;"></a></li>
+                                                <li class="img-content">Our New Diamond Products</li>
+                                                <li>
+                                                    <a href="#">
+                                                        <h5>See the World Through Diamond&nbsp;<i class="fas fa-chevron-right" style="font-size: 10px"></i></h5>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+                        </li>
+                        <!---------------------- Jewelry -------------------------------------->
+                        <li>
+                            <div class="drop-down">
+                                <button class="drop-btn">
+                                    <a href="#">Jewelry</a>  
+                                </button>
+                                <div class="dropdown-content">   
+                                    <div class="drop-row">
+                                        <div class="drop-column" id="jew-col1">
+                                            <ul>
+                                                <li><h3>Shop by Category</h3></li>
+                                                <li><a href="#">Necklaces & Pendants</a></li>
+                                                <li><a href="#">Bracelets</a></li>
+                                                <li><a href="#">Earring</a></li>
+                                                <li><a href="#">Rings</a></li>
+                                                <li><h3>Accessories</h3></li>
+                                                <li><a href="#">Women's Accessories</a></li>
+                                                <li><a href="#">Men's Accessories</a></li>
+                                                <li>
+                                                    <a href="#">
+                                                        <h5>Explore All Categories&nbsp;<i class="fas fa-chevron-right" style="font-size: 10px"></i></h5>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="drop-column" id="jew-col2">
+                                            <ul>
+                                                <li><h3>Love & Engagement</h3></li>
+                                                <li><a href="#">Engagement Rings</a></li>
+                                                <li><a href="#">Women's Wedding Band</a></li>
+                                                <li><a href="#">Men's Wedding Bands</a></li>
+                                                <li><a href="#">Couples' Rings</a></li>
+                                                <li>
+                                                    <a href="#">
+                                                        <h5>Explore All Love & Engagement&nbsp;<i class="fas fa-chevron-right" style="font-size: 10px"></i></h5>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="drop-column" id="jel-col3">
+                                            <ul>
+                                                <li><a href="#"><img src="../Images/Jewelry.jpg" style="display: inline-block; width: 85%; height: 300px;"></a></li>
+                                                <li class="img-content">Happy Diamond</li>
+                                                <li>
+                                                    <a href="#">
+                                                        <h5>Looking for Happiness&nbsp;<i class="fas fa-chevron-right" style="font-size: 10px"></i></h5>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+                        </li>
+                            <!---------------------- Home & Decor -------------------------------------->
+                        <li>
+                            <div class="drop-down">
+                                <button class="drop-btn">
+                                    <a href="#">Home & Decor</a>  
+                                </button>
+                                <div class="dropdown-content">   
+                                    <div class="drop-row">
+                                        <div class="drop-column" id="decor-col1">
+                                            <ul>
+                                                <li><h3>Tableware</h3></li>
+                                                <li><a href="#">Wine, water glasses</a></li>
+                                                <li><a href="#">Champagne flutes</a></li>
+                                                <li><a href="#">Decanters</a></li>
+                                                <li><a href="#">Table Accessories</a></li>
+                                                <li><h3>Barware</h3></li>
+                                                <li><a href="#">Cocktail glasses</a></li>
+                                                <li><a href="#">Whiskey decanters</a></li>
+                                                <li>
+                                                    <a href="#">
+                                                        <h5>Explore All Home&nbsp;<i class="fas fa-chevron-right" style="font-size: 10px"></i></h5>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="drop-column" id="decor-col2">
+                                            <ul>
+                                                <li><h3>Decoration</h3></li>
+                                                <li><a href="#">Vases, bowls</a></li>
+                                                <li><a href="#">Candleholders</a></li>
+                                                <li><a href="#">Home Office</a></li>
+                                                <li><h3>Lighting</h3></li>
+                                                <li><a href="#">Chandeliers</a></li>
+                                                <li><a href="#">Floor lamps</a></li>
+                                                <li>
+                                                    <a href="#">
+                                                        <h5>Explore All Decor&nbsp;<i class="fas fa-chevron-right" style="font-size: 10px"></i></h5>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="drop-column" id="decor-col3">
+                                            <ul>
+                                                <li><a href="#"><img src="../Images/Home.jpg" style="display: inline-block; width: 75%;"></a></li>
+                                                <li class="img-content">At Home with CRYSTAL</li>
+                                                <li>
+                                                    <a href="#">
+                                                        <h5>For a Stunning Home&nbsp;<i class="fas fa-chevron-right" style="font-size: 10px"></i></h5>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+                        </li>
+                        <!---------------------- Gift -------------------------------------->
+                        <li>
+                            <div class="drop-down">
+                                <button class="drop-btn">
+                                    <a href="#">Gifts</a>  
+                                </button>
+                                <div class="dropdown-content">   
+                                    <div class="drop-row">
+                                        <div class="drop-column" id="gift-col1">
+                                            <ul>
+                                                <li><h3>Gifts for...</h3></li>
+                                                <li><a href="#">Her</a></li>
+                                                <li><a href="#">Him</a></li>
+                                                <li><a href="#">The Home</a></li>
+                                                <li><a href="#">The Couple</a></li>
+                                                <li>
+                                                    <a href="#">
+                                                        <h5>Explore All Gifts&nbsp;<i class="fas fa-chevron-right" style="font-size: 10px"></i></h5>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="drop-column" id="gift-col2">
+                                            <ul>
+                                                <li><h3>Discover</h3></li>
+                                                <li><a href="#">Gifts $500 & Under</a></li>
+                                                <li><a href="#">Most Coveted Gifts</a></li>
+                                                <li><a href="#">Gifts to Personalize</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="drop-column" id="gift-col3">
+                                            <ul>
+                                                <li><a href="#"><img src="../Images/Gift.jpg" style="width: 75%;"></a></li>
+                                                <li class="img-content">Gifts for The Home</li>
+                                                <li>                                            
+                                                    <a href="#">
+                                                        <h5>Shop Now&nbsp;<i class="fas fa-chevron-right" style="font-size: 10px"></i></h5>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+                        </li>
+                        <!---------------------- About us -------------------------------------->
+                        <li>
+                            <div class="drop-down">
+                                <button class="drop-btn">
+                                    <a href="#">About us</a>  
+                                </button>
+                                <div class="dropdown-content">   
+                                    <div class="drop-row">
+                                        <div class="drop-column" id="about-col1">
+                                            <ul>
+                                                <li><h3>World of CRYSTAL</h3></li>
+                                                <li><a href="#">CRYSTAL's History</a></li>
+                                                <li><a href="#">Our Legacy</a></li>
+                                                <li><a href="#">Meet CRYSTAL's Diamond Artisans</a></li>
+                                                <li><a href="#">Our Events</a></li>
+                                                <li>
+                                                    <a href="#">
+                                                        <h5>Explore more About Us&nbsp;<i class="fas fa-chevron-right" style="font-size: 10px"></i></h5>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="drop-column" id="about-col2">
+                                            <ul>
+                                                <li><a href="#"><img src="../Images/About.jpg" style="display: inline-block; width: 70%; height: 350px;"></a></li>
+                                                <li class="img-content">When Only CRYSTAL will do</li>
+                                                <li>                                            
+                                                    <a href="#">
+                                                        <h5>Read More&nbsp;<i class="fas fa-chevron-right" style="font-size: 10px"></i></h5>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+<!------------------------------- Responsive-navbar ------------------------------------->        
+        <div class="res-header" id="res-navbar">
+            <div class="res-navbar">
+                <div class="res-sub-menu" id="what-new">
+                    <span><i class="fas fa-chevron-right"></i></span>
+                    <div><a href="#">What's New</a></div>
+                </div>
+                <div class="res-sub-menu" id="cry-stal">
+                    <span><i class="fas fa-chevron-right"></i></span>
+                    <div><a href="#">Crystal</a></div>
+                </div>
+                <div class="res-sub-menu" id="jew-elry">
+                    <span><i class="fas fa-chevron-right"></i></span>
+                    <div><a href="#">Jewelry</a></div>
+                </div>
+                <div class="res-sub-menu" id="home-decor">
+                    <span><i class="fas fa-chevron-right"></i></span>
+                    <div><a href="#">Home & Decor</a></div>
+                </div>
+                <div class="res-sub-menu" id="gi-ft">
+                    <span><i class="fas fa-chevron-right"></i></span>
+                    <div><a href="#">Gifts</a></div>
+                </div>
+                <div class="res-sub-menu" id="ab-out">
+                    <span><i class="fas fa-chevron-right"></i></span>
+                    <div id="about-us"><a href="#">About us</a></div>
+                </div>
+            </div>
+            <div class="res-top">
+                <div class="res-head-top">
+                    <div><a href="#"><i class="bi bi-bell"></i> Client Care</a></div>
+                </div>
+                <div class="res-head-top">
+                    <div><a href="#"><i class="bi bi-person" style="font-size:18px"></i> My Account</a></div>
+                </div>
+                <div class="res-head-top">
+                    <div><a href="#"><i class="bi bi-geo-alt"></i> Store Location</a></div>
+                </div>
+            </div>
+        </div>
+<!------------------------------ Responsive-What's New ------------------------------------->
+        <div class="res-nav-details">   
+            <ul id="res-new">
+                <li class="back" id="backnew"><i class="bi bi-chevron-left" style="font-size: 32px; float: right"></i></li>
+                <li>
+                    <h3>Top Stories</h3>
+                    <ul id="res-details">
+                        <li><a href="#">Big Drip</a></li>
+                        <li><a href="#">CRYSTAL HardWear</a></li>
+                        <li><a href="#">Ladies' Collection</a></li>
+                        <li><a href="#">CRYSTAL at the Academy</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>More to Explore</h3>
+                    <ul id="res-details">
+                        <li><a href="#">Subtainability</a></li>
+                        <li><a href="#">Our Crystal traceability</a></li>
+                        <li><a href="#">Story</a></li>
+                        <li><a href="#">High Jewelry</a></li>
+                        <li><a href="#">The World of CRYSTAL</a></li>
+                        <li>
+                            <h5><a href="#">Explore All What's New&nbsp;<i class="fas fa-chevron-right" style="font-size: 10px"></i></a></h5>
+                        </li>
+                    </ul>
+                </li>
+            </ul> 
+<!----------------------------- Responsive-Crystal ------------------------------------->        
+            <ul id="res-crystal">
+                <li class="back" id="backcry"><i class="bi bi-chevron-left" style="font-size: 32px; float: right"></i></li>
+                <li>
+                    <h3>Shop by Collection</h3>
+                    <ul id="res-details">
+                        <li><a href="#">Diamond</a></li>
+                        <li><a href="#">Sapphire</a></li>
+                        <li><a href="#">Ruby</a></li>
+                        <li><a href="#">Crystal decor</a></li>
+                        <li>
+                            <h5><a href="#">Shop All Collection&nbsp;<i class="fas fa-chevron-right" style="font-size: 10px"></i></a></h5>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+<!----------------------------- Responsive-Jewelry ------------------------------------->   
+            <ul id="res-jew">
+                <li class="back" id="backjew"><i class="bi bi-chevron-left" style="font-size: 32px; float: right"></i></li>
+                <li>
+                    <h3>Shop by Category</h3>
+                    <ul id="res-details">
+                        <li><a href="#">Necklaces & Pendants</a></li>
+                        <li><a href="#">Bracelets</a></li>
+                        <li><a href="#">Earring</a></li>
+                        <li><a href="#">Rings</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Accessories</h3>
+                    <ul id="res-details">
+                        <li><a href="#">Women's Accessories</a></li>
+                        <li><a href="#">Men's Accessories</a></li>
+                        <li>
+                            <h5><a href="#">Explore All Categories&nbsp;<i class="fas fa-chevron-right" style="font-size: 10px"></i></a></h5>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Love & Engagement</h3>
+                    <ul id="res-details">
+                        <li><a href="#">Engagement Rings</a></li>
+                        <li><a href="#">Women's Wedding Band</a></li>
+                        <li><a href="#">Men's Wedding Band</a></li>
+                        <li><a href="#">Couples' Rings</a></li>
+                        <li>
+                            <h5><a href="#">Explore All Love & Engagement&nbsp;<i class="fas fa-chevron-right" style="font-size: 10px"></i></a></h5>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+<!----------------------------- Responsive-Home&Decor ------------------------------------->   
+            <ul id="res-home">
+                <li class="back" id="backhome"><i class="bi bi-chevron-left" style="font-size: 32px; float: right"></i></li>
+                <li>
+                    <h3>Tableware</h3>
+                    <ul id="res-details">
+                        <li><a href="#">Wine, water glasses</a></li>
+                        <li><a href="#">Champagne flutes</a></li>
+                        <li><a href="#">decanters</a></li>
+                        <li><a href="#">Table Accessories</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Barware</h3>
+                    <ul id="res-details">
+                        <li><a href="#">Cocktail glasses</a></li>
+                        <li><a href="#">Whiskey decanters</a></li>
+                        <li>
+                            <h5><a href="#">Explore All Home&nbsp;<i class="fas fa-chevron-right" style="font-size: 10px"></i></a></h5>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Decoration</h3>
+                    <ul id="res-details">
+                        <li><a href="#">Vases, bowls</a></li>
+                        <li><a href="#">Candleholders</a></li>
+                        <li><a href="#">Home Office</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Lighting</h3>
+                    <ul id="res-details">
+                        <li><a href="#">Chandeliers</a></li>
+                        <li><a href="#">Floor lamps</a></li>
+                        <li>
+                            <h5><a href="#">Explore All Decor&nbsp;<i class="fas fa-chevron-right" style="font-size: 10px"></i></a></h5>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+<!----------------------------- Responsive-Gift ------------------------------------->        
+            <ul id="res-gift">
+                <li class="back" id="backgift"><i class="bi bi-chevron-left" style="font-size: 32px; float: right"></i></li>
+                <li>
+                    <h3>Gifts for...</h3>
+                    <ul id="res-details">
+                        <li><a href="#">Her</a></li>
+                        <li><a href="#">Him</a></li>
+                        <li><a href="#">The Home</a></li>
+                        <li><a href="#">The Couple</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Discover</h3>
+                    <ul id="res-details">
+                        <li><a href="#">Gifts $500 & Under</a></li>
+                        <li><a href="#">Most Coveted Gifts</a></li>
+                        <li><a href="#">Gifts to Personalize</a></li>
+                        <li>
+                            <h5><a href="#">Shop All Gifts&nbsp;<i class="fas fa-chevron-right" style="font-size: 10px"></i></a></h5>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+<!----------------------------- Responsive-About ------------------------------------->        
+            <ul class="res-about" id="res-about">
+                <li class="back" id="backabout"><i class="bi bi-chevron-left" style="font-size: 32px; float: right"></i></li>
+                <li>
+                    <h3>World of CRYSTAL</h3>
+                    <ul id="res-details">
+                        <li><a href="#">CRYSTAL's History</a></li>
+                        <li><a href="#">Our Legacy</a></li>
+                        <li><a href="#">Meet CRYSTAL's Diamond Artisans</a></li>
+                        <li><a href="#">Our Events</a></li>
+                        <li>
+                            <h5><a href="#">Explore more About Us&nbsp;<i class="fas fa-chevron-right" style="font-size: 10px"></i></a></h5>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="header-banner">
+            <a href="#" class="link-banner">
+            <img src="../Images/head-banner1.jpg" alt="">
+            <div class="head-ban-text">
+                <h3>Colored Gemstone Jewelry</h3>
+                <p>Our colored gemstone jewelry features some of nature’s most<br>extraordinary treasures, including vibrantly hued rubies,<br>aquamarines, sapphires and tanzanite.</p>
+                <a href="#">Read More &nbsp;<i class="fas fa-chevron-right" style="font-size: 12px;"></i></a>
+            </div>
+            </a>
+        </div>
+        </div>  
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!---------------------- Content -------------------------------------->   
+<content>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 picture_detail">
+                <div class="container-fluid test">
+                    <div class="row">
+                        <div class="col-md-3 small_image_wrapper">
+                            <div class="small_image">
+                                <div class="img_product_zoom" >
+                                    <img onclick="myFunction(this)" src="https://media.tiffany.com/is/image/Tiffany/EcomItemM/tiffany-tlimited-edition-22-x-26-mm-rectangle-watch-69546161_1021401_SV_1.jpg?&op_usm=1.5,1.0,6.0&defaultImage=NoImageAvailableInternal&" alt="" class="">
+                                </div>
+                                <div class="img_product_zoom" >
+                                    <img onclick="myFunction(this)" src="https://media.tiffany.com/is/image/Tiffany/EcomItemM/tiffany-tlimited-edition-22-x-26-mm-rectangle-watch-69546161_1021401_SV_1.jpg?&op_usm=1.5,1.0,6.0&defaultImage=NoImageAvailableInternal&" alt="" class="">
+                                </div>
+                                <div class="img_product_zoom" >
+                                    <img onclick="myFunction(this)" src="https://media.tiffany.com/is/image/Tiffany/EcomItemM/tiffany-tlimited-edition-22-x-26-mm-rectangle-watch-69546161_1021399_AV_1.jpg?&op_usm=1.5,1.0,6.0&defaultImage=NoImageAvailableInternal&" alt="" class="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-9 col-md-12 big_image">
+                            <div class="big_image_detail">
+                                <img id="imageBox" src="https://media.tiffany.com/is/image/Tiffany/EcomItemM/tiffany-tlimited-edition-22-x-26-mm-rectangle-watch-69546161_1021401_SV_1.jpg?&op_usm=1.5,1.0,6.0&defaultImage=NoImageAvailableInternal&" alt="" class="" id="bigimage">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 info_slidebar">  
+                <div class="product_content">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb breadcum_detail">
+                          <li class="breadcrumb-item"><a href="#">Home</a></li>
+                          <li class="breadcrumb-item"><a href="#">Watches</a></li>
+                          <li class="breadcrumb-item"><a href="#"> Women's Watches</a></li>
+                        </ol>
+                    </nav>
+                    <p><a id="logo_info" href="#">Crystal</a></p>
+                    <h2 id="heading_product">Limited-edition 22 x 26 mm Rectangle Watch</h2>
+                    <p id="plus_product">in Stainless Steel with White Mother-of-pearl and Diamonds</p>
+                    <svg id="heart_icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                    </svg>
+                    <svg id="mail_icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                    </svg>
+                    <hr>
+                    <div class="row">
+                        <div class="col-6">
+                            Price
+                        </div>
+                        <div class="col-6" style="text-align: end;">
+                            $3,500
+                        </div>
+                    </div>
+                    <hr>
+                    <button class="add_to_cart">
+                        Add To Bag
+                    </button>
+                    <button class="book_app">
+                        <p id="book_detail">Book an Appointment</span></p>
+                    </button>
+                    <h6 id="descript">Description & Details</h6>
+                    <p id="descript_content">Drawing inspiration from the iconic Tiffany T jewelry collection, Tiffany T limited-edition watches are a distinctive blend of innovative design and expert Swiss craftsmanship. Thoughtfully designed in stainless steel with white mother-of-pearl and diamonds, this rectangular watch looks sleek worn solo or stacked with Tiffany bracelets.</p>
+                    <ul id="detail">
+                        <li>Stainless steel, in a limited series of 375</li>
+                        <li>White mother-of-pearl dial with applied diamond indexes</li>
+                        <li>22 x 26 mm case with round brilliant diamonds</li>
+                        <li>Carat total weight .04</li>
+                        <li>Quartz movement</li>
+                        <li>Water resistant to 30 meters/100 feet/3 ATM</li>
+                        <li>Swiss-made</li>
+                    </ul>
+                    <button class="information">
+                        <p id="information_detail"><a href="#">Download details information</a></span></p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+  
+  
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script>
+      function myFunction(smallImg){
+          var fullImg=document.getElementById("imageBox");
+          fullImg.src=smallImg.src;
+      } 
+  </script>
+</content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-------------------- Shop by Category -------------------------------->        
+        <div class="shop-by-category">
+            <div class="container-xxl">
+                <div class="category-content">
+                    <h3>You May Also Like</h3>
+                    <p>Brilliant design and unparalleled craftsmanship.</p>
+                </div>
+                <div class="row row-cols-6" id="category">
+                    <div class="col">
+                        <a href="#">
+                            <img src="../Images/Necklaces.png" style="background-color: #fafafa;" alt="">
+                            <h5><a href="#">Necklaces & Pendants</a></h5>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#">
+                            <img src="../Images/Earrings.png"  style="background-color: #fafafa;" alt="">
+                            <h5><a href="#">Earrings</a></h5>
+                        </a>    
+                    </div>
+                    <div class="col">
+                        <a href="#">
+                            <img src="../Images/Rings.png" style="background-color: #fafafa;" alt="">
+                            <h5><a href="#">Rings</a></h5>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#">
+                            <img src="../Images/Bracelets.png" style="background-color: #fafafa;" alt="">
+                            <h5><a href="#">Bracelets</a></h5>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#">
+                            <img src="../Images/Engagement.jpg" alt="">
+                            <h5><a href="#">Engagement Rings</a></h5>
+                        </a>    
+                    </div>
+                    <div class="col">
+                        <a href="#">
+                            <img src="../Images/Decor.jpg" alt="">
+                            <h5><a href="#">Home Decor</a></h5>
+                        </a>    
+                    </div>
+                </div>
+            </div>   
+        </div>          
+<!-------------------- Footer-banner -------------------------------->
+        <div class="header-banner">
+            <a href="#" id="link-banner">
+            <img src="../Images/banner-footer.jpg" alt="">
+            <div class="head-ban-text">
+                <h3>Peace of mind</h3>
+                <p>The most powerful stone for the soul helps<br>when meditating to regain inner balance.</p>
+                <a href="#">Read More &nbsp;<i class="fas fa-chevron-right" style="font-size: 12px;"></i></a>
+            </div>
+            </a>
+        </div>
+<!-------------------- The Tiffany Experience ------------------------>
+        <div class="exper">
+            <div class="container-fluid">
+                <div class="header-content" id="exper-header">
+                    <h3>The&nbsp;<strong>CRYSTAL</strong>&nbsp; Experience</h3>
+                </div>
+                <div class="row row-cols-auto" style="padding-left: 15px;">
+                    <div class="col-lg">
+                        <a href="#">
+                            <i class="bi bi-truck" style="font-size: 2.5rem"></i>
+                            <h5>Complimenttary Shipping & Returns</h5>
+                        </a>
+                        <p>We offer Complimenttary shipping and returns<br>on all CRYSTAL orders.</p>
+                        <a href="#">Learn More &nbsp;<i class="fas fa-chevron-right" style="font-size: 12px;"></i></a>
+                    </div>
+                    <div class="col-lg">
+                        <a href="#">
+                            <i class="bi bi-bell" style="font-size: 2.5rem"></i>
+                            <h5>CRYSTAL At Your Service</h5>
+                        </a>
+                        <p>Our client care experts are always here to<br>help.</p>
+                        <a href="#">Contact Us &nbsp;<i class="fas fa-chevron-right" style="font-size: 12px;"></i></a>
+                    </div>
+                    <div class="col-lg">
+                        <a href="#">
+                            <i class="bi bi-calendar-event" style="font-size: 2.5rem"></i>
+                            <h5>Book an Appointment</h5>
+                        </a>    
+                        <p>We’re happy to help with in-store or virtual<br>appointments.</p>
+                        <a href="#">Book Now &nbsp;<i class="fas fa-chevron-right" style="font-size: 12px;"></i></a>
+                    </div>
+                    <div class="col-lg">
+                        <a href="#">
+                            <i class="bi bi-shield-check" style="font-size: 2.5rem"></i>
+                            <h5>Complimenttary Shipping & Returns</h5>
+                        </a>   
+                        <p>Your CRYSTAL purchase comes wrapped in our<br>Blue Box packaging.</p>
+                        <a href="#">Privacy Policy &nbsp;<i class="fas fa-chevron-right" style="font-size: 12px;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-------------------- The Tiffany Experience (responsive) ------------------------>        
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="header-content">
+                <h3>The&nbsp;<strong>CRYSTAL</strong>&nbsp; Experience</h3>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner" id="exper-res">
+                <div class="carousel-item active">
+                    <div class="col-lg">
+                        <a href="#">
+                            <i class="bi bi-truck" style="font-size: 2.5rem"></i>
+                            <h5>Complimenttary Shipping & Returns</h5>
+                        </a>    
+                        <p>We offer Complimenttary shipping and returns<br>on all CRYSTAL orders.</p>
+                        <a href="#">Learn More &nbsp;<i class="fas fa-chevron-right" style="font-size: 12px;"></i></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-lg">
+                        <a href="#">
+                            <i class="bi bi-bell" style="font-size: 2.5rem"></i>
+                            <h5>CRYSTAL At Your Service</h5>
+                        </a>    
+                        <p>Our client care experts are always here to<br>help.</p>
+                        <a href="#">Contact Us &nbsp;<i class="fas fa-chevron-right" style="font-size: 12px;"></i></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-lg">
+                        <a href="#">
+                            <i class="bi bi-calendar-event" style="font-size: 2.5rem"></i>
+                            <h5>Book an Appointment</h5>
+                        </a>    
+                        <p>We’re happy to help with in-store or virtual<br>appointments.</p>
+                        <a href="#">Book Now &nbsp;<i class="fas fa-chevron-right" style="font-size: 12px;"></i></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-lg">
+                        <a href="#">
+                            <i class="bi bi-shield-check" style="font-size: 2.5rem"></i>
+                            <h5>Complimenttary Shipping & Returns</h5>
+                        </a>    
+                        <p>Your Tiffany purchase comes wrapped in our<br>Blue Box packaging.</p>
+                        <a href="#">Privacy Policy &nbsp;<i class="fas fa-chevron-right" style="font-size: 12px;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden btn-dark">Next</span>
+            </button>
+        </div>
+    </content>
+<!---------------------- Footer -------------------------------------->    
+    <footer>
+        <div class="container-fluid" id="footer-pc">
+            <div class="row">
+                <div class="col" id="footer-sign">
+                    <div id="footer-email">
+                        <div style="width: 100%;">
+                        <h5>Sign Up For CRYSTAL Updates</h5>
+                        <p>By entering your email address below, you consent to receiving our newsletter with access to our latest collections, events and initiatives. More details on this are provided in our <a href="#">Privacy Policy</a></p>
+                        <div class="sign-footer">
+                            <form method="post">
+                                <div class="txt_field" style="width: 100%;">
+                                    <input type="email" required>
+                                    <span></span>
+                                    <label>Email</label>
+                                </div>
+                            </form>
+                        </div>    
+                            <button class="sign">SIGN UP</button>
+                        </div>    
+                    </div>
+                </div>
+                <div class="col-sm-5">    
+                    <div class="container" id="footer-text">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div id="Care">
+                                    <h5>Client Care</h5>
+                                    <ul class="details">
+                                        <li><a href="#">FAQ</a></li>
+                                        <li><a href="#">Product Care & Repair</a></li>
+                                        <li><a href="#">Shipping & Return</a></li>
+                                        <li><a href="#">Book an Appointment</a></li>
+                                        <li><a href="#">Track Your Order</a></li>
+                                        <li><a href="#">Customer Service</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div id="Company">
+                                    <h5>Our Company</h5>
+                                    <ul class="details">
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Jobs</a></li>
+                                        <li><a href="#">Careers</a></li>
+                                        <li><a href="#">Catalogs</a></li>
+                                        <li><a href="#">Newsletter</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div id="Social">
+                                    <h5>Find Us On</h5>
+                                    <ul class="details">
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i>&nbsp;&nbsp;Facebook</a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i>&nbsp;Twitter</a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i>&nbsp;&nbsp;Instagram</a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i>&nbsp;Youtube</a></li>
+                                        <li><a href="#"><i class="fab fa-pinterest"></i>&nbsp;&nbsp;Pinterest</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4" id="map-img">
+                    <a href="#"><img src="../Images/maplocation.jpg" class="img-fluid" alt="map picture"></a>
+                </div>
+            </div>
+            <div class="col-md">
+                <p>Copyright 2021 &copy; CRYSTAL</p>
+            </div>
+        </div>        
+<!---------------------- Footer (smartphone) ------------------------------------------->
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Sign Up For CRYSTAL Updates
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>By entering your email address below, you consent to receiving our newsletter with access to our latest collections, events and initiatives. More details on this are provided in our <a href="#">Privacy Policy</a></p>
+                        <div class="sign-footer">
+                            <form method="post">
+                                <div class="txt_field">
+                                    <input type="email" required>
+                                    <span></span>
+                                    <label>Email</label>
+                                </div>
+                            </form>
+                            <button class="sign">SIGN UP</button>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Client Care
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul class="details">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Product Care & Repair</a></li>
+                            <li><a href="#">Shipping & Return</a></li>
+                            <li><a href="#">Book an Appointment</a></li>
+                            <li><a href="#">Track Your Order</a></li>
+                            <li><a href="#">Customer Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Our Company
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul class="details">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Catalogs</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Find Us On
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul class="details">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i>&nbsp;&nbsp;Facebook</a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i>&nbsp;Twitter</a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i>&nbsp;&nbsp;Instagram</a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i>&nbsp;Youtube</a></li>
+                            <li><a href="#"><i class="fab fa-pinterest"></i>&nbsp;&nbsp;Pinterest</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <p>Copyright 2021 &copy; CRYSTAL</p>
+            </div>
+        </div>
+    </footer>        
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="../JS/js/bootstrap.js"></script>
+    <script src="../JS/main.js"></script>
+</body>
+</html>

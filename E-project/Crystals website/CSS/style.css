@@ -1014,3 +1014,340 @@ button .accordion-button collapsed {
 .signup-form {
     margin-top: 50px;
 }
+ /*---------------------Chi tiết sản phẩm-----------------------*/
+ /*Ảnh*/
+.picture_detail{
+    padding: 0 !important;
+    margin-top: 50px;
+}
+.img_product_zoom{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+}
+.img_product_zoom:hover{
+    border:1px solid black;
+}
+.small_image{
+    width: 100%;
+    padding: 0!important;
+    align-items: center;
+    margin-left: 61px !important;
+    z-index: 10 !important;
+}
+.img_product_zoom img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+}
+.big_image{
+    width: 650px;
+    height: 297px;
+    padding: 0!important;
+}
+.big_image .big_image_detail{
+    width: 650px;
+    height: 600px;
+}
+.big_image_detail{
+    padding-left: 0;
+}
+.big_image img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+    object-fit: cover;
+}
+.small_image_wrapper{
+    padding: 0!important; 
+}
+/*Thông tin nội dung*/
+.product_content{
+    padding: 50px 108px 0px 19px;
+}
+.info_slidebar{
+    padding: 0 !important;
+}
+.breadcum_detail li a,
+#logo_info{
+    text-decoration: none;
+    color: black;
+}
+.breadcum_detail li a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight:150;
+}
+#logo_info{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+#heading_product{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+}
+#plus_product{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+#quantity{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+svg {
+    margin-right: 5%;
+}
+#heart_icon:hover,
+#mail_icon:hover {
+    fill: red;
+}
+#quantity_detail{
+    margin-left: 77%;
+}
+#price_detail{
+    margin-left: 50%;
+    color: white;
+}
+#price{
+    margin-bottom: 0;
+}
+.add_to_cart{
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+.add_to_cart:hover {
+    color: black;
+    background-color:#81d8d0;
+}
+.add_to_cart:hover #price_detail{
+    color: black;
+}
+.book_app{
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    height: 50px;
+    margin-top: 20px;
+}
+#book_detail{
+    margin-bottom: 0;
+}
+#descript {
+    margin-top: 10%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+#descript_content,
+#detail li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+}
+#detail{
+    padding-left: 5%;
+}
+.information{
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    height: 50px;
+    margin-top: 20px;
+}
+#information_detail{
+    margin-bottom: 0;
+}
+#information_detail a{
+    text-decoration: none;
+    color: black;
+}
+/*also like*/
+.also_like{
+    text-align: center;
+}
+.also_like h3{
+    margin-top: 71px !important;
+    margin-bottom: 24px !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+}
+h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.img_like{
+    padding: 0 !important;
+    margin-left: 8px !important;
+    width: 306px;
+    height: 306px;
+    position: relative;
+}
+.img_like a img{
+    width: 306px;
+    height: 306px;
+}
+.like_heart{
+    position: absolute;
+    top:2%;
+    right: 2%;
+}
+.like_heart:hover{
+    fill: red;
+}
+/*scape phones, 576px and up)*/
+@media screen and (max-width: 768px) { 
+    .small_image_wrapper{
+        display: none;
+    }
+    .big_image{
+        width: 100%;
+        height: auto;
+        padding: 0!important;
+        right: 10%;
+        left: 10%;
+        margin-bottom: 5%;
+    }
+    .big_image .big_image_detail{
+        max-width: 100%;
+        height: auto;
+    }
+    .product_content{
+        padding: 50px 10px 0px 10px;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media screen and  (max-width:767.98px){
+    .small_image_wrapper{
+        display: none;
+    }
+    .big_image{
+        width: 100%;
+        height: auto;
+        padding: 0!important;
+        right: 10%;
+        left: 20%;
+        margin-bottom: 5%;
+    }
+    .big_image .big_image_detail{
+        max-width: 100%;
+        height: auto;
+    }
+    .product_content{
+        padding: 50px 10px 0px 10px;
+    }
+ }
+ @media screen and  (max-width:991.98px){
+    .small_image_wrapper{
+        display: none;
+    }
+    .breadcum_detail li a{
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        font-weight:150;
+    }
+    #heading_product{
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+    }
+    #plus_product{
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+    }
+    #descript_content,
+#detail li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+}
+ }
+ @media screen and  (max-width:1199.98px){
+    .small_image_wrapper{
+        display: none;
+    }
+    .big_image{
+        width: 100%;
+        height: auto;
+        padding: 0!important;
+        right: 10%;
+        left: 20%;
+        margin-bottom: 5%;
+    }
+    .big_image .big_image_detail{
+        max-width: 100%;
+        height: auto;
+    }
+    .product_content{
+        padding: 50px 10px 0px 10px;
+    }
+ }
+ @media screen and (min-width:675px) and  (max-width:767px){
+    .small_image_wrapper{
+        display: none !important;
+    }
+    .big_image{
+        width: 100%;
+        height: auto;
+        padding: 0!important;
+        right: 10%;
+        left: 20%;
+        margin-bottom: 5%;
+    }
+    .big_image .big_image_detail{
+        max-width: 100%;
+        height: auto;
+    }
+    .product_content{
+        padding: 50px 10px 0px 10px;
+    }
+    .small_image_wrapper{
+        display: block;
+    }
+    .big_image{
+        width: 100%;
+        height: auto;
+        padding: 0!important;
+    }
+    .big_image .big_image_detail{
+        width: 100%;
+        height: auto;
+    }
+ }
+ @media screen and (min-width:1199.98px) and  (max-width:1399.98px){
+    .big_image{
+        width: 100%;
+        height: auto;
+        padding: 0!important;
+        right: 10%;
+        left: 20%;
+        margin-bottom: 5%;
+    }
+    .big_image .big_image_detail{
+        max-width: 100%;
+        height: auto;
+    }
+    .product_content{
+        padding: 50px 10px 0px 10px;
+    }
+    .small_image_wrapper{
+        display: block;
+    }
+    .big_image{
+        width: 70%;
+        height: auto;
+        padding: 0!important;
+    }
+    .big_image .big_image_detail{
+        width: 100%;
+        height: auto;
+    }
+ }
