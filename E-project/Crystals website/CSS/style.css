@@ -52,7 +52,8 @@
 }
 #logo {
     text-align: center;
-    font-family: var(--logo--font);   
+    font-family: var(--logo--font);
+    padding: 0;   
 }
 #logo a {
     text-decoration: none;
