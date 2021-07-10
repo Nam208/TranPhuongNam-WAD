@@ -52,7 +52,8 @@
 }
 #logo {
     text-align: center;
-    font-family: var(--logo--font);   
+    font-family: var(--logo--font);
+    padding: 0;   
 }
 #logo a {
     text-decoration: none;
@@ -386,7 +387,7 @@
 }
 .head-ban-text {
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 5%;
 }
 #link-banner {
@@ -409,23 +410,44 @@
     font-weight: 600;
     color: #000;   
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*------------------------------------ body---------------------- */
-
-
+#head-ban-res {
+    display: none;
+}
+/*-------------------------- best-selling ---------------------- */
+.best-sell {
+    margin-top: 60px;
+    text-align: center;
+    border-bottom: 2px solid var(--underline--color);
+    padding-bottom: 55px;
+}
+.best-sell h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+    font-weight: bold;
+    font-weight: 200;
+}
+.best-sell p {
+    font-family: var(--content--font);
+    font-size: 15px;
+}
+.best-sell #carouselExampleControls {
+    margin-top: 35px;
+}
+#best-sell-pc img {
+    width: 22%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: var(--underline--color);
+    width: 30px;
+    z-index: 1;
+}
+#best-sell-res {
+    display: none;
+}
+#best-sell-res img {
+    width: 70%;
+}
 
 
 
@@ -672,6 +694,9 @@ body{
     font-weight: 600;
     color: #000;   
 }
+#footer-ban-res {
+    display: none;
+}
 /*----------------------- The Tiffany Experience ----------------*/
 .exper {
     background-color: #f8f6f6;
@@ -705,40 +730,22 @@ body{
 }
 #exper-res .col-lg a,
 .exper .col-lg a {
-    text-decoration: none;
+    text-decoration: none;  
     color: #000;
     font-family: var(--content--font);
     font-size: 14px;
     font-weight: 600;
 }
-#exper-res .col-lg a:hover,
-.exper .col-lg a:hover {
-    border-bottom: 2px solid var(--underline--color);
+#exper-res .col-lg a:last-child,
+.exper .col-lg a:last-child {
+    text-decoration: underline;
 }
-/*------------- The Tiffany Experience (responsive) --------------------*/
 #carouselExampleIndicators {
     display: none;
     background-color: #f8f6f6;
     padding: 20px 0 70px;
     margin-top: 10px;
     width: 100%;
-}
-
-@media screen and (max-width: 750px) {
-    .exper {
-        display: none;
-    }
-    #exper-res .col-lg,
-    .exper .col-lg {
-        margin-top: 30px;
-    }
-    #carouselExampleIndicators {
-        display: block;
-    }
-    #footer-banner {
-        background-image: url(../Images/banner-footer-res.jpg);
-        background-size: cover;
-    }       
 }
 /*----------------------------- Foooter ---------------------------------*/
 footer {
@@ -906,6 +913,7 @@ button .accordion-button collapsed {
 .accordion-item a:hover {
     font-weight: bold;
 }
+/*-------------  responsive --------------------*/
 @media screen and (max-width: 1024px){
     #map-img {
         display: none;
@@ -916,7 +924,6 @@ button .accordion-button collapsed {
     .createhead p {
         margin: 0 30px;
     }
-    /*-------------------- navbar -----------------------------*/
     .navbar .navbar-col,
     #sign-nav, #sign-search,
     #top-left .hover-top,
@@ -941,7 +948,6 @@ button .accordion-button collapsed {
         width: 50%;
         padding-left: 15px;
     }
-    /*-------------------- navbar -----------------------------*/
     #top-left .hover-top,
     #sign-icon,
     .hover-top span {
@@ -952,9 +958,38 @@ button .accordion-button collapsed {
         font-size: 20px;
         position: relative;
         left: 25px;
-    }    
+    }
+    #best-sell-pc {
+        display: none;
+    }
+    #best-sell-res {
+        display: block;
+    }   
 }
-
+@media screen and (max-width: 750px) {
+    .exper {
+        display: none;
+    }
+    #exper-res .col-lg,
+    .exper .col-lg {
+        margin-top: 30px;
+    }
+    #carouselExampleIndicators {
+        display: block;
+    }
+    #footer-banner {
+        background-image: url(../Images/banner-footer-res.jpg);
+        background-size: cover;
+    }
+    .footer-banner img,
+    .header-banner img {
+        display: none;
+    }
+    #footer-ban-res,
+    #head-ban-res {
+        display: block;
+    }       
+}
 
 
 
@@ -1285,7 +1320,7 @@ h6{
     fill: red;
 }
 /*scape phones, 576px and up)*/
-@media screen and (max-width: 575.98px) { 
+@media screen and (max-width: 768px) { 
     .small_image_wrapper{
         display: none;
     }
@@ -1371,9 +1406,9 @@ h6{
         padding: 50px 10px 0px 10px;
     }
  }
- @media screen and  (max-width:1399.98px){
+ @media screen and (min-width:675px) and  (max-width:767px){
     .small_image_wrapper{
-        display: none;
+        display: none !important;
     }
     .big_image{
         width: 100%;
@@ -1389,5 +1424,46 @@ h6{
     }
     .product_content{
         padding: 50px 10px 0px 10px;
+    }
+    .small_image_wrapper{
+        display: block;
+    }
+    .big_image{
+        width: 100%;
+        height: auto;
+        padding: 0!important;
+    }
+    .big_image .big_image_detail{
+        width: 100%;
+        height: auto;
+    }
+ }
+ @media screen and (min-width:1199.98px) and  (max-width:1399.98px){
+    .big_image{
+        width: 100%;
+        height: auto;
+        padding: 0!important;
+        right: 10%;
+        left: 20%;
+        margin-bottom: 5%;
+    }
+    .big_image .big_image_detail{
+        max-width: 100%;
+        height: auto;
+    }
+    .product_content{
+        padding: 50px 10px 0px 10px;
+    }
+    .small_image_wrapper{
+        display: block;
+    }
+    .big_image{
+        width: 70%;
+        height: auto;
+        padding: 0!important;
+    }
+    .big_image .big_image_detail{
+        width: 100%;
+        height: auto;
     }
  }
