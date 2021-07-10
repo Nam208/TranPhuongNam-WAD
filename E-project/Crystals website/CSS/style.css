@@ -532,6 +532,134 @@
 
 
 
+/* Aboutus */
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.ab-timeline{
+	background-color: #24292d;
+	min-height: 100vh;
+	padding: 100px 15px;
+}
+.timeline-items{
+	max-width: 1000px;
+	margin:auto;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+.timeline-items::before{
+	content: '';
+	position: absolute;
+	width: 2px;
+	height: 100%;
+	background-color: #2f363e;
+	left: calc(50% - 1px);
+}
+.timeline-item{
+	margin-bottom: 40px;
+	width: 100%;
+	position: relative;
+}
+.timeline-item:last-child{
+	margin-bottom: 0;
+}
+.timeline-item:nth-child(odd){
+    padding-right: calc(50% + 30px);
+	text-align: right;
+}
+.timeline-item:nth-child(even){
+    padding-left: calc(50% + 30px);
+}
+.timeline-dot{
+	height: 16px;
+	width: 16px;
+	background-color: #eaa023;
+	position: absolute;
+	left: calc(50% - 8px);
+	border-radius: 50%;
+	top:10px;
+}
+.timeline-date{
+	font-size: 18px;
+	color: #eaa023;
+	margin:6px 0 15px;
+}
+.timeline-content{
+    background-color: #2f363e;
+	padding: 30px;
+	border-radius: 5px;
+}
+.timeline-content h3{
+    font-size: 20px;
+	color: #ffffff;
+	margin:0 0 10px;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+.timeline-content p{
+    color: #c8c8c8;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+}
+.ab-tl-title h2{
+    color: #ffffff;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+.ab-tl-title p{
+    color: #c8c8c8;
+    text-align: center;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+}
+
+/* responsive */
+@media(max-width: 767px){
+	.timeline-items::before{
+		left: 7px;
+	}
+	.timeline-item:nth-child(odd){
+		padding-right: 0;
+		text-align: left;
+	}
+	.timeline-item:nth-child(odd),
+	.timeline-item:nth-child(even){
+		padding-left: 37px;
+	}
+	.timeline-dot{
+		left:0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1213,37 +1341,36 @@ svg {
     color: black;
 }
 /*also like*/
-.also_like{
-    text-align: center;
+.also_img {
+    padding:0 !important;
 }
-.also_like h3{
-    margin-top: 71px !important;
-    margin-bottom: 24px !important;
-    font-family: 'Poppins', sans-serif;
+.also_img a img{
+    width: 98%;
+    height: auto;
+    margin :0 !important;
+    padding: 0 !important;
+}
+.also_heading_content h3{
+    font-family: 'Lobster Two', cursive;
     font-size: 32px;
 }
-h6{
+.also_img a {
+    text-decoration: none;
+    color: black;
+}
+.also_img a p{
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
 }
-.img_like{
-    padding: 0 !important;
-    margin-left: 8px !important;
-    width: 306px;
-    height: 306px;
-    position: relative;
-}
-.img_like a img{
-    width: 306px;
-    height: 306px;
-}
-.like_heart{
+.also_button_left{
     position: absolute;
-    top:2%;
-    right: 2%;
+    left: -2.2%;
+    bottom: 12%;
 }
-.like_heart:hover{
-    fill: red;
+.also_button_right{
+    position: absolute;
+    right: -1.8%;
+    bottom: 12%;
 }
 /*scape phones, 576px and up)*/
 @media screen and (max-width: 768px) { 
@@ -1264,6 +1391,18 @@ h6{
     }
     .product_content{
         padding: 50px 10px 0px 10px;
+    }
+    .also_button_left{
+        width: 5%;
+        left: 2.6%;
+        bottom:22%;
+
+    }
+    .also_button_right{
+        width: 5%;
+        right: 3%;
+        bottom:22%;
+
     }
  }
 
@@ -1287,6 +1426,19 @@ h6{
     .product_content{
         padding: 50px 10px 0px 10px;
     }
+    
+    .also_button_left{
+        display: none;
+
+    }
+    .also_button_right{
+        display: none;
+
+    }
+    .also_img a p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 9px;
+    }
  }
  @media screen and  (max-width:991.98px){
     .small_image_wrapper{
@@ -1306,11 +1458,11 @@ h6{
         font-size: 15px;
     }
     #descript_content,
-#detail li {
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    font-weight: 100;
-}
+    #detail li {
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        font-weight: 100;
+    }
  }
  @media screen and  (max-width:1199.98px){
     .small_image_wrapper{
