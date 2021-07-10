@@ -448,9 +448,47 @@
 #best-sell-res img {
     width: 70%;
 }
-
-
-
+/*----------------- What's New ---------------------*/
+.new-body {
+    text-align: center;
+    border-bottom: 2px solid var(--underline--color);
+    padding-bottom: 55px;
+}
+.new-body h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+    font-weight: bold;
+    font-weight: 200;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.new-body a {
+    text-decoration: none;
+    color: #000;
+}
+.new-body h5 {
+    font-family: var(--content--font);
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 25px;
+}
+.new-body p {
+    font-family: var(--content--font);
+    font-size: 14px;
+    margin-top: 15px;
+}
+.new-body a:last-child {
+    text-decoration: underline;  
+    color: #000;
+    font-family: var(--content--font);
+    font-size: 14px;
+    font-weight: 600;
+}
+.des {
+    overflow: hidden;
+    height: 200px;
+    background-color: #f8f8f8;
+}
 
 
 
@@ -820,6 +858,9 @@ button .accordion-button collapsed {
     #left-res-icon i,
     .res-header {
         display: block;
+    }
+    .new-body .col-3 {
+        width: 100%;
     }
 }
 @media screen and (max-width: 900px){
