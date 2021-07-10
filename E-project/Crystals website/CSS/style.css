@@ -570,6 +570,19 @@ body{
 	font-weight: 300;
 	line-height: 22px;
 }
+.ab-tl-title h2{
+    color: #ffffff;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+.ab-tl-title p{
+    color: #c8c8c8;
+    text-align: center;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+}
 
 /* responsive */
 @media(max-width: 767px){
