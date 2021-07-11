@@ -1053,7 +1053,7 @@ button .accordion-button collapsed {
 
 /* Aboutus */
 .ab-timeline{
-	background-color: #24292d;
+	background-color: #fff;
 	min-height: 100vh;
 	padding: 100px 15px;
 }
@@ -1069,7 +1069,7 @@ button .accordion-button collapsed {
 	position: absolute;
 	width: 2px;
 	height: 100%;
-	background-color: #2f363e;
+	background-color: #81d8d0;
 	left: calc(50% - 1px);
 }
 .timeline-item{
@@ -1090,7 +1090,7 @@ button .accordion-button collapsed {
 .timeline-dot{
 	height: 16px;
 	width: 16px;
-	background-color: #eaa023;
+	background-color: #d881d8;
 	position: absolute;
 	left: calc(50% - 8px);
 	border-radius: 50%;
@@ -1098,50 +1098,55 @@ button .accordion-button collapsed {
 }
 .timeline-date{
 	font-size: 18px;
-	color: #eaa023;
+	color: #000;
 	margin:6px 0 15px;
 }
 .timeline-content{
-    background-color: #2f363e;
-	padding: 30px;
+    background-color: #81d8d0;
+	padding: 25px;
 	border-radius: 5px;
+}
+.timeline-content:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
 }
 .timeline-content h3{
     font-size: 20px;
-	color: #ffffff;
+	color: #000;
 	margin:0 0 10px;
 	text-transform: capitalize;
 	font-weight: 500;
 }
 .timeline-content p{
-    color: #c8c8c8;
+    color: #000;
 	font-size: 16px;
-	font-weight: 300;
+	font-weight: 350;
 	line-height: 22px;
 }
 .ab-tl-title h2{
-    color: #ffffff;
+    color: #000;
 	text-align: center;
 	text-transform: capitalize;
 	font-weight: 500;
 }
 .ab-tl-title p{
-    color: #c8c8c8;
+    color: #000;
     text-align: center;
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 22px;
 }
 /* Our team */
-.container {
-    color: #ffffff;
+.ab-team {
+    color: #000;
 	text-align: center;
 	text-transform: capitalize;
 	font-weight: 500;
   }
   .ab-heading {
-    font-size: 40px;
-    color: rgb(20, 175, 202);
+    margin-top: 10px;
+    font-size: 30px;
+    color: #81d8d0;
   }
   .profiles {
     display: flex;
@@ -1165,24 +1170,26 @@ button .accordion-button collapsed {
   
   .profile:hover .profile-img {
     filter: grayscale(0);
+    transform: scale(1.1);
   }
   
   .user-name {
     margin-top: 30px;
-    font-size: 35px;
+    font-size: 21px;
   }
   
   .profile h5 {
-    font-size: 18px;
-    font-weight: 100;
-    letter-spacing: 3px;
-    color: rgb(50, 192, 50);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    color: #000;
   }
   
   .profile p {
-    font-size: 16px;
+    font-size: 12px;
+    font-weight: 400;
     margin-top: 20px;
-    text-align: justify;
+    text-align: center;
     color: #000;
   }
 
@@ -1223,16 +1230,11 @@ button .accordion-button collapsed {
   }
   
   @media only screen and (max-width: 900px) {
-    .heading {
+    .ab-heading {
       font-size: 40px;
-      color: rgb(231, 66, 66);
+      color: #81d8d0;
       text-align: center;
     }
-  
-    .heading span {
-      font-size: 15px;
-    }
-  
     .profiles {
       margin: 20px 0;
     }
