@@ -88,11 +88,12 @@
 }
 .drop-btn a:hover,
 .drop-down:hover .drop-btn {
-    font-weight: bold;
+    font-weight: 500;
     border-bottom: 2px solid var(--underline--color);
 }
 .navbar a:hover, .navbar a h3:hover, .hover-top:hover {
-    font-weight: bold;
+    font-weight: 500;
+    border-bottom: 1px solid var(--underline--color);
 }
 #left-icon {
     position: relative;
