@@ -168,3 +168,110 @@ var resaboutWidth = resabout.clientWidth;
       resabout.style.display = 'none';
     } 
   }  
+
+
+
+//------------ crystals --------------- //   
+let img1 = document.querySelector('#img1');
+let img2 = document.querySelector('#img2');
+
+let btn1 = document.querySelector('#btn1');
+let btn2 = document.querySelector('#btn2');
+let btn3 = document.querySelector('#btn3');
+let btn4 = document.querySelector('#btn4');
+let btn5 = document.querySelector('#btn5');
+let btn6 = document.querySelector('#btn6');
+let btn7 = document.querySelector('#btn7');
+let btn8 = document.querySelector('#btn8');
+let btn9 = document.querySelector('#btn9');
+
+btn1.addEventListener('click', () => {
+  img1.src = '../Images/Gem/New folder/6601_hero.png';
+  img2.src = '../Images/Gem/New folder/AMETHYST_birthstone_gemstone_cut (1).png';
+});
+
+btn2.addEventListener('click', () => {
+  img1.src = '../Images/Gem/New folder (2)/47286c_main.png';
+  img2.src = '../Images/Gem/New folder (2)/AQUAMARINE_birthstone_gemstone_cut (1).png';
+})
+
+btn3.addEventListener('click', () => {
+  img1.src = '../Images/Gem/New folder (3)/6853_main.png';
+  img2.src = '../Images/Gem/New folder (3)/DIAMOND_birthstone_gemstone_cut (1).png';
+})
+
+btn4.addEventListener('click', () => {
+  img1.src = '../Images/Gem/New folder (4)/EE30400800_hero.png';
+  img2.src = '../Images/Gem/New folder (4)/EMERALD_birthstone_gemstone_cut (1).png';
+})
+
+btn5.addEventListener('click', () => {
+  img1.src = '../Images/Gem/New folder (5)/55074c_main.png';
+  img2.src = '../Images/Gem/New folder (5)/RUBY_birthstone_gemstone_cut (1).png';
+})
+
+btn6.addEventListener('click', () => {
+  img1.src = '../Images/Gem/New folder (6)/BR30402000_main.png';
+  img2.src = '../Images/Gem/New folder (6)/PERIDOT_birthstone_gemstone_cut (1).png';
+})
+
+btn7.addEventListener('click', () => {
+  img1.src = '../Images/Gem/New folder (7)/SR30500400_heroNEW.png';
+  img2.src = '../Images/Gem/New folder (7)/SAPPHIRE_birthstone_gemstone_cut (1).png';
+})
+
+btn8.addEventListener('click', () => {
+  img1.src = '../Images/Gem/New folder (8)/50656_main.png';
+  img2.src = '../Images/Gem/New folder (8)/CITRINE_birthstone_gemstone_cut (1).png';
+})
+
+btn9.addEventListener('click', () => {
+  img1.src = '../Images/Gem/New folder (9)/6603_main.png';
+  img2.src = '../Images/Gem/New folder (9)/TOPAZ_birthstone_gemstone_cut (1).png';
+})
+
+function Amethyst() {
+  document.getElementById("cry-name").innerHTML=("AMETHYST");
+  document.getElementById("cry-para").innerHTML=("The vibrantly purple amethyst, a variety of quartz, has long been worn by royalty and was a favorite of both St. Valentine and Leonardo da Vinci. Amethysts were once considered as rare as diamonds, and medieval soldiers believed they provided healing and calmness. High-quality specimens have saturated color and pure purple hues.");
+  document.getElementById("cry-btn").innerHTML=("Shop Amethyst Jewelry");
+};
+function Aquamarine() {
+  document.getElementById("cry-name").innerHTML=("AQUAMARINE");
+  document.getElementById("cry-para").innerHTML=("These light blue gemstones are a variety of the mineral beryl, as is the emerald. Long associated with water, the aquamarine was especially treasured as a talisman by ancient seafaring people. Aquamarine’s cool blue hue is believed to have a calming effect on its wearer. Look for clear, bright colors and good translucency.");
+  document.getElementById("cry-btn").innerHTML=("Shop Aquamarine Jewelry");
+};
+function Diamond() {
+  document.getElementById("cry-name").innerHTML=("DIAMOND");
+  document.getElementById("cry-para").innerHTML=("April is the winner of the birthstone lottery—diamonds! Treasured for their rarity and brilliance, diamonds have been prized for centuries as the symbol of eternal love. Highly valued for their brilliance and durability, diamonds also signify strength, balance, and courage. Look for diamonds with a good balance of the 4Cs: cut, color, clarity, and carat weight.");
+  document.getElementById("cry-btn").innerHTML=("Shop Diamond Jewelry");
+};
+function Emerald() {
+  document.getElementById("cry-name").innerHTML=("EMERALD");
+  document.getElementById("cry-para").innerHTML=("The rich, green emerald has been held in high esteem by many cultures around the world for centuries, including the ancient Incas and Aztecs who regarded them as holy. Emerald is a variety of beryl and the finest-quality emeralds have vivid, saturated color.");
+  document.getElementById("cry-btn").innerHTML=("Shop Emerald Jewelry");
+};
+function Ruby() {
+  document.getElementById("cry-name").innerHTML=("RUBY");
+  document.getElementById("cry-para").innerHTML=("Because of its fiery crimson color, ruby has long represented romance, devotion, and passion. Like sapphires, rubies are a variety of corundum, a mineral with great hardness well suited to everyday wear. Examples of flawless rubies are extremely rare and highly prized. The best examples have good translucency and depth of color.");
+  document.getElementById("cry-btn").innerHTML=("Shop Ruby Jewelry");
+};
+function Peridot() {
+  document.getElementById("cry-name").innerHTML=("PERIDOT");
+  document.getElementById("cry-para").innerHTML=("This vivid green gemstone is thought to ward off evil, and bring good fortune to its wearer. Peridots, like diamonds are formed deep in the earth, surfacing only during volcanic eruptions. Hawaiian mythology refers to this vibrant green gemstone as the tears of the fire goddess, Pele. Look for bright yellowish-green hues and good translucency.");
+  document.getElementById("cry-btn").innerHTML=("Shop Peridot Jewelry");
+};
+function Sapphire() {
+  document.getElementById("cry-name").innerHTML=("SAPPHIRE");
+  document.getElementById("cry-para").innerHTML=("Sapphire is well known for its velvety-blue hue, but pink sapphire is gaining popularity. A variety of corundum like rubies, sapphire’s natural hardness makes it an ideal gemstone for fine jewelry. A traditional symbol of nobility, truth, and romance, the most prized sapphires have good transparency and vibrant depth of color.");
+  document.getElementById("cry-btn").innerHTML=("Shop Sapphire Jewelry");
+};
+function Citrine() {
+  document.getElementById("cry-name").innerHTML=("CITRINE");
+  document.getElementById("cry-para").innerHTML=("This bright, effervescent gemstone gets its name from the French word for lemon and has been regarded as a symbol for happiness, health and vitality for centuries. High quality citrines will have good transparency and no eye-visible inclusions. They range in color from earthy deep browns and reddish-oranges to glowing yellow-orange.");
+  document.getElementById("cry-btn").innerHTML=("Shop Citrine Jewelry");
+};
+function Topaz() {
+  document.getElementById("cry-name").innerHTML=("TOPAZ");
+  document.getElementById("cry-para").innerHTML=("Blue topaz is one of December's birthstones along with tanzanite and turquoise. Symbolic of wisdom and longevity, blue topaz ranges in hues from deep London blue to paler sky blue. The ancient Greeks believed that topaz gave strength to the wearer.");
+  document.getElementById("cry-btn").innerHTML=("Shop Topaz Jewelry");
+};
