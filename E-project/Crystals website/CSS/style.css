@@ -1140,6 +1140,20 @@ button .accordion-button collapsed {
 	font-weight: 300;
 	line-height: 22px;
 }
+.time_1 {
+    position: absolute;
+    height: 500px;
+    width: 470px;
+    top:50px;
+    left: calc(50% + 30px);
+}
+.time_2 {
+    position: absolute;
+    height: 500px;
+    width: 470px;
+    top:50px;
+    right: calc(50% + 30px);
+}
 /* Our team */
 .ab-team {
     color: #000;
@@ -1214,6 +1228,14 @@ button .accordion-button collapsed {
 		left:0;
 	}
 }
+@media only screen and (max-width: 1023px) {
+    .time_1 {
+        display: none;
+    }
+    .time_2 {
+        display: none;
+    }
+  }
 /* responsive our team */
 @media only screen and (max-width: 1150px) {
     .profiles {
