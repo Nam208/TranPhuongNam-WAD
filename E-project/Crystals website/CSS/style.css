@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Acme&family=Lobster+Two:ital,wght@1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Rye&family=Lobster+Two:ital,wght@1,400;1,700&display=swap');
 
 *::after,
 *::before,
@@ -9,7 +9,7 @@
 }
 /*-- global-var --*/
 :root {
-    --logo--font: 'Acme', sans-serif;
+    --logo--font: 'Rye', cursive;
     --head--font: 'Lobster Two', cursive;
     --content--font: 'Poppins', sans-serif;
     --underline--color: #81d8d0;
@@ -17,7 +17,7 @@
 /*------------------------ header --------------------------------*/
 .header-top {
     border-top: 3px solid var(--underline--color);
-    padding-top: 5px;
+    padding-top: 20px;
 }
 #res-nav,
 #sign-icon {
@@ -291,10 +291,12 @@
 /*------------------------------- Responsive-navbar -------------------------------------*/
 .res-header {
     height: 550px;
-    width: 0px;
     overflow: hidden;
     z-index: 1;
     display: none;
+}
+.res-header.active {
+    display: block;
 }
 .res-header a {
     text-decoration: none;
@@ -905,8 +907,7 @@ button .accordion-button collapsed {
     }
     #sign-icon,
     #left-res-icon li,
-    #left-res-icon i,
-    .res-header {
+    #left-res-icon i {
         display: block;
     }
     .new-body .col-3 {
@@ -917,11 +918,9 @@ button .accordion-button collapsed {
     }
     footer {
         position: relative;
-        top: -500px;
     }
     content {
         position: relative;
-        top: -500px;
     }
     .res-header {
         z-index: 1;
@@ -1018,6 +1017,9 @@ button .accordion-button collapsed {
     }
     .bottom-head-text {
         width: 1000px;
+    }
+    #top-left-col {
+        width: 10px;
     }
 }
 

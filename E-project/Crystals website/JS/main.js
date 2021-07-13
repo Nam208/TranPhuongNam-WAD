@@ -13,16 +13,11 @@ const menuBtn = document.querySelector('.menu-btn');
     });        
 
 //------------ Navbar --------------- //
-var navbar = document.getElementById('res-navbar');
+var navbar = document.querySelector(".res-header");
 var icon = document.getElementById('res-icon');
 var navbarWidth = navbar.clientWidth;
   icon.onclick = function() {
-    var isClosed = navbar.clientWidth === navbarWidth;
-      if (isClosed) {
-        navbar.style.width = 'auto';
-      } else {
-        navbar.style.width = null;
-      }
+    navbar.classList.toggle("active");
   }
 
 //------------ Resnew --------------- //  
