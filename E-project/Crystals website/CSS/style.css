@@ -1223,7 +1223,6 @@ button .accordion-button collapsed {
     text-align: center;
     color: #000;
   }
-
 /* responsive ab us*/
 @media(max-width: 767px){
 	.timeline-items::before{
