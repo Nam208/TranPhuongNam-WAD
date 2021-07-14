@@ -451,6 +451,10 @@
 #best-sell-res img {
     width: 70%;
 }
+.best-sell a,
+#best-sell-res a {
+    text-decoration: none;
+}
 /*----------------- What's New ---------------------*/
 .new-body {
     text-align: center;
