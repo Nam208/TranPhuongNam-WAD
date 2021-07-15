@@ -270,3 +270,18 @@ function Topaz() {
   document.getElementById("cry-para").innerHTML=("Blue topaz is one of December's birthstones along with tanzanite and turquoise. Symbolic of wisdom and longevity, blue topaz ranges in hues from deep London blue to paler sky blue. The ancient Greeks believed that topaz gave strength to the wearer.");
   document.getElementById("cry-btn").innerHTML=("Shop Topaz Jewelry");
 };
+
+//------------ crystals --------------- //   
+/* 1 carousel */
+$('#carousel-1').carousel({
+  interval: 6000,
+  wrap: true,
+  keyboard: true
+});
+
+/* 2 carousel */
+$('#carousel-2').carousel({
+  interval: 8000,
+  wrap: true,
+  keyboard: true
+});

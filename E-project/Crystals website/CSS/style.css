@@ -1525,22 +1525,33 @@ button .accordion-button collapsed {
 .all-jew-content {
     padding-bottom: 35px;
 }
+.all-res h5 a,
 .all-jew-list h5 a {
     text-decoration: none;
     color: #000;
     font-family: var(--content--font);
     font-size: 15px;
 }
+.all-res h5 a:hover,
 .all-jew-list h5 a:hover {
     border-bottom: 1px solid var(--underline--color);
 }
 .all-jew-list h5 {
     padding-top: 20px;
 }
+.all-res {
+    background-color: #f5f5f5;
+    padding-top: 30px;
+    display: none;
+}
+.all-res h5 {
+    margin-bottom: 20px;
+}
 /*---------------------All-Jew-banner-----------------------*/
 .all-jew-banner {
     position: relative;
 }
+.all-ban-res a,
 .all-jew-banner a {
     text-decoration: none;
     color: #000;
@@ -1551,20 +1562,95 @@ button .accordion-button collapsed {
     right: 5%;
     max-width: 400px;
 }
+.aj-res-text h3,
 .aj-banner-text h3 {
     font-family: var(--head--font);
     font-size: 35px;
     text-decoration: underline;
 }
+.aj-res-text p,
 .aj-banner-text p {
     font-family: var(--content--font);
     font-size: 15px;
 }
+.aj-res-text h5,
 .aj-banner-text h5 {
     font-family: var(--content--font);
     font-size: 15px;
     text-decoration: underline;
 }
+.all-ban-res {
+    padding-top: 40px;
+    display: none;
+}
+.aj-res-text {
+    padding: 10px 16px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px){
+    .all-jew-banner,
+    .all-jew-list {
+        display: none;
+    }
+    .all-ban-res,
+    .all-res {
+        display: block;
+    }
+    
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
