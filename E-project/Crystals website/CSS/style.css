@@ -1320,6 +1320,12 @@ button .accordion-button collapsed {
 .your_message::placeholder { 
   position: absolute;
 }
+.FAQ_content {
+    display: block;
+}
+.FAQ_detail {
+    margin-top: 50px;
+}
 @media screen and (max-width:1024px){
     .contact_us_detail,
     .location_detail {
