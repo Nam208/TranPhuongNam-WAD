@@ -1326,6 +1326,15 @@ button .accordion-button collapsed {
 .FAQ_detail {
     margin-top: 50px;
 }
+.FAQ_content_detail{
+    font-family: var(--content--font);
+}
+.contact_us_detail h2,
+.location_detail h2,
+.FAQ_detail .FAQ_heading
+ {
+    font-family: var(--head--font);
+}
 @media screen and (max-width:1024px){
     .contact_us_detail,
     .location_detail {
