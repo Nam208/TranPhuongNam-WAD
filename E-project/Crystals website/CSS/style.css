@@ -1028,6 +1028,12 @@ button .accordion-button collapsed {
     #top-left-col {
         width: 10px;
     }
+    .header-banner_rings img {
+        display: none;
+    }
+    #head-ban-res_rings {
+        display: block;
+    }
 }
 
 
@@ -1882,3 +1888,55 @@ svg {
         height: auto;
     }
  }
+
+/*               Rings                   */
+.container__rings .card-body {
+    display: none;
+}
+
+.container__rings .shadow-sm:hover .card-body {
+    display: inherit;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    background-color: white;
+}
+
+.container__rings .shadow-sm:hover .bd-placeholder-img {
+   transform: scale(0.8);
+}
+
+.header-banner_rings {
+   position: relative;
+}
+.header-banner_rings img {
+   width: 100%;
+}
+#head-ban-res_rings {
+   display: none;
+}
+.head-ban-text_rings {
+   position: absolute;
+   top: 25%;
+   left: 5%;
+}
+#link-banner {
+   text-decoration: none;
+}
+.head-ban-text_rings h3 {
+   font-family: var(--head--font);
+   font-weight: 200;
+   font-size: 35px;
+   text-decoration: underline;
+}
+.head-ban-text_rings p {
+   font-family: var(--content--font);
+   font-size: 15px;
+   font-weight: 400;
+}
+.head-ban-text_rings a {
+   font-family: var(--content--font);
+   font-size: 14px;
+   font-weight: 600;
+   color: #000;   
+}
