@@ -1865,16 +1865,28 @@ svg {
     bottom: 12%;
 }
 /*Banner*/
-.banner_product_1 {
-    width: 100%;
-    height: 200px;
+.banner_product_1{
+    margin-top: 70px;
+    position: relative;
 }
 .banner_product_1 img{
     width: 100%;
     height: auto;
-    object-fit: cover;
 }
-/*scape phones, 576px and up)*/
+.banner_product_content {
+    width: 288px;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+.banner_product_content .banner_product_content_1 {
+    font-family: var(--head--font);
+    font-size: 32px;
+}
+.banner_product_content .banner_product_content_2 {
+    font-family:var(--content--font);
+    font-size: 14px;
+}
 @media screen and (max-width: 768px) { 
     .small_image_wrapper{
         display: none;
@@ -1906,9 +1918,30 @@ svg {
         bottom:22%;
 
     }
+    .banner_product_content {
+        width: 30%;
+        position: absolute;
+        top: 0%;
+        left: 4%;
+    }
+ }
+ @media screen and (max-width: 1024px) { 
+    .banner_product_content {
+        width: 30%;
+        position: absolute;
+        top: 18%;
+        left: 4%;
+    }
+    .banner_product_content .banner_product_content_1 {
+        font-family: var(--head--font);
+        font-size: 20px;
+    }
+    .banner_product_content .banner_product_content_2 {
+        font-family:var(--content--font);
+        font-size: 12px;
+    }
  }
 
-/* Medium devices (tablets, 768px and up)*/
 @media screen and  (max-width:767.98px){
     .small_image_wrapper{
         display: none;
@@ -1940,6 +1973,10 @@ svg {
     .also_img a p{
         font-family: 'Poppins', sans-serif;
         font-size: 9px;
+    }
+    .banner_product_content .banner_product_content_2,
+    .banner_product_content .banner_product_content_1 {
+        display: none;
     }
  }
  @media screen and  (max-width:991.98px){
