@@ -1483,9 +1483,67 @@ button .accordion-button collapsed {
     min-width: 50%;
     padding-left: 100px;
 }
-
-
-
+/*---------------------All-Jewelry-----------------------*/
+.all-jew-list {
+    position: relative;
+    background-color: #f5f5f5;
+    text-align: center;
+    width: 85%;
+    margin : 2rem auto;
+    padding: 0px 52px 56px;
+}
+.all-jew-content h3 {
+    font-family: var(--head--font);
+    font-size: 35px; 
+    padding-top: 20px;  
+}
+.all-jew-content p {
+    font-family: var(--content--font);
+    font-size: 15px;
+}
+.all-jew-content {
+    padding-bottom: 35px;
+}
+.all-jew-list h5 a {
+    text-decoration: none;
+    color: #000;
+    font-family: var(--content--font);
+    font-size: 15px;
+}
+.all-jew-list h5 a:hover {
+    border-bottom: 1px solid var(--underline--color);
+}
+.all-jew-list h5 {
+    padding-top: 20px;
+}
+/*---------------------All-Jew-banner-----------------------*/
+.all-jew-banner {
+    position: relative;
+}
+.all-jew-banner a {
+    text-decoration: none;
+    color: #000;
+}
+.aj-banner-text {
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    max-width: 400px;
+}
+.aj-banner-text h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+    text-decoration: underline;
+}
+.aj-banner-text p {
+    font-family: var(--content--font);
+    font-size: 15px;
+}
+.aj-banner-text h5 {
+    font-family: var(--content--font);
+    font-size: 15px;
+    text-decoration: underline;
+}
 
 
 
