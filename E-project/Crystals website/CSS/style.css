@@ -1072,10 +1072,16 @@ button .accordion-button collapsed {
 	background-color: #81d8d0;
 	left: calc(50% - 1px);
 }
+.timeline-items img::after{
+	content: '';
+	position: absolute;
+	height: 100%;
+	background-color: #81d8d0;
+	right: calc(50% + 1px);
+}
 .timeline-item{
 	margin-bottom: 40px;
 	position: relative;
-    float: left;
     width: 100%;
 }
 .timeline-item:last-child{
