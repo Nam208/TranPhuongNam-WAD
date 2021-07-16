@@ -420,7 +420,6 @@
 .best-sell {
     margin-top: 60px;
     text-align: center;
-    border-bottom: 2px solid var(--underline--color);
     padding-bottom: 55px;
 }
 .best-sell h3 {
@@ -458,7 +457,6 @@
 /*----------------- What's New ---------------------*/
 .new-body {
     text-align: center;
-    border-bottom: 2px solid var(--underline--color);
     padding-bottom: 55px;
 }
 .new-body h3 {
@@ -597,8 +595,7 @@
 }
 /*----------------------- Shop by Category -------------*/
 .shop-by-category {
-    margin-top: 10px;
-    border-top: 2px solid var(--underline--color);   
+    margin-top: 10px;   
 }
 .shop-by-category a {
     text-decoration: none;
@@ -802,6 +799,22 @@ form .txt_field {
     border: 1px solid var(--underline--color);
     background-color: var(--underline--color);
     color: white;
+}
+.hr-theme-slash-2 {
+    display: flex;
+    justify-content: center;
+}    
+.hr-line {
+  width: 20%;
+  position: relative;
+  margin: 15px;
+  border-bottom: 2px solid var(--underline--color);
+}
+.hr-icon {
+  position: relative;
+  top: 3px;
+  color: var(--underline--color);
+  font-size: 20px;
 }
 #Care h5, #Company h5, #Social h5 {
     font-size: 15px;
@@ -1341,17 +1354,6 @@ button .accordion-button collapsed {
         margin-top:50px;
     }
 }
-hr{
-    border: 0;
-    height: 1px;
-    width: 10%;
-    position: relative;
-    margin: 30px auto;
-}    
-.center-diamond{
-    background: var(--underline--color);
-}
-
 
 
 
@@ -2159,4 +2161,25 @@ svg {
    #head-ban-res_rings {
        display: block;
    }
+}
+
+
+
+
+
+.hr-theme-slash-2 {
+    display: flex;
+    justify-content: center;
+}    
+.hr-line {
+  width: 20%;
+  position: relative;
+  margin: 15px;
+  border-bottom: 2px solid var(--underline--color);
+}
+.hr-icon {
+  position: relative;
+  top: 3px;
+  color: var(--underline--color);
+  font-size: 20px;
 }
