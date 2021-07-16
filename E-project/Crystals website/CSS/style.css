@@ -2188,6 +2188,30 @@ svg {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.new_content_1 h2{
+    font-family: var(--head--font);
+}
+.new_content_1 p{
+    font-family:var(--content--font);
+}
+.new_content_2 h5 {
+    font-family: var(--head--font);
+}
+.new_content_2 p {
+    font-family:var(--content--font);
+}
+.new_content_3 h4 {
+    font-family: var(--head--font);
+}
+.new_content_3 p {
+    font-family:var(--content--font);
+}
+.new_content_4 h4{
+    font-family: var(--head--font);
+}
+.new_content_4 p{
+    font-family:var(--content--font);
+}
 .new_img_1,
 .new_content_1,
 .new_content_2{
@@ -2218,3 +2242,4 @@ svg {
     top: 40%;
     left: 10%;
 }
+
