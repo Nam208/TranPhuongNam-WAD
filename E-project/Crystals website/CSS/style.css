@@ -2136,3 +2136,9 @@ svg {
    font-weight: 600;
    color: #000;   
 }
+
+@media screen and (max-width: 750px){
+   #head-ban-res_rings {
+       display: block;
+   }
+}
