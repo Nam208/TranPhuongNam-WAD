@@ -308,18 +308,3 @@ var carousel = new bootstrap.Carousel(myCarousel)
 var myCarousel = document.querySelector('#carouselExampleControlsNoTouching12')
 var carousel = new bootstrap.Carousel(myCarousel)
 
-
-//------------ crystals --------------- //   
-/* 1 carousel */
-$('#carousel-1').carousel({
-  interval: 6000,
-  wrap: true,
-  keyboard: true
-});
-
-/* 2 carousel */
-$('#carousel-2').carousel({
-  interval: 8000,
-  wrap: true,
-  keyboard: true
-});

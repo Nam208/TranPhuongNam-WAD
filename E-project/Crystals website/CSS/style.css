@@ -919,10 +919,8 @@ button .accordion-button collapsed {
     .crystals #cry-col {
         padding-left: 3%;
     }
+    content,
     footer {
-        position: relative;
-    }
-    content {
         position: relative;
     }
     .res-header {
@@ -1343,8 +1341,16 @@ button .accordion-button collapsed {
         margin-top:50px;
     }
 }
-
-
+hr{
+    border: 0;
+    height: 1px;
+    width: 10%;
+    position: relative;
+    margin: 30px auto;
+}    
+.center-diamond{
+    background: var(--underline--color);
+}
 
 
 
@@ -1584,7 +1590,21 @@ button .accordion-button collapsed {
 .aj-res-text {
     padding: 10px 16px 0;
 }
-
+/*--------------------- Shop-by-gem -----------------------*/
+.by-gem {
+    text-align: center;
+}
+.by-gem h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+.by-gem .p-2 {
+    background-color: var(--underline--color);
+    font-family: var(--content--font);
+    font-size: 14px;
+    font-weight: 500;
+}
 
 
 
