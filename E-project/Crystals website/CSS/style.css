@@ -2183,3 +2183,38 @@ svg {
   color: var(--underline--color);
   font-size: 20px;
 }
+/*---------------------News-----------------------*/
+.new_content_1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.new_img_1,
+.new_content_1,
+.new_content_2{
+    margin-bottom: 56px;
+}
+.new_img_2,
+.new_img_4{
+    position: relative;
+    padding-bottom: 56px;
+}
+.new_img_3{
+    padding: 4px;
+}
+.new_content_3{
+    width: 35%;
+    top:40%;
+    left: 55%;
+    position: absolute;
+}
+.size_fix{
+    padding:0px 52px 80px 52px;
+    margin: 0 !important;
+}
+
+.new_content_4{
+    width: 33%;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
