@@ -271,6 +271,46 @@ function Topaz() {
   document.getElementById("cry-btn").innerHTML=("Shop Topaz Jewelry");
 };
 
+<<<<<<< HEAD
+/*                            Rings                                             */
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching1')
+var carousel = new bootstrap.Carousel(myCarousel)
+
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching2')
+var carousel = new bootstrap.Carousel(myCarousel)
+
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching3')
+var carousel = new bootstrap.Carousel(myCarousel)
+
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching4')
+var carousel = new bootstrap.Carousel(myCarousel)
+
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching5')
+var carousel = new bootstrap.Carousel(myCarousel)
+
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching6')
+var carousel = new bootstrap.Carousel(myCarousel)
+
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching7')
+var carousel = new bootstrap.Carousel(myCarousel)
+
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching8')
+var carousel = new bootstrap.Carousel(myCarousel)
+
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching9')
+var carousel = new bootstrap.Carousel(myCarousel)
+
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching10')
+var carousel = new bootstrap.Carousel(myCarousel)
+
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching11')
+var carousel = new bootstrap.Carousel(myCarousel)
+
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching12')
+var carousel = new bootstrap.Carousel(myCarousel)
+
+
+=======
 //------------ crystals --------------- //   
 /* 1 carousel */
 $('#carousel-1').carousel({
@@ -285,3 +325,4 @@ $('#carousel-2').carousel({
   wrap: true,
   keyboard: true
 });
+>>>>>>> 4bbc1ec809261439758f50a15f3491bd7433dafe
