@@ -423,82 +423,175 @@
     </header>
 <!---------------------- Content -------------------------------------->   
 <content>
-    
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 picture_detail">
+                <div class="container-fluid test">
+                    <div class="row">
+                        <div class="col-md-3 small_image_wrapper">
+                            <div class="small_image">
+                                <div class="img_product_zoom" >
+                                    <img onclick="myFunction(this)" src="../Images/detail1.jpeg" alt="" class="">
+                                </div>
+                                <div class="img_product_zoom" >
+                                    <img onclick="myFunction(this)" src="../Images/detail2.jpeg" alt="" class="">
+                                </div>
+                                <div class="img_product_zoom" >
+                                    <img onclick="myFunction(this)" src="../Images/detail3.jpeg" alt="" class="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-9 col-md-12 big_image">
+                            <div class="big_image_detail" id="magnifying_area">
+                                <img id="imageBox" src="../Images/detail1.jpeg" alt="" class="" id="bigimage">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 info_slidebar">  
+                <div class="product_content">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb breadcum_detail">
+                          <li class="breadcrumb-item"><a href="#">Home</a></li>
+                          <li class="breadcrumb-item"><a href="#">Watches</a></li>
+                          <li class="breadcrumb-item"><a href="#"> Women's Watches</a></li>
+                        </ol>
+                    </nav>
+                    <p><a id="logo_info" href="#">Crystal</a></p>
+                    <h2 id="heading_product">Limited-edition 22 x 26 mm Rectangle Watch</h2>
+                    <p id="plus_product">in Stainless Steel with White Mother-of-pearl and Diamonds</p>
+                    <svg id="heart_icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                    </svg>
+                    <svg id="mail_icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                    </svg>
+                    <hr>
+                    <div class="row">
+                        <div class="col-6">
+                            Price
+                        </div>
+                        <div class="col-6" style="text-align: end;">
+                            $3,500
+                        </div>
+                    </div>
+                    <hr>
+                    <button class="add_to_cart">
+                        Add To Bag
+                    </button>
+                    <button class="book_app">
+                        <p id="book_detail">Book an Appointment</span></p>
+                    </button>
+                    <h6 id="descript">Description & Details</h6>
+                    <p id="descript_content">Drawing inspiration from the iconic Tiffany T jewelry collection, Tiffany T limited-edition watches are a distinctive blend of innovative design and expert Swiss craftsmanship. Thoughtfully designed in stainless steel with white mother-of-pearl and diamonds, this rectangular watch looks sleek worn solo or stacked with Tiffany bracelets.</p>
+                    <ul id="detail">
+                        <li>Stainless steel, in a limited series of 375</li>
+                        <li>White mother-of-pearl dial with applied diamond indexes</li>
+                        <li>22 x 26 mm case with round brilliant diamonds</li>
+                        <li>Carat total weight .04</li>
+                        <li>Quartz movement</li>
+                        <li>Water resistant to 30 meters/100 feet/3 ATM</li>
+                        <li>Swiss-made</li>
+                    </ul>
+                    <button class="information">
+                        <p id="information_detail"><a href="#">Download details information</a></span></p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col also_heading_content" style="text-align: center; margin-top: 63px; margin-bottom: 31px;">
+                <h3>You May Also Like</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active also_img">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-3 also_img">
+                                    <a href="#" class="img_one"><img src="../Images/product_6.jpeg" class="d-block" alt="..."></a>
+                                    <a href=""><p>ABC</p></a>
+                                    <a href=""><p>abcdefgh</p></a>
+                                </div>
+                                <div class="col-3 also_img">
+                                    <a href="#" class="img_two"><img src="../Images/product_6.jpeg" class="d-block" alt="..."></a>
+                                    <a href=""><p>ABC</p></a>
+                                    <a href=""><p>abcdefgh</p></a>
+                                </div>
+                                <div class="col-3 also_img">
+                                    <a href="#" class="img_three"><img src="../Images/product_6.jpeg" class="d-block" alt="..."></a>
+                                    <a href=""><p>ABC</p></a>
+                                    <a href=""><p>abcdefgh</p></a>
+                                </div>
+                                <div class="col-3 also_img img_four">
+                                    <a href="#" class="img_four"><img src="../Images/product_6.jpeg" class="d-block" alt="..."></a>
+                                    <a href=""><p>ABC</p></a>
+                                    <a href=""><p>abcdefgh</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item also_img">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-3 also_img">
+                                    <a href="#" class="img_one"><img src="../Images/product_6.jpeg" class="d-block" alt="..."></a>
+                                    <a href=""><p>ABC</p></a>
+                                    <a href=""><p>abcdefgh</p></a>
+                                </div>
+                                <div class="col-3 also_img">
+                                    <a href="#" class=""><img src="../Images/product_6.jpeg" class="d-block" alt="..."></a>
+                                    <a href=""><p>ABC</p></a>
+                                    <a href=""><p>abcdefgh</p></a>
+                                </div>
+                                <div class="col-3 also_img">
+                                    <a href="#" class=""><img src="../Images/product_6.jpeg" class="d-block" alt="..."></a>
+                                    <a href=""><p>ABC</p></a>
+                                    <a href=""><p>abcdefgh</p></a>
+                                </div>
+                                <div class="col-3 also_img">
+                                    <a href="#" class=""><img src="../Images/product_6.jpeg" class="d-block" alt="..."></a>
+                                    <a href=""><p>ABC</p></a>
+                                    <a href=""><p>abcdefgh</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev also_button_left" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon also_button_left_size" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next also_button_right" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon also_button_right_size" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col banner_product_1">
+                <img src="https://media.tiffany.com/is/image/tiffanydm/BG-HeroTileRefresh-Aquamarine-Desktop?$tile$&wid=2992" alt="" class="w-100">
+                <div class="banner_product_content">
+                    <p class="banner_product_content_1">Aquamarine Jewelry</p>
+                    <p class="banner_product_content_2">If you’re looking for something blue, there’s no better place than Tiffany. Discover vivid aquamarine rings and bracelets, with blue-green shades that evoke the beauty of the sea. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <script>
+        function myFunction(smallImg){
+            var fullImg=document.getElementById("imageBox");
+            fullImg.src=smallImg.src;
+        } 
+    </script>
 </content>
 <!---------------------- Footer -------------------------------------->    
     <footer>

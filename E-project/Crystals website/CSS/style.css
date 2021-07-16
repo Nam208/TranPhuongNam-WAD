@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Acme&family=Lobster+Two:ital,wght@1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Rye&family=Lobster+Two:ital,wght@1,400;1,700&display=swap');
 
 *::after,
 *::before,
@@ -9,7 +9,7 @@
 }
 /*-- global-var --*/
 :root {
-    --logo--font: 'Acme', sans-serif;
+    --logo--font: 'Rye', cursive;
     --head--font: 'Lobster Two', cursive;
     --content--font: 'Poppins', sans-serif;
     --underline--color: #81d8d0;
@@ -17,7 +17,7 @@
 /*------------------------ header --------------------------------*/
 .header-top {
     border-top: 3px solid var(--underline--color);
-    padding-top: 5px;
+    padding-top: 20px;
 }
 #res-nav,
 #sign-icon {
@@ -291,10 +291,12 @@
 /*------------------------------- Responsive-navbar -------------------------------------*/
 .res-header {
     height: 550px;
-    width: 0px;
     overflow: hidden;
     z-index: 1;
     display: none;
+}
+.res-header.active {
+    display: block;
 }
 .res-header a {
     text-decoration: none;
@@ -418,7 +420,6 @@
 .best-sell {
     margin-top: 60px;
     text-align: center;
-    border-bottom: 2px solid var(--underline--color);
     padding-bottom: 55px;
 }
 .best-sell h3 {
@@ -449,10 +450,13 @@
 #best-sell-res img {
     width: 70%;
 }
+.best-sell a,
+#best-sell-res a {
+    text-decoration: none;
+}
 /*----------------- What's New ---------------------*/
 .new-body {
     text-align: center;
-    border-bottom: 2px solid var(--underline--color);
     padding-bottom: 55px;
 }
 .new-body h3 {
@@ -591,8 +595,7 @@
 }
 /*----------------------- Shop by Category -------------*/
 .shop-by-category {
-    margin-top: 10px;
-    border-top: 2px solid var(--underline--color);   
+    margin-top: 10px;   
 }
 .shop-by-category a {
     text-decoration: none;
@@ -619,7 +622,6 @@
 }
 #category img {
     width: 100%;
-    border:1px solid #b7b7b7;
     max-width: 100%;
 }
 #category .col {
@@ -798,6 +800,22 @@ form .txt_field {
     background-color: var(--underline--color);
     color: white;
 }
+.hr-theme-slash-2 {
+    display: flex;
+    justify-content: center;
+}    
+.hr-line {
+  width: 20%;
+  position: relative;
+  margin: 15px;
+  border-bottom: 2px solid var(--underline--color);
+}
+.hr-icon {
+  position: relative;
+  top: 3px;
+  color: var(--underline--color);
+  font-size: 20px;
+}
 #Care h5, #Company h5, #Social h5 {
     font-size: 15px;
     font-family: var(--content--font);
@@ -905,8 +923,7 @@ button .accordion-button collapsed {
     }
     #sign-icon,
     #left-res-icon li,
-    #left-res-icon i,
-    .res-header {
+    #left-res-icon i {
         display: block;
     }
     .new-body .col-3 {
@@ -915,13 +932,9 @@ button .accordion-button collapsed {
     .crystals #cry-col {
         padding-left: 3%;
     }
+    content,
     footer {
         position: relative;
-        top: -500px;
-    }
-    content {
-        position: relative;
-        top: -500px;
     }
     .res-header {
         z-index: 1;
@@ -989,6 +1002,9 @@ button .accordion-button collapsed {
     .crystals .row gy-5 {
         display: inline-block;
     }
+    .signup #img {
+        display: none;
+    }
 }
 @media screen and (max-width: 750px) {
     .exper {
@@ -1018,6 +1034,15 @@ button .accordion-button collapsed {
     }
     .bottom-head-text {
         width: 1000px;
+    }
+    #top-left-col {
+        width: 10px;
+    }
+    .header-banner_rings img {
+        display: none;
+    }
+    #head-ban-res_rings {
+        display: block;
     }
 }
 
@@ -1234,7 +1259,6 @@ button .accordion-button collapsed {
     text-align: center;
     color: #000;
   }
-
 /* responsive ab us*/
 @media(max-width: 767px){
 	.timeline-items::before{
@@ -1295,17 +1319,52 @@ button .accordion-button collapsed {
   }
 
 /* Contact us */
-.col-6 iframe{
-    width: 100%;
-    height: 100%;
+.contact_space{
+    margin-top:50px;
+}
+.location_detail iframe{
+    width:100%; 
+    height:450px;
     border-radius: 3px;
 }
-.btn-primary{
+.sub_mit{
     width: 100%;
 }
-
-
-
+.line_contact {
+    width: 30%;
+    margin-bottom: 40px;
+}
+.line_location {
+    width: 24%;
+    margin-bottom: 40px;
+}
+.your_message::placeholder { 
+  position: absolute;
+}
+.FAQ_content {
+    display: block;
+}
+.FAQ_detail {
+    margin-top: 50px;
+}
+.FAQ_content_detail{
+    font-family: var(--content--font);
+}
+.contact_us_detail h2,
+.location_detail h2,
+.FAQ_detail .FAQ_heading
+ {
+    font-family: var(--head--font);
+}
+@media screen and (max-width:1024px){
+    .contact_us_detail,
+    .location_detail {
+        width: 100%;
+    }
+    .location_detail {
+        margin-top:50px;
+    }
+}
 
 
 
@@ -1445,6 +1504,208 @@ button .accordion-button collapsed {
 .signup-form {
     margin-top: 50px;
 }
+.signup-btn {
+    text-decoration: none;
+    color: #000;
+    font-family: var(--content--font);
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid #000;
+    padding: 8px 52px;
+}
+.signup-btn:hover {
+    color: white;
+    background-color: var(--underline--color);
+}
+.signup img {
+    width: 120%;
+    min-width: 50%;
+    padding-left: 100px;
+}
+/*---------------------All-Jewelry-----------------------*/
+.all-jew-list {
+    position: relative;
+    background-color: #f5f5f5;
+    text-align: center;
+    width: 85%;
+    margin : 2rem auto;
+    padding: 0px 52px 56px;
+}
+.all-jew-content h3 {
+    font-family: var(--head--font);
+    font-size: 35px; 
+    padding-top: 20px;  
+}
+.all-jew-content p {
+    font-family: var(--content--font);
+    font-size: 15px;
+}
+.all-jew-content {
+    padding-bottom: 30px;
+}
+.all-res h5 a,
+.all-jew-list h5 a {
+    text-decoration: none;
+    color: #000;
+    font-family: var(--content--font);
+    font-size: 15px;
+}
+.all-res h5 a:hover,
+.all-jew-list h5 a:hover {
+    border-bottom: 1px solid var(--underline--color);
+}
+.all-jew-list h5 {
+    padding-top: 20px;
+}
+.all-res {
+    background-color: #f5f5f5;
+    display: none;
+}
+.all-res h5 {
+    margin-bottom: 20px;
+}
+/*---------------------All-Jew-banner-----------------------*/
+.all-jew-banner {
+    position: relative;
+}
+.all-ban-res a,
+.all-jew-banner a {
+    text-decoration: none;
+    color: #000;
+}
+.aj-banner-text {
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    max-width: 400px;
+}
+.aj-res-text h3,
+.aj-banner-text h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+    text-decoration: underline;
+}
+.aj-res-text p,
+.aj-banner-text p {
+    font-family: var(--content--font);
+    font-size: 15px;
+}
+.aj-res-text h5,
+.aj-banner-text h5 {
+    font-family: var(--content--font);
+    font-size: 15px;
+    text-decoration: underline;
+}
+.all-ban-res {
+    padding-top: 40px;
+    display: none;
+}
+.aj-res-text {
+    padding: 10px 16px 0;
+}
+/*--------------------- Shop-by-gem -----------------------*/
+.by-gem {
+    text-align: center;
+}
+.by-gem h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+.by-gem .p-2 {
+    background-color: var(--underline--color);
+    font-family: var(--content--font);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px){
+    .all-jew-banner,
+    .all-jew-list {
+        display: none;
+    }
+    .all-ban-res,
+    .all-res {
+        display: block;
+    }
+    
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  /*---------------------Chi tiết sản phẩm-----------------------*/
  /*Ảnh*/
 .picture_detail{
@@ -1626,25 +1887,37 @@ svg {
 }
 .also_button_left{
     position: absolute;
-    left: -2.2%;
+    left: 0.8%;
     bottom: 12%;
 }
 .also_button_right{
     position: absolute;
-    right: -1.8%;
+    right: 1.2%;
     bottom: 12%;
 }
 /*Banner*/
-.banner_product_1 {
-    width: 100%;
-    height: 200px;
+.banner_product_1{
+    margin-top: 70px;
+    position: relative;
 }
 .banner_product_1 img{
     width: 100%;
     height: auto;
-    object-fit: cover;
 }
-/*scape phones, 576px and up)*/
+.banner_product_content {
+    width: 288px;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+.banner_product_content .banner_product_content_1 {
+    font-family: var(--head--font);
+    font-size: 32px;
+}
+.banner_product_content .banner_product_content_2 {
+    font-family:var(--content--font);
+    font-size: 14px;
+}
 @media screen and (max-width: 768px) { 
     .small_image_wrapper{
         display: none;
@@ -1676,9 +1949,30 @@ svg {
         bottom:22%;
 
     }
+    .banner_product_content {
+        width: 30%;
+        position: absolute;
+        top: 0%;
+        left: 4%;
+    }
+ }
+ @media screen and (max-width: 1024px) { 
+    .banner_product_content {
+        width: 30%;
+        position: absolute;
+        top: 18%;
+        left: 4%;
+    }
+    .banner_product_content .banner_product_content_1 {
+        font-family: var(--head--font);
+        font-size: 20px;
+    }
+    .banner_product_content .banner_product_content_2 {
+        font-family:var(--content--font);
+        font-size: 12px;
+    }
  }
 
-/* Medium devices (tablets, 768px and up)*/
 @media screen and  (max-width:767.98px){
     .small_image_wrapper{
         display: none;
@@ -1710,6 +2004,10 @@ svg {
     .also_img a p{
         font-family: 'Poppins', sans-serif;
         font-size: 9px;
+    }
+    .banner_product_content .banner_product_content_2,
+    .banner_product_content .banner_product_content_1 {
+        display: none;
     }
  }
  @media screen and  (max-width:991.98px){
@@ -1817,3 +2115,142 @@ svg {
         height: auto;
     }
  }
+
+/*               Rings                   */
+.container__rings .card-body {
+    display: none;
+}
+
+.container__rings .shadow-sm:hover .card-body {
+    display: inherit;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    background-color: white;
+}
+
+.container__rings .shadow-sm:hover .bd-placeholder-img {
+   transform: scale(0.8);
+}
+
+.header-banner_rings {
+   position: relative;
+}
+.header-banner_rings img {
+   width: 100%;
+}
+#head-ban-res_rings {
+   display: none;
+}
+.head-ban-text_rings {
+   position: absolute;
+   top: 25%;
+   left: 5%;
+}
+#link-banner {
+   text-decoration: none;
+}
+.head-ban-text_rings h3 {
+   font-family: var(--head--font);
+   font-weight: 200;
+   font-size: 35px;
+   text-decoration: underline;
+}
+.head-ban-text_rings p {
+   font-family: var(--content--font);
+   font-size: 15px;
+   font-weight: 400;
+}
+.head-ban-text_rings a {
+   font-family: var(--content--font);
+   font-size: 14px;
+   font-weight: 600;
+   color: #000;   
+}
+
+@media screen and (max-width: 750px){
+   #head-ban-res_rings {
+       display: block;
+   }
+}
+
+
+
+
+
+.hr-theme-slash-2 {
+    display: flex;
+    justify-content: center;
+}    
+.hr-line {
+  width: 20%;
+  position: relative;
+  margin: 15px;
+  border-bottom: 2px solid var(--underline--color);
+}
+.hr-icon {
+  position: relative;
+  top: 3px;
+  color: var(--underline--color);
+  font-size: 20px;
+}
+/*---------------------News-----------------------*/
+.new_content_1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.new_content_1 h2{
+    font-family: var(--head--font);
+}
+.new_content_1 p{
+    font-family:var(--content--font);
+}
+.new_content_2 h5 {
+    font-family: var(--head--font);
+}
+.new_content_2 p {
+    font-family:var(--content--font);
+}
+.new_content_3 h4 {
+    font-family: var(--head--font);
+}
+.new_content_3 p {
+    font-family:var(--content--font);
+}
+.new_content_4 h4{
+    font-family: var(--head--font);
+}
+.new_content_4 p{
+    font-family:var(--content--font);
+}
+.new_img_1,
+.new_content_1,
+.new_content_2{
+    margin-bottom: 56px;
+}
+.new_img_2,
+.new_img_4{
+    position: relative;
+    padding-bottom: 56px;
+}
+.new_img_3{
+    padding: 4px;
+}
+.new_content_3{
+    width: 35%;
+    top:40%;
+    left: 55%;
+    position: absolute;
+}
+.size_fix{
+    padding:0px 52px 80px 52px;
+    margin: 0 !important;
+}
+
+.new_content_4{
+    width: 33%;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
