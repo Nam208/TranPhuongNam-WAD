@@ -181,48 +181,48 @@ let btn8 = document.querySelector('#btn8');
 let btn9 = document.querySelector('#btn9');
 
 btn1.addEventListener('click', () => {
-  img1.src = '../Images/Gem/New folder/6601_hero.png';
-  img2.src = '../Images/Gem/New folder/AMETHYST_birthstone_gemstone_cut (1).png';
+  img1.src = '../Images/index/Gem/New folder/6601_hero.png';
+  img2.src = '../Images/index/Gem/New folder/AMETHYST_birthstone_gemstone_cut (1).png';
 });
 
 btn2.addEventListener('click', () => {
-  img1.src = '../Images/Gem/New folder (2)/47286c_main.png';
-  img2.src = '../Images/Gem/New folder (2)/AQUAMARINE_birthstone_gemstone_cut (1).png';
+  img1.src = '../Images/index/Gem/New folder (2)/47286c_main.png';
+  img2.src = '../Images/index/Gem/New folder (2)/AQUAMARINE_birthstone_gemstone_cut (1).png';
 })
 
 btn3.addEventListener('click', () => {
-  img1.src = '../Images/Gem/New folder (3)/6853_main.png';
-  img2.src = '../Images/Gem/New folder (3)/DIAMOND_birthstone_gemstone_cut (1).png';
+  img1.src = '../Images/index/Gem/New folder (3)/6853_main.png';
+  img2.src = '../Images/index/Gem/New folder (3)/DIAMOND_birthstone_gemstone_cut (1).png';
 })
 
 btn4.addEventListener('click', () => {
-  img1.src = '../Images/Gem/New folder (4)/EE30400800_hero.png';
-  img2.src = '../Images/Gem/New folder (4)/EMERALD_birthstone_gemstone_cut (1).png';
+  img1.src = '../Images/index/Gem/New folder (4)/EE30400800_hero.png';
+  img2.src = '../Images/index/Gem/New folder (4)/EMERALD_birthstone_gemstone_cut (1).png';
 })
 
 btn5.addEventListener('click', () => {
-  img1.src = '../Images/Gem/New folder (5)/55074c_main.png';
-  img2.src = '../Images/Gem/New folder (5)/RUBY_birthstone_gemstone_cut (1).png';
+  img1.src = '../Images/index/Gem/New folder (5)/55074c_main.png';
+  img2.src = '../Images/index/Gem/New folder (5)/RUBY_birthstone_gemstone_cut (1).png';
 })
 
 btn6.addEventListener('click', () => {
-  img1.src = '../Images/Gem/New folder (6)/BR30402000_main.png';
-  img2.src = '../Images/Gem/New folder (6)/PERIDOT_birthstone_gemstone_cut (1).png';
+  img1.src = '../Images/index/Gem/New folder (6)/BR30402000_main.png';
+  img2.src = '../Images/index/Gem/New folder (6)/PERIDOT_birthstone_gemstone_cut (1).png';
 })
 
 btn7.addEventListener('click', () => {
-  img1.src = '../Images/Gem/New folder (7)/SR30500400_heroNEW.png';
-  img2.src = '../Images/Gem/New folder (7)/SAPPHIRE_birthstone_gemstone_cut (1).png';
+  img1.src = '../Images/index/Gem/New folder (7)/SR30500400_heroNEW.png';
+  img2.src = '../Images/index/Gem/New folder (7)/SAPPHIRE_birthstone_gemstone_cut (1).png';
 })
 
 btn8.addEventListener('click', () => {
-  img1.src = '../Images/Gem/New folder (8)/50656_main.png';
-  img2.src = '../Images/Gem/New folder (8)/CITRINE_birthstone_gemstone_cut (1).png';
+  img1.src = '../Images/index/Gem/New folder (8)/50656_main.png';
+  img2.src = '../Images/index/Gem/New folder (8)/CITRINE_birthstone_gemstone_cut (1).png';
 })
 
 btn9.addEventListener('click', () => {
-  img1.src = '../Images/Gem/New folder (9)/6603_main.png';
-  img2.src = '../Images/Gem/New folder (9)/TOPAZ_birthstone_gemstone_cut (1).png';
+  img1.src = '../Images/index/Gem/New folder (9)/6603_main.png';
+  img2.src = '../Images/index/Gem/New folder (9)/TOPAZ_birthstone_gemstone_cut (1).png';
 })
 
 function Amethyst() {
