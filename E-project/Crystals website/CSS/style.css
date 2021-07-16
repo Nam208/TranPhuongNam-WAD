@@ -1876,12 +1876,12 @@ svg {
 }
 .also_button_left{
     position: absolute;
-    left: -2.2%;
+    left: 0.8%;
     bottom: 12%;
 }
 .also_button_right{
     position: absolute;
-    right: -1.8%;
+    right: 1.2%;
     bottom: 12%;
 }
 /*Banner*/
