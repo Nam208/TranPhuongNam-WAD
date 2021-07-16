@@ -1595,6 +1595,7 @@ button .accordion-button collapsed {
 /*--------------------- Shop-by-gem -----------------------*/
 .by-gem {
     text-align: center;
+    margin-bottom: 100px;
 }
 .by-gem h3 {
     font-family: var(--head--font);
@@ -1607,11 +1608,195 @@ button .accordion-button collapsed {
     font-size: 14px;
     font-weight: 500;
 }
-
-
-
-
-
+/*--------------------- Eagle -----------------------*/
+.eagle-content {
+    text-align: center;
+}
+.eagle-content h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+    text-decoration: underline;
+}
+.eagle-content p {
+    font-family: var(--content--font);
+    font-size: 16px;
+    padding-top: 10px;
+}
+.eagle h5 {
+    text-align: center;
+    padding-top: 20px;
+    background-color: #f9f9f9;
+    height: 100px;
+}
+.eagle h5 a {
+    border: 1px solid #000;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #000;
+    font-family: var(--content--font);
+    font-size: 16px;
+    font-weight: 500;
+}
+.eagle h5 a:hover {
+    background-color: var(--underline--color);
+    color: white;
+}
+/*--------------------- ban-foot -----------------------*/
+.all-jew-foot {
+    position: relative;
+}
+.jew-foot-content {
+    max-width: 350px;
+    position: absolute;
+    top: 30%;
+    right: 4%;
+}
+.all-res-foot a,
+.all-jew-foot a {
+    text-decoration: none;
+    color: #000;
+}
+.all-res-foot h3,
+.jew-foot-content h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+    text-decoration: underline; 
+}
+.all-res-foot p,
+.jew-foot-content p {
+    font-family: var(--content--font);
+    font-size: 15px;
+}
+.all-res-foot h5,
+.jew-foot-content h5 {
+    font-family: var(--content--font);
+    font-size: 15px;
+    text-decoration: underline;
+}
+.all-res-foot {
+    display: none;
+}
+/*--------------------- all-engagement -----------------------*/
+.en-banner {
+    position: relative;
+    margin-bottom: 30px;
+}
+.en-res-ban a,
+.en-banner a {
+    text-decoration: none;
+    color: #000;
+}
+.en-ban-content {
+    width: 500px;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+.en-res-ban h3,
+.en-ban-content h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+    text-decoration: underline; 
+}
+.en-res-ban p,
+.en-ban-content p {
+    font-family: var(--content--font);
+    font-size: 15px;
+}
+.en-res-ban h5,
+.en-ban-content h5 {
+    font-family: var(--content--font);
+    font-size: 15px;
+    text-decoration: underline;
+}
+.en-res-ban {
+    display: none;
+}
+/*--------------------- shop -----------------------*/
+.shop {
+    margin-top: 20px;
+    text-align: center;
+}
+.shop a {
+    text-decoration: none;
+    color: #000;
+}
+.shop h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+}
+.shop p {
+    font-family: var(--content--font);
+    font-size: 15px;
+}
+.shop h5 {
+    font-family: var(--content--font);
+    font-size: 15px;
+    text-decoration: underline;
+}
+.shop .container {
+    padding-top: 30px;
+}
+.shop img {
+    margin-bottom: 25px;
+}
+/*--------------------- legacy -----------------------*/
+.legacy {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.en-ban2-content {
+    width: 450px;
+    position: absolute;
+    top: 23%;
+    right: 5%;
+}
+.legacy a {
+    text-decoration: none;
+    color: #000;
+}
+.legacy h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+    text-decoration: underline;
+}
+.legacy p {
+    font-family: var(--content--font);
+    font-size: 15px;
+}
+.legacy h5 {
+    font-family: var(--content--font);
+    font-size: 15px;
+    text-decoration: underline;
+}
+.res-ban2-content {
+    display: none;
+}
+/*--------------------- descrip -----------------------*/
+.des {
+    margin-top:50px;
+    height:100%
+}
+.des .col {
+    padding: 0;
+    position: relative;
+}
+.col-content {
+    max-width: 400px;
+}
+.des .row {
+    align-items: center;
+}
+.des h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+    text-decoration: underline;
+}
+.des p {
+    font-family: var(--content--font);
+    font-size: 16px;
+}
 
 
 
@@ -1620,17 +1805,44 @@ button .accordion-button collapsed {
 
 
 @media screen and (max-width: 900px){
+    .all-jew-foot,
     .all-jew-banner,
-    .all-jew-list {
+    .all-jew-list,
+    .en-banner,
+    .en-ban2-content {
         display: none;
     }
+    .en-res-ban,
     .all-ban-res,
-    .all-res {
+    .all-res,
+    .res-ban2-content {
         display: block;
-    }
-    
+    }    
 }    
-
+@media screen and (max-width: 700px) {
+    .shop h5 a {
+        border: 1px solid black;
+        padding: 10px 50px;
+        margin-top: 20px;
+    }
+    .shop h5 {
+        text-decoration: none;
+    }
+    .shop h5 i {
+        display: none;
+    }
+    .shop p {
+        padding-bottom: 15px;
+    }
+    .shop .col {
+        min-width: 300px;
+        margin-top: 30px;
+    }
+    .shop h5 a:hover {
+        background-color: var(--underline--color);
+        color: white;
+    }
+}
 
 
 
