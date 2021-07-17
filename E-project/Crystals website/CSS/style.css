@@ -2490,8 +2490,12 @@ svg {
 }
 
 
+.patition_color .page-link{
+    color:#333;
+}
 
-/*                                                       */
+
+/*                    End Rings                                   */
 .hr-theme-slash-2 {
     display: flex;
     justify-content: center;
