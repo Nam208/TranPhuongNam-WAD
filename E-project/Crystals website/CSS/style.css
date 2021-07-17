@@ -420,7 +420,6 @@
 .best-sell {
     margin-top: 60px;
     text-align: center;
-    border-bottom: 2px solid var(--underline--color);
     padding-bottom: 55px;
 }
 .best-sell h3 {
@@ -458,7 +457,6 @@
 /*----------------- What's New ---------------------*/
 .new-body {
     text-align: center;
-    border-bottom: 2px solid var(--underline--color);
     padding-bottom: 55px;
 }
 .new-body h3 {
@@ -597,8 +595,7 @@
 }
 /*----------------------- Shop by Category -------------*/
 .shop-by-category {
-    margin-top: 10px;
-    border-top: 2px solid var(--underline--color);   
+    margin-top: 10px;   
 }
 .shop-by-category a {
     text-decoration: none;
@@ -625,7 +622,6 @@
 }
 #category img {
     width: 100%;
-    border:1px solid #b7b7b7;
     max-width: 100%;
 }
 #category .col {
@@ -804,6 +800,22 @@ form .txt_field {
     background-color: var(--underline--color);
     color: white;
 }
+.hr-theme-slash-2 {
+    display: flex;
+    justify-content: center;
+}    
+.hr-line {
+  width: 20%;
+  position: relative;
+  margin: 15px;
+  border-bottom: 2px solid var(--underline--color);
+}
+.hr-icon {
+  position: relative;
+  top: 3px;
+  color: var(--underline--color);
+  font-size: 20px;
+}
 #Care h5, #Company h5, #Social h5 {
     font-size: 15px;
     font-family: var(--content--font);
@@ -920,10 +932,8 @@ button .accordion-button collapsed {
     .crystals #cry-col {
         padding-left: 3%;
     }
+    content,
     footer {
-        position: relative;
-    }
-    content {
         position: relative;
     }
     .res-header {
@@ -1087,10 +1097,16 @@ button .accordion-button collapsed {
 	background-color: #81d8d0;
 	left: calc(50% - 1px);
 }
+.timeline-items img::after{
+	content: '';
+	position: absolute;
+	height: 100%;
+	background-color: #81d8d0;
+	right: calc(50% + 1px);
+}
 .timeline-item{
 	margin-bottom: 40px;
 	position: relative;
-    float: left;
     width: 100%;
 }
 .timeline-item:last-child{
@@ -1106,7 +1122,7 @@ button .accordion-button collapsed {
 .timeline-dot{
 	height: 16px;
 	width: 16px;
-	background-color: #d881d8;
+	background-color: #000000;
 	position: absolute;
 	left: calc(50% - 8px);
 	border-radius: 50%;
@@ -1118,6 +1134,7 @@ button .accordion-button collapsed {
 	margin:6px 0 15px;
     font-weight: bold;
     text-transform: uppercase;
+    font-family: var(--logo--font);
 }
 .timeline-content{
     background-color: #81d8d0;
@@ -1137,19 +1154,21 @@ button .accordion-button collapsed {
 	margin:0 0 10px;
 	text-transform: capitalize;
 	font-weight: 500;
-    
+    font-family: var(--head--font);
 }
 .timeline-content p{
     color: #000;
 	font-size: 16px;
 	font-weight: 350;
 	line-height: 22px;
+    font-family: var(--content--font);
 }
 .ab-tl-title h2{
     color: #000;
 	text-align: center;
 	text-transform: capitalize;
 	font-weight: 500;
+    font-family: var(--logo--font);
 }
 .ab-tl-title p{
     color: #000;
@@ -1176,6 +1195,8 @@ button .accordion-button collapsed {
 .time_1 img,
 .time_2 img {
     border-radius: 5px;
+    width: 470px;
+    height: 407px;
 }
 .time_1:hover,
 .time_2:hover{
@@ -1376,9 +1397,6 @@ button .accordion-button collapsed {
 
 
 
-
-
-
 /*---------------------Sign-In-----------------------*/
 .sign-create {
     padding-top: 200px;
@@ -1523,7 +1541,7 @@ button .accordion-button collapsed {
     font-size: 15px;
 }
 .all-jew-content {
-    padding-bottom: 35px;
+    padding-bottom: 30px;
 }
 .all-res h5 a,
 .all-jew-list h5 a {
@@ -1541,7 +1559,6 @@ button .accordion-button collapsed {
 }
 .all-res {
     background-color: #f5f5f5;
-    padding-top: 30px;
     display: none;
 }
 .all-res h5 {
@@ -1586,12 +1603,211 @@ button .accordion-button collapsed {
 .aj-res-text {
     padding: 10px 16px 0;
 }
-
-
-
-
-
-
+/*--------------------- Shop-by-gem -----------------------*/
+.by-gem {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.by-gem h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+.by-gem .p-2 {
+    background-color: var(--underline--color);
+    font-family: var(--content--font);
+    font-size: 14px;
+    font-weight: 500;
+}
+/*--------------------- Eagle -----------------------*/
+.eagle-content {
+    text-align: center;
+}
+.eagle-content h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+    text-decoration: underline;
+}
+.eagle-content p {
+    font-family: var(--content--font);
+    font-size: 16px;
+    padding-top: 10px;
+}
+.eagle h5 {
+    text-align: center;
+    padding-top: 20px;
+    background-color: #f9f9f9;
+    height: 100px;
+}
+.eagle h5 a {
+    border: 1px solid #000;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #000;
+    font-family: var(--content--font);
+    font-size: 16px;
+    font-weight: 500;
+}
+.eagle h5 a:hover {
+    background-color: var(--underline--color);
+    color: white;
+}
+/*--------------------- ban-foot -----------------------*/
+.all-jew-foot {
+    position: relative;
+}
+.jew-foot-content {
+    max-width: 350px;
+    position: absolute;
+    top: 30%;
+    right: 4%;
+}
+.all-res-foot a,
+.all-jew-foot a {
+    text-decoration: none;
+    color: #000;
+}
+.all-res-foot h3,
+.jew-foot-content h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+    text-decoration: underline; 
+}
+.all-res-foot p,
+.jew-foot-content p {
+    font-family: var(--content--font);
+    font-size: 15px;
+}
+.all-res-foot h5,
+.jew-foot-content h5 {
+    font-family: var(--content--font);
+    font-size: 15px;
+    text-decoration: underline;
+}
+.all-res-foot {
+    display: none;
+}
+/*--------------------- all-engagement -----------------------*/
+.en-banner {
+    position: relative;
+    margin-bottom: 30px;
+}
+.en-res-ban a,
+.en-banner a {
+    text-decoration: none;
+    color: #000;
+}
+.en-ban-content {
+    width: 500px;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+.en-res-ban h3,
+.en-ban-content h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+    text-decoration: underline; 
+}
+.en-res-ban p,
+.en-ban-content p {
+    font-family: var(--content--font);
+    font-size: 15px;
+}
+.en-res-ban h5,
+.en-ban-content h5 {
+    font-family: var(--content--font);
+    font-size: 15px;
+    text-decoration: underline;
+}
+.en-res-ban {
+    display: none;
+}
+/*--------------------- shop -----------------------*/
+.shop {
+    margin-top: 20px;
+    text-align: center;
+}
+.shop a {
+    text-decoration: none;
+    color: #000;
+}
+.shop h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+}
+.shop p {
+    font-family: var(--content--font);
+    font-size: 15px;
+}
+.shop h5 {
+    font-family: var(--content--font);
+    font-size: 15px;
+    text-decoration: underline;
+}
+.shop .container {
+    padding-top: 30px;
+}
+.shop img {
+    margin-bottom: 25px;
+}
+/*--------------------- legacy -----------------------*/
+.legacy {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.en-ban2-content {
+    width: 450px;
+    position: absolute;
+    top: 23%;
+    right: 5%;
+}
+.legacy a {
+    text-decoration: none;
+    color: #000;
+}
+.legacy h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+    text-decoration: underline;
+}
+.legacy p {
+    font-family: var(--content--font);
+    font-size: 15px;
+}
+.legacy h5 {
+    font-family: var(--content--font);
+    font-size: 15px;
+    text-decoration: underline;
+}
+.res-ban2-content {
+    display: none;
+}
+/*--------------------- descrip -----------------------*/
+.des {
+    margin-top:50px;
+    height:100%
+}
+.des .col {
+    padding: 0;
+    position: relative;
+}
+.col-content {
+    max-width: 400px;
+}
+.des .row {
+    align-items: center;
+}
+.des h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+    text-decoration: underline;
+}
+.des p {
+    font-family: var(--content--font);
+    font-size: 16px;
+}
 
 
 
@@ -1600,17 +1816,44 @@ button .accordion-button collapsed {
 
 
 @media screen and (max-width: 900px){
+    .all-jew-foot,
     .all-jew-banner,
-    .all-jew-list {
+    .all-jew-list,
+    .en-banner,
+    .en-ban2-content {
         display: none;
     }
+    .en-res-ban,
     .all-ban-res,
-    .all-res {
+    .all-res,
+    .res-ban2-content {
         display: block;
-    }
-    
+    }    
 }    
-
+@media screen and (max-width: 700px) {
+    .shop h5 a {
+        border: 1px solid black;
+        padding: 10px 50px;
+        margin-top: 20px;
+    }
+    .shop h5 {
+        text-decoration: none;
+    }
+    .shop h5 i {
+        display: none;
+    }
+    .shop p {
+        padding-bottom: 15px;
+    }
+    .shop .col {
+        min-width: 300px;
+        margin-top: 30px;
+    }
+    .shop h5 a:hover {
+        background-color: var(--underline--color);
+        color: white;
+    }
+}
 
 
 
@@ -1856,12 +2099,12 @@ svg {
 }
 .also_button_left{
     position: absolute;
-    left: -2.2%;
+    left: 0.8%;
     bottom: 12%;
 }
 .also_button_right{
     position: absolute;
-    right: -1.8%;
+    right: 1.2%;
     bottom: 12%;
 }
 /*Banner*/
@@ -2136,3 +2379,90 @@ svg {
    font-weight: 600;
    color: #000;   
 }
+
+@media screen and (max-width: 750px){
+   #head-ban-res_rings {
+       display: block;
+   }
+}
+
+
+
+
+
+.hr-theme-slash-2 {
+    display: flex;
+    justify-content: center;
+}    
+.hr-line {
+  width: 20%;
+  position: relative;
+  margin: 15px;
+  border-bottom: 2px solid var(--underline--color);
+}
+.hr-icon {
+  position: relative;
+  top: 3px;
+  color: var(--underline--color);
+  font-size: 20px;
+}
+/*---------------------News-----------------------*/
+.new_content_1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.new_content_1 h2{
+    font-family: var(--head--font);
+}
+.new_content_1 p{
+    font-family:var(--content--font);
+}
+.new_content_2 h5 {
+    font-family: var(--head--font);
+}
+.new_content_2 p {
+    font-family:var(--content--font);
+}
+.new_content_3 h4 {
+    font-family: var(--head--font);
+}
+.new_content_3 p {
+    font-family:var(--content--font);
+}
+.new_content_4 h4{
+    font-family: var(--head--font);
+}
+.new_content_4 p{
+    font-family:var(--content--font);
+}
+.new_img_1,
+.new_content_1,
+.new_content_2{
+    margin-bottom: 56px;
+}
+.new_img_2,
+.new_img_4{
+    position: relative;
+    padding-bottom: 56px;
+}
+.new_img_3{
+    padding: 4px;
+}
+.new_content_3{
+    width: 35%;
+    top:40%;
+    left: 55%;
+    position: absolute;
+}
+.size_fix{
+    padding:0px 52px 80px 52px;
+    margin: 0 !important;
+}
+
+.new_content_4{
+    width: 33%;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
