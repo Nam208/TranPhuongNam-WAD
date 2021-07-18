@@ -2503,4 +2503,41 @@ svg {
         text-align: center;
     }
 }
+/*---------------------News-----------------------*/
 
+.sp1 {
+    
+    width: 100%;
+}
+.sp1 img{
+    
+    height: auto;
+}
+.sp1 h4{
+    font-family: var(--head--font);
+}
+.so_sanh_img{
+    display: flex;
+    text-align: center;
+    padding:6px;
+}
+.so_sanh_size {
+    margin-top: 56px;
+}
+.so_sanh_1 {
+    font-family: var(--content--font);
+}
+.so_sanh_1 td{
+    font-family: var(--content--font);
+}
+@media screen and (max-width:442px) {
+    .so_sanh_1 th{
+        font-size: 12px;
+    }
+    .so_sanh_1 {
+        font-size: 13px;
+    }
+    .so_sanh_1 td{
+        font-size: 11px;
+    }
+}
