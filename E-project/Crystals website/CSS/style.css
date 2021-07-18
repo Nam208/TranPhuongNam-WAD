@@ -2488,7 +2488,7 @@ svg {
     }
  }
 
-/*               Rings                   */
+/* ----------------    --------------------          Rings          -------------------         */
 
 .container__rings .card-body {
     display: none;
@@ -2524,10 +2524,11 @@ svg {
      outline: none !important;
      width: fit-content;
      margin-right: 15px;
-    
+    font-size: 12px;
 }
-.fix-boostrap{
+.Ring-filters .fix-boostrap{
     margin-left: auto;
+    font-size: 12px;
 }
 .Ring-filters .form-select:nth-of-type(1){
     padding-left: 0;
@@ -2580,12 +2581,14 @@ svg {
 .filter-text{
     margin-right: 15px;
     color: grey;
+    font-size: 12px;
 }
 .fix-boostrap span{
     color: grey;
 }
 .slide-showing-text  {
     padding-left: 12px;
+    font-size: 12px;
 }
 
 .breadcrumb-position{
@@ -2602,8 +2605,8 @@ svg {
    }
 }
 @media screen and (max-width:992px){
-    .filter-text{
-        display: block;
+    .fix-boostrap .fix-boostrap_res,.filter-text{
+        display: none;
     }
     .Ring-filters__inner{
         flex-wrap: wrap;
@@ -2612,11 +2615,8 @@ svg {
         flex-basis: 100%;
         margin-top: 8px;
     }
-    .fix-boostrap select.form-select{
-        width:calc(70% - 57px);
-    }
     .Ring-filters .form-select{
-        width: 70%;
+        width: 50%;
         display: inline-block;
         /* min-width: 280px; */
     }
@@ -2637,7 +2637,15 @@ svg {
     color:#000;
     text-decoration: none ;
     border-bottom: 2px solid var(--underline--color) ;
-    font-size: 15px;
+    font-size: 12px; 
+}
+
+.breadcrumb-item + .breadcrumb-item::before{
+    font-size: 12px;
+}
+.Rings_breadcrum-links_active{
+    /* font-size: 0.8rem; */
+    font-size: 12px;
 }
 .carousel-control-next-icon{
     background-image: url(../Images/Rings/right-chevron\ \(1\).svg);
