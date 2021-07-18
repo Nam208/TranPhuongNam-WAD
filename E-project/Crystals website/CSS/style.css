@@ -39,6 +39,12 @@
     font-family: var(--content--font);
     font-size: 13px;
 }
+#about {
+    margin-left: 20px;
+}
+#about:hover {
+    border-bottom: 3px solid var(--underline--color);
+}
 #top-left {
     height: 30px;
     padding-left: 0 0 0 16px;
@@ -1791,10 +1797,11 @@ button .accordion-button collapsed {
 }
 .des .col {
     padding: 0;
-    position: relative;
+    width: 100%;
 }
 .col-content {
     max-width: 400px;
+    margin: auto;
 }
 .des .row {
     align-items: center;
@@ -1808,27 +1815,174 @@ button .accordion-button collapsed {
     font-family: var(--content--font);
     font-size: 16px;
 }
+.col-content-res {
+    display: none;
+}
+/*--------------------- all-home -----------------------*/
+.home-ban {
+    position: relative;
+}
+.home-ban-res a,
+.home-ban a {
+    text-decoration: none;
+    color: #000;
+}
+.home-content {
+    width: 430px;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.home-content-res h3,
+.home-content h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+    text-decoration: underline; 
+}
+.home-content-res p,
+.home-content p {
+    font-family: var(--content--font);
+    font-size: 16px;
+}
+.home-content-res h5,
+.home-content h5 {
+    font-family: var(--content--font);
+    font-size: 15px;
+    text-decoration: underline;
+}
+.home-content-res {
+    padding-left: 10px;
+}
+.home-ban-res {
+    display: none;
+}
+/*--------------------- animal -----------------------*/
+.animal {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 40px 
+}
+.animal h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+}
+.animal p {
+    font-family: var(--content--font);
+    font-size: 16px;
+}
+.animal h5 {
+    font-family: var(--content--font);
+    font-size: 16px;
+    padding-top: 10px;
+}
+.animal a {
+    text-decoration: none;
+    color: #000;
+}
+/*--------------------- office-vase -----------------------*/
+.vase-office {
+    margin-top: 55px;
+}
+.vase-office-res a,
+.vase-office a {
+    text-decoration: none;
+    color: #000;
+}
+.vase-office-content {
+    text-align: center;
+    margin-top: 10px;
+}
+.vase-office-res h3,
+.vase-office-content h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+}
+.vase-office-res p,
+.vase-office-content p {
+    font-family: var(--content--font);
+    font-size: 16px;
+}
+.vase-office-res h5,
+.vase-office-content h5 {
+    font-family: var(--content--font);
+    font-size: 15px;
+    text-decoration: underline;
+}
+.vase-office-res {
+    display: none;
+}
+/*--------------------- vase-ban2 -----------------------*/
+.vase-ban2 {
+    position: relative;
+}
+.vase-ban2-content {
+    width: 400px;
+    position: absolute;
+    top: 19%;
+    left: 5%;
+}
+.vase-ban2-res a,
+.vase-ban2 a {
+    text-decoration: none;
+    color: #000;
+}
+.vase-ban2-res h3,
+.vase-ban2 h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+    text-decoration: underline;
+}
+.vase-ban2-res p,
+.vase-ban2 p {
+    font-family: var(--content--font);
+    font-size: 16px;
+}
+.vase-ban2-res h5,
+.vase-ban2 h5 {
+    font-family: var(--content--font);
+    font-size: 15px;
+    text-decoration: underline;
+}
+.vase-ban2-res {
+    display: none;
+}
 
 
 
-
-
-
-
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
     .all-jew-foot,
     .all-jew-banner,
     .all-jew-list,
     .en-banner,
-    .en-ban2-content {
+    .en-ban2-content,
+    .home-ban,
+    .vase-ban2 {
         display: none;
     }
     .en-res-ban,
     .all-ban-res,
     .all-res,
-    .res-ban2-content {
+    .res-ban2-content,
+    .home-ban-res,
+    .vase-ban2-res {
         display: block;
-    }    
+    }
+}    
+@media screen and (max-width: 815px) {
+    .col-content,
+    .vase-office {
+        display: none;
+    }
+    .vase-office-res {
+        display: block;
+    }
+    .col-content-res {
+        display: inline-block;
+    }
+    .des .col, 
+    .col-content {
+        min-width: 400px;
+    }
 }    
 @media screen and (max-width: 700px) {
     .shop h5 a {
@@ -2458,11 +2612,9 @@ svg {
     padding:0px 52px 80px 52px;
     margin: 0 !important;
 }
-
 .new_content_4{
     width: 33%;
     position: absolute;
     top: 40%;
     left: 10%;
 }
-
