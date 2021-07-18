@@ -2024,6 +2024,14 @@ svg {
     color: white;
     height: 50px;
 }
+.add_to_cart a{
+    text-decoration: none;
+    color:white;
+}
+#book_detail a {
+    text-decoration: none;
+    color:black;
+}
 .add_to_cart:hover {
     color: black;
     background-color:#81d8d0;
