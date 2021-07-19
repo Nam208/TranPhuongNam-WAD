@@ -1619,6 +1619,10 @@ button .accordion-button collapsed {
     text-align: center;
     margin-bottom: 100px;
 }
+.by-gem a {
+    text-decoration: none;
+    color: #000;
+}
 .by-gem h3 {
     font-family: var(--head--font);
     font-size: 35px;
