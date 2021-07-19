@@ -1331,6 +1331,10 @@ button .accordion-button collapsed {
     height:450px;
     border-radius: 3px;
 }
+.location_detail h4{
+    font-family: var(--content--font);
+    font-weight: normal;
+}
 .sub_mit{
     width: 100%;
 }
@@ -1359,6 +1363,9 @@ button .accordion-button collapsed {
 .FAQ_detail .FAQ_heading
  {
     font-family: var(--head--font);
+}
+.check_mar {
+    margin-top: 11.7%;
 }
 @media screen and (max-width:1024px){
     .contact_us_detail,
