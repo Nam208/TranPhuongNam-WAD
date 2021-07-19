@@ -2824,3 +2824,121 @@ svg {
         font-size: 11px;
     }
 }
+
+
+/*---------------------Checkout-----------------------*/
+.check_out {
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+.img_check_out {
+    border : 1px solid black;
+}
+.card_type .master i,
+.card_type .visa i,
+.card_type .paypal i,
+.card_type .apple i {
+    font-size: 40px;
+}
+.card_type .master i:hover,
+.card_type .visa i:hover,
+.card_type .paypal i:hover,
+.card_type .apple i:hover {
+    transform: scale(1.1);
+}
+.checkout_product h5, 
+.checkout_info form h5 {
+    font-family: var(--content--font);
+    font-size: 35;
+}
+.checkout_product p, 
+.checkout_info form p,
+.checkout_info form label{
+    font-family: var(--content--font);
+    font-size: 35;
+}
+.card_type a i {
+    margin-right:20px;
+}
+.confirm {
+    background-color: black;
+}
+.confirm {
+    text-decoration: none;
+    color: white;
+}
+.confirm:hover {
+    background-color: #81d8d0;
+}
+@media screen and (max-width:767px) {
+    .checkout_info {
+        margin-top: 56px;
+    }
+}
+/*---------------------Success-----------------------*/
+.payment
+	{
+		border:1px solid #f2f2f2;
+		height:330px;
+        border-radius:20px;
+        background:#fff;
+	}
+   .payment_header
+   {
+	   background:#81d8d0;
+	   padding:20px;
+       border-radius:20px 20px 0px 0px;
+	   
+   }
+   
+   .check_success
+   {
+	   margin:0px auto;
+	   width:50px;
+	   height:50px;
+	   border-radius:100%;
+	   background:#fff;
+	   text-align:center;
+   }
+   
+   .check_success i
+   {
+	   vertical-align:middle;
+	   line-height:50px;
+	   font-size:30px;
+   }
+
+    .content_success 
+    {
+        text-align:center;
+    }
+
+    .content_success  h1
+    {
+        font-size:25px;
+        padding-top:25px;
+        font-family: var(--content--font);
+    }
+    .content_success  p
+    {
+        font-family: var(--content--font);
+    }
+
+    .content_success a
+    {
+        width:200px;
+        height:35px;
+        color:#fff;
+        border-radius:30px;
+        padding:5px 10px;
+        background:#81d8d0;
+        transition:all ease-in-out 0.3s;
+        text-decoration: none;
+        font-family: var(--content--font);
+    }
+
+    .content_success a:hover
+    {
+        text-decoration:none;
+        background:#000;
+    }
