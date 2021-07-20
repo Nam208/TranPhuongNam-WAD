@@ -18,7 +18,7 @@ var icon = document.getElementById('res-icon');
 var navbarWidth = navbar.clientWidth;
   icon.onclick = function() {
     navbar.classList.toggle("active");
-  }
+  };
 
 //------------ Resnew --------------- //  
 var resnew = document.getElementById('res-new');
@@ -42,32 +42,7 @@ var resnewWidth = resnew.clientWidth;
     } else {
       resnew.style.display = 'none';
     } 
-  }
-
-//------------ Rescrystal --------------- //   
-  var rescry = document.getElementById('res-crystal');
-  var crystal = document.getElementById('cry-stal');
-  var back = document.getElementById('backcry');
-  var rescryWidth = rescry.clientWidth;
-    crystal.onclick = function() {
-      var isClosed = rescry.clientWidth === rescryWidth;
-        if (isClosed) {
-          rescry.style.width = 'auto';
-          rescry.style.display = 'block';
-        } else {
-          rescry.style.width = null;
-          rescry.style.display = 'none';
-        }
-    }
-    back.onclick = function() {
-      var isClosed = rescry.clientWidth === rescryWidth;
-      if (isClosed) {
-        rescry.style.display = 'block';
-      } else {
-        rescry.style.display = 'none';
-      } 
-    }
- 
+  };
 //------------ Resjew --------------- //   
 var resjew = document.getElementById('res-jew');
 var jewelry = document.getElementById('jew-elry');
@@ -90,7 +65,7 @@ var resjewWidth = resjew.clientWidth;
     } else {
       resjew.style.display = 'none';
     } 
-  }
+  };
   
 //------------ Reshome --------------- //   
 var reshome = document.getElementById('res-home');
@@ -114,7 +89,7 @@ var reshomeWidth = reshome.clientWidth;
     } else {
       reshome.style.display = 'none';
     } 
-  }
+  };
 
 //------------ Reshome --------------- //   
 var resgift = document.getElementById('res-gift');
@@ -138,7 +113,7 @@ var resgiftWidth = resgift.clientWidth;
     } else {
       resgift.style.display = 'none';
     } 
-  }
+  };
   
 //------------ Reshome --------------- //   
 var resabout = document.getElementById('res-about');
@@ -162,7 +137,7 @@ var resaboutWidth = resabout.clientWidth;
     } else {
       resabout.style.display = 'none';
     } 
-  }  
+  };
 
 
 
@@ -188,42 +163,42 @@ btn1.addEventListener('click', () => {
 btn2.addEventListener('click', () => {
   img1.src = '../Images/index/Gem/New folder (2)/47286c_main.png';
   img2.src = '../Images/index/Gem/New folder (2)/AQUAMARINE_birthstone_gemstone_cut (1).png';
-})
+});
 
 btn3.addEventListener('click', () => {
   img1.src = '../Images/index/Gem/New folder (3)/6853_main.png';
   img2.src = '../Images/index/Gem/New folder (3)/DIAMOND_birthstone_gemstone_cut (1).png';
-})
+});
 
 btn4.addEventListener('click', () => {
   img1.src = '../Images/index/Gem/New folder (4)/EE30400800_hero.png';
   img2.src = '../Images/index/Gem/New folder (4)/EMERALD_birthstone_gemstone_cut (1).png';
-})
+});
 
 btn5.addEventListener('click', () => {
   img1.src = '../Images/index/Gem/New folder (5)/55074c_main.png';
   img2.src = '../Images/index/Gem/New folder (5)/RUBY_birthstone_gemstone_cut (1).png';
-})
+});
 
 btn6.addEventListener('click', () => {
   img1.src = '../Images/index/Gem/New folder (6)/BR30402000_main.png';
   img2.src = '../Images/index/Gem/New folder (6)/PERIDOT_birthstone_gemstone_cut (1).png';
-})
+});
 
 btn7.addEventListener('click', () => {
   img1.src = '../Images/index/Gem/New folder (7)/SR30500400_heroNEW.png';
   img2.src = '../Images/index/Gem/New folder (7)/SAPPHIRE_birthstone_gemstone_cut (1).png';
-})
+});
 
 btn8.addEventListener('click', () => {
   img1.src = '../Images/index/Gem/New folder (8)/50656_main.png';
   img2.src = '../Images/index/Gem/New folder (8)/CITRINE_birthstone_gemstone_cut (1).png';
-})
+});
 
 btn9.addEventListener('click', () => {
   img1.src = '../Images/index/Gem/New folder (9)/6603_main.png';
   img2.src = '../Images/index/Gem/New folder (9)/TOPAZ_birthstone_gemstone_cut (1).png';
-})
+});
 
 function Amethyst() {
   document.getElementById("cry-name").innerHTML=("AMETHYST");
@@ -272,39 +247,36 @@ function Topaz() {
 };
 
 /*                            Rings                                             */
-var myCarousel = document.querySelector('#carouselExampleControlsNoTouching1')
-var carousel = new bootstrap.Carousel(myCarousel)
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching1');
+var carousel = new bootstrap.Carousel(myCarousel);
 
-var myCarousel = document.querySelector('#carouselExampleControlsNoTouching2')
-var carousel = new bootstrap.Carousel(myCarousel)
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching2');
+var carousel = new bootstrap.Carousel(myCarousel);
 
-var myCarousel = document.querySelector('#carouselExampleControlsNoTouching3')
-var carousel = new bootstrap.Carousel(myCarousel)
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching4');
+var carousel = new bootstrap.Carousel(myCarousel);
 
-var myCarousel = document.querySelector('#carouselExampleControlsNoTouching4')
-var carousel = new bootstrap.Carousel(myCarousel)
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching5');
+var carousel = new bootstrap.Carousel(myCarousel);
 
-var myCarousel = document.querySelector('#carouselExampleControlsNoTouching5')
-var carousel = new bootstrap.Carousel(myCarousel)
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching6');
+var carousel = new bootstrap.Carousel(myCarousel);
 
-var myCarousel = document.querySelector('#carouselExampleControlsNoTouching6')
-var carousel = new bootstrap.Carousel(myCarousel)
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching7');
+var carousel = new bootstrap.Carousel(myCarousel);
 
-var myCarousel = document.querySelector('#carouselExampleControlsNoTouching7')
-var carousel = new bootstrap.Carousel(myCarousel)
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching8');
+var carousel = new bootstrap.Carousel(myCarousel);
 
-var myCarousel = document.querySelector('#carouselExampleControlsNoTouching8')
-var carousel = new bootstrap.Carousel(myCarousel)
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching9');
+var carousel = new bootstrap.Carousel(myCarousel);
 
-var myCarousel = document.querySelector('#carouselExampleControlsNoTouching9')
-var carousel = new bootstrap.Carousel(myCarousel)
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching10');
+var carousel = new bootstrap.Carousel(myCarousel);
 
-var myCarousel = document.querySelector('#carouselExampleControlsNoTouching10')
-var carousel = new bootstrap.Carousel(myCarousel)
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching11');
+var carousel = new bootstrap.Carousel(myCarousel);
 
-var myCarousel = document.querySelector('#carouselExampleControlsNoTouching11')
-var carousel = new bootstrap.Carousel(myCarousel)
-
-var myCarousel = document.querySelector('#carouselExampleControlsNoTouching12')
-var carousel = new bootstrap.Carousel(myCarousel)
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching12');
+var carousel = new bootstrap.Carousel(myCarousel);
 
