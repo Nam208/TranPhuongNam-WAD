@@ -2981,6 +2981,7 @@ svg {
 }
 .new_img_3{
     padding: 4px;
+    position: relative;
 }
 .new_content_3{
     width: 35%;
@@ -3001,6 +3002,11 @@ svg {
     position: absolute;
     top: 40%;
     left: 10%;
+}
+.new_fix {
+    position: absolute;
+    top: 2%;
+    left: 78%;
 }
 @media  screen and (max-width:767.98px) {
     .new_content_3{
