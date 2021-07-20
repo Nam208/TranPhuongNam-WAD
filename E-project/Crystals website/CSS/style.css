@@ -1955,7 +1955,41 @@ button .accordion-button collapsed {
 .vase-ban2-res {
     display: none;
 }
-
+/*--------------------- Special -----------------------*/
+.spec-ban1 {
+    position: relative;
+}
+.spec-ban1-res a,
+.spec-ban1 a {
+    color: #000;
+    text-decoration: none;
+}
+.spec-ban1-content {
+    width: 430px;
+    position: absolute;
+    top: 21%;
+    left: 2%;
+}
+.spec-ban1-res h3,
+.spec-ban1-content h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
+    text-decoration: underline;
+}
+.spec-ban1-res p,
+.spec-ban1-content p {
+    font-family: var(--content--font);
+    font-size: 16px;
+}
+.spec-ban1-res h5,
+.spec-ban1-content h5 {
+    font-family: var(--content--font);
+    font-size: 15px;
+    text-decoration: underline;
+}
+.spec-ban1-res {
+    display: none;
+}
 
 
 @media screen and (max-width: 900px) {
@@ -1965,7 +1999,8 @@ button .accordion-button collapsed {
     .en-banner,
     .en-ban2-content,
     .home-ban,
-    .vase-ban2 {
+    .vase-ban2,
+    .spec-ban1 {
         display: none;
     }
     .en-res-ban,
@@ -1973,7 +2008,8 @@ button .accordion-button collapsed {
     .all-res,
     .res-ban2-content,
     .home-ban-res,
-    .vase-ban2-res {
+    .vase-ban2-res,
+    .spec-ban1-res {
         display: block;
     }
 }    
