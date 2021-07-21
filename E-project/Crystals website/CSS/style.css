@@ -2824,17 +2824,17 @@ svg {
 .head-ban-text_rings h3 {
    font-family: var(--head--font);
    font-weight: 200;
-   font-size: 35px;
+   font-size: 30px;
    text-decoration: underline;
 }
 .head-ban-text_rings p {
    font-family: var(--content--font);
-   font-size: 15px;
+   font-size: 14px;
    font-weight: 400;
 }
 .head-ban-text_rings a {
    font-family: var(--content--font);
-   font-size: 14px;
+   font-size: 13px;
    font-weight: 600;
    color: #000;   
 }
