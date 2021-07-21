@@ -1398,13 +1398,13 @@ img{
 
 }
 .md-title{
-    font-size: 2rem;
-    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-family: var(--content--font);
 }
 .sm-title{
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1rem;
-    text-transform: uppercase;
+    font-family: var(--content--font);
 }
 .SO-text{
     font-size: 1rem;
@@ -1452,12 +1452,21 @@ img{
     opacity: 0;
     transition: opacity 0.6s ease;
 }
+.SO-btns a{
+    text-decoration: none;
+}
+.SO-btns .btn-buy a{
+    color: black;
+}
+.SO-btns .btn-cart a{
+    color:white;
+}
 .btn-cart, .btn-buy{
     background: transparent;
     border: 1px solid black;
     padding: 0.8rem 0;
     width: 125px;
-    font-family: inherit;
+    font-family: var(--content--font);
     text-transform: uppercase;
     cursor: pointer;
     border: none;
@@ -1492,6 +1501,7 @@ img{
     padding-top: 0.6rem;
     padding-right: 0.6rem;
     display: inline-block;
+    font-family: var(--content--font);
 }
 .SO-price:first-of-type{
     text-decoration: line-through;
