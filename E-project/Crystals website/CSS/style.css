@@ -1372,10 +1372,6 @@ button .accordion-button collapsed {
     --gray: #f3f0f0;
 }
 /* Utility stylings */
-img{
-    width: 100%;
-    display: block;
-}
 .Special-Offer{
     width: 88vw;
     margin: 0 auto;
@@ -1444,6 +1440,10 @@ img{
     margin: 0 auto;
     border-radius: 50%;
     transition: background 0.5s ease;
+}
+.SO-img img{
+    width: 100%;
+    display: block;
 }
 .SO-btns{
     display: flex;
