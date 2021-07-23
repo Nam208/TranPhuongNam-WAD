@@ -3126,6 +3126,9 @@ svg {
 }
 .img_check_out {
     border : 1px solid black;
+    width: 150px;
+    height: auto;
+    margin-left: 2.4%;
 }
 .card_type .master i,
 .card_type .visa i,
@@ -3133,22 +3136,48 @@ svg {
 .card_type .apple i {
     font-size: 40px;
 }
-.card_type .master i:hover,
-.card_type .visa i:hover,
-.card_type .paypal i:hover,
-.card_type .apple i:hover {
-    transform: scale(1.1);
+.card_type p {
+    margin-bottom: 0;
 }
+.checkout_product_1 h5,
 .checkout_product h5, 
 .checkout_info form h5 {
     font-family: var(--content--font);
     font-size: 35;
 }
+.checkout_product_1 p,
 .checkout_product p, 
 .checkout_info form p,
 .checkout_info form label{
     font-family: var(--content--font);
     font-size: 35;
+}
+.check_m_r,
+.check_m_l{
+    width: 90%;
+    margin: auto;
+}
+.checkout_product_1 h5,
+.checkout_info h5 ,
+.checkout_product h5,
+.order_info h5{
+    font-family: var(--head--font);
+}
+.order_content th,
+.order_content td{
+    font-family: var(--content--font);
+}
+.check_m_l_1{
+    width: 95%;
+    margin: auto;
+}
+.label_content{
+    margin-left: 5%;
+    font-family: var(--content--font);
+}
+.label_content_1{
+    margin-left: 2%;
+    font-family: var(--content--font);
 }
 .card_type a i {
     margin-right:20px;
@@ -3163,9 +3192,19 @@ svg {
 .confirm:hover {
     background-color: #81d8d0;
 }
+.sub_mit {
+    width: 100%;
+    margin: auto;
+}
 @media screen and (max-width:767px) {
     .checkout_info {
         margin-top: 56px;
+    }
+    .checkout_product {
+        margin-top: 54px;
+    }
+    .order_info {
+        margin-top: 60px;
     }
 }
 /*---------------------Success-----------------------*/
