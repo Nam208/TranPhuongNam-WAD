@@ -1309,7 +1309,7 @@ button .accordion-button collapsed {
     }
   }
 
-/* Contact us */
+/*---------------Contact us -------------*/
 .contact_space{
     margin-top:50px;
 }
@@ -1322,16 +1322,27 @@ button .accordion-button collapsed {
     font-family: var(--content--font);
     font-weight: normal;
 }
+.contact_detail_1 i {
+    font-size: 30px;
+}
+.contact_detail_1 .contact_detail_content {
+    margin-left: 10%;
+}
+.contact_detail_1 h4 {
+    font-family: var(--content--font);
+}
+.contact_detail_1 p {
+    font-family: var(--content--font);
+}
+.contact_mar {
+    margin-bottom: 54px;
+}
 .sub_mit{
     width: 100%;
-}
-.line_contact {
-    width: 30%;
-    margin-bottom: 40px;
-}
-.line_location {
-    width: 24%;
-    margin-bottom: 40px;
+    font-family: var(--content--font);
+    border: 1px solid #81d8d0;
+    background-color: #81d8d0;
+    color: white;
 }
 .your_message::placeholder { 
   position: absolute;
@@ -1351,9 +1362,7 @@ button .accordion-button collapsed {
  {
     font-family: var(--head--font);
 }
-.check_mar {
-    margin-top: 11.7%;
-}
+
 @media screen and (max-width:1024px){
     .contact_us_detail,
     .location_detail {
