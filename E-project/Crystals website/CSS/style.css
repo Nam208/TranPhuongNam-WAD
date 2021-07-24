@@ -2776,17 +2776,22 @@ svg {
     position: absolute;
     top: 15px;
     right: 15px;
-    color: #000;
     margin: 0;
-    border-radius: 2px;
+    border-radius: 3px;
     background: #fff;
+    border: solid 1px #FF0000
+    ;
+    
 }
 .carousel-inner .ring__item-tags p{
     padding: 3px  8px;
     margin-bottom: 0;
     font-size: 11px;
-    font-weight: 300;
+    font-weight: 500;
     text-transform: uppercase;
+    font-family: var(--content--font);
+    color: #FF0000
+    ;
 }
 .container__rings .card-body a {
     color: #333;
