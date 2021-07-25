@@ -582,9 +582,19 @@
     background-color: var(--underline--color);
     color: white;
 }
-
 .table-cry {
     margin-top: 100px;
+}
+#btn1:hover,
+#btn2:hover,
+#btn3:hover,
+#btn4:hover,
+#btn5:hover,
+#btn6:hover,
+#btn7:hover,
+#btn8:hover,
+#btn9:hover {
+    background-color: #dadada;
 }
 /*----------------------- Shop by Category -------------*/
 .shop-by-category {
