@@ -3020,6 +3020,29 @@ svg {
 .new_content_5 p{
     font-family:var(--content--font);
 }
+.new_img_3 .ring__item-tags{
+    z-index: 11;
+    width: 52px;
+    height: 32px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    margin: 0;
+    border-radius: 3px;
+    background: #fff;
+    border: solid 1px #FF0000;
+    
+}
+.new_img_3 .ring__item-tags p{
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: var(--content--font);
+    color: #FF0000;
+}
 .new_img_1,
 .new_content_1,
 .new_content_2{
@@ -3088,7 +3111,7 @@ svg {
         text-align: center;
     }
 }
-/*---------------------News-----------------------*/
+/*---------------------SO SANH-----------------------*/
 
 .sp1 {
     
