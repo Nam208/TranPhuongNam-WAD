@@ -206,3 +206,11 @@ var carousel = new bootstrap.Carousel(myCarousel);
 var myCarousel = document.querySelector('#carouselExampleControlsNoTouching12');
 var carousel = new bootstrap.Carousel(myCarousel);
 
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching13');
+var carousel = new bootstrap.Carousel(myCarousel);
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching14');
+var carousel = new bootstrap.Carousel(myCarousel);
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching15');
+var carousel = new bootstrap.Carousel(myCarousel);
+var myCarousel = document.querySelector('#carouselExampleControlsNoTouching16');
+var carousel = new bootstrap.Carousel(myCarousel);
