@@ -371,7 +371,7 @@
     overflow: hidden;
     z-index: 1;
     width: 0;
-    height: 720px;
+    height: 800px;
     background-color: white;
 }
 /*------------------------------------ head-banner ---------------------- */
@@ -908,6 +908,13 @@ button .accordion-button collapsed {
     font-weight: bold;
 }
 /*-------------  responsive --------------------*/
+@media screen and (min-width: 1024px){
+    #res-navbar,
+    .res-nav-details {
+        display: none;
+    }
+
+}
 @media screen and (max-width: 1024px){
     #map-img {
         display: none;

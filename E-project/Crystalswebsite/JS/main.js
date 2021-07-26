@@ -66,7 +66,6 @@ var resjewWidth = resjew.clientWidth;
       resjew.style.display = 'none';
     } 
   };
-
 //------------ crystals --------------- //   
 let img1 = document.querySelector('#img1');
 let img2 = document.querySelector('#img2');
