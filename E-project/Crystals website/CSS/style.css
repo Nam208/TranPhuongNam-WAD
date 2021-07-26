@@ -2978,6 +2978,12 @@ svg {
     margin-bottom: 6px;
 }
 
+.side-bar-filter__rings a {
+ font-size: 14px;
+ font-weight: bold;
+}
+
+
 /*                    End Rings                                   */
 .hr-theme-slash-2 {
     display: flex;
