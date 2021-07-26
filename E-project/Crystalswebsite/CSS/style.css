@@ -3322,3 +3322,28 @@ svg {
         text-decoration:none;
         background:#000;
     }
+    /*---------------------ADD TO BAG-----------------------*/
+    .check_font{
+        font-family: var(--content--font);
+        font-size: 15px;
+    }
+    .check_font_bag_h{
+        font-family: var(--head--font);
+        font-size: 35px;
+    }
+    @media screen and (max-width:767px){
+        .order_bag {
+            margin-left: 0 !important;
+            width: 100% !important;
+        }
+        .bag_check_content {
+            margin-top: 10%;
+        }
+    }
+    @media screen and (max-width:372px){
+        .img_bag {
+            font-size: 15px;
+            position: absolute;
+            top:2%
+        }
+    }
