@@ -3322,7 +3322,6 @@ svg {
         text-decoration:none;
         background:#000;
     }
-<<<<<<< Updated upstream
     /*---------------------ADD TO BAG-----------------------*/
     .check_font{
         font-family: var(--content--font);
@@ -3350,7 +3349,6 @@ svg {
             width:50% !important;
         }
     }
-=======
 
 
 
@@ -3434,4 +3432,3 @@ svg {
     font-family: var(--content--font);
     font-size: 15px;
 }
->>>>>>> Stashed changes
