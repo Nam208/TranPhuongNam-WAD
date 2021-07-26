@@ -2067,7 +2067,7 @@ button .accordion-button collapsed {
 .home-content-res p,
 .home-content p {
     font-family: var(--content--font);
-    font-size: 16px;
+    font-size: 15px;
 }
 .home-content-res h5,
 .home-content h5 {
@@ -2852,12 +2852,12 @@ svg {
 .head-ban-text_rings h3 {
    font-family: var(--head--font);
    font-weight: 200;
-   font-size: 30px;
+   font-size: 35px;
    text-decoration: underline;
 }
 .head-ban-text_rings p {
    font-family: var(--content--font);
-   font-size: 14px;
+   font-size: 15px;
    font-weight: 400;
 }
 .head-ban-text_rings a {
