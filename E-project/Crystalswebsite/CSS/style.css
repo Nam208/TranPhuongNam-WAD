@@ -3325,9 +3325,11 @@ svg {
     /*---------------------ADD TO BAG-----------------------*/
     .check_font{
         font-family: var(--content--font);
+        font-size: 15px;
     }
     .check_font_bag_h{
         font-family: var(--head--font);
+        font-size: 35px;
     }
     @media screen and (max-width:767px){
         .order_bag {
@@ -3342,6 +3344,8 @@ svg {
         .img_bag {
             font-size: 15px;
             position: absolute;
-            top:2%
+            top:15% !important;
+            right: 0% !important;
+            width:50% !important;
         }
     }
