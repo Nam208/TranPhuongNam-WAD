@@ -2067,7 +2067,7 @@ button .accordion-button collapsed {
 .home-content-res p,
 .home-content p {
     font-family: var(--content--font);
-    font-size: 16px;
+    font-size: 15px;
 }
 .home-content-res h5,
 .home-content h5 {
@@ -2852,12 +2852,12 @@ svg {
 .head-ban-text_rings h3 {
    font-family: var(--head--font);
    font-weight: 200;
-   font-size: 30px;
+   font-size: 35px;
    text-decoration: underline;
 }
 .head-ban-text_rings p {
    font-family: var(--content--font);
-   font-size: 14px;
+   font-size: 15px;
    font-weight: 400;
 }
 .head-ban-text_rings a {
@@ -3322,6 +3322,7 @@ svg {
         text-decoration:none;
         background:#000;
     }
+<<<<<<< HEAD
     /*---------------------ADD TO BAG-----------------------*/
     .check_font{
         font-family: var(--content--font);
@@ -3347,3 +3348,61 @@ svg {
             top:2%
         }
     }
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.test-top h3 {
+    font-size: 35px;
+    font-family: var(--head--font);
+    text-align: center;
+}
+.test-top a {
+    color: #000;
+    text-decoration: none;
+}
+.test-top a:hover {
+    border-bottom: 1px solid var(--underline--color);
+}
+.test-top h5 {
+    text-align: center;
+    font-size: 15px;
+    font-family: var(--content--font);
+    margin-top: 8px;
+}
+.breadcrumb {
+
+}
+.breadcrumb a {
+    color: #000;
+    text-decoration: none;
+    font-family: var(--content--font);
+    font-size: 12px;
+}
+.filter ul {
+    padding: 0px;
+}
+.filter ul li {
+    list-style: none;
+    justify-content: left;
+}
+>>>>>>> c7f79f2a29970561f08f15e268104273ed7512c4
