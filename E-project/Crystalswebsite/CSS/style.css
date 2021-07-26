@@ -3432,3 +3432,17 @@ svg {
     font-family: var(--content--font);
     font-size: 15px;
 }
+.test-footer {
+    text-align: center;
+    margin-top: 25px;
+}
+.test-footer button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 16px;
+    width: 280px;
+    height: 56px;
+    font-family: var(--content--font);
+    font-size: 15px;
+    font-weight: 500;
+}
