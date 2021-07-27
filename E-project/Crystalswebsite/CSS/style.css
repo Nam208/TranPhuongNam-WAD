@@ -201,7 +201,7 @@
     margin-top: 10px;
 }
 .drop-column ul li {
-    line-height: 2.2;
+    line-height: 2.1;
 }
 .drop-column h3 {
     font-family: var(--head--font);
@@ -210,14 +210,14 @@
 }
 .drop-column h5 {
     font-family: var(--content--font);
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     padding-top: 5px;
     text-decoration: underline;
 }
 .drop-column .img-content {
     font-family: var(--content--font);
-    font-size: 14px;
+    font-size: 15px;
     margin-top: 5px;
 }
 .drop-column a {
@@ -309,7 +309,7 @@
 .res-top a,
 .res-navbar a {
     font-family: var(--content--font);
-    font-size: 16px;
+    font-size: 15px;
 }
 .res-top a:hover,
 .res-navbar a:hover {
@@ -335,7 +335,7 @@
     text-decoration: none;
     color: #000;
     font-family: var(--content--font);
-    font-size: 16px;
+    font-size: 15px;
 }
 .res-nav-details h3 {
     font-family: var(--head--font);
@@ -343,9 +343,9 @@
     font-weight: bold;
     padding-bottom: 10px;
 }
-.res-nav-details h5 {
+.res-nav-details ul li h5 {
     font-family: var(--content--font);
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     padding-top: 5px;
     text-decoration: underline;
@@ -353,10 +353,6 @@
 .back {
     margin-right: 20px;
     height: 50px;
-}
-#res-details a:hover {
-    font-weight: bold;
-    border-bottom: 1px solid var(--underline--color);
 }
 /*------------------------------- Responsive-nav-details -------------------------------------*/
 #res-new,
@@ -742,7 +738,7 @@ footer {
 }
 #footer-email p {
     font-family: var(--content--font);
-    font-size: 11px;
+    font-size: 13px;
 }
 form .txt_field {
     position: relative;
@@ -753,7 +749,7 @@ form .txt_field {
     width: 100%;
     padding: 0 0px;
     height: 40px;
-    font-size: 14px;
+    font-size: 15px;
     border: none;
     background: none;
     outline: none;
@@ -833,7 +829,7 @@ form .txt_field {
 #Care a, #Company a, #Social a {
     text-decoration: none;
     font-family: var(--content--font);
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
     color:#000;
 }
@@ -848,7 +844,6 @@ form .txt_field {
 }
 #map-img {
     width: 25%;
-    float: right;
     float: right;
 }
 #map-img img {
@@ -886,7 +881,7 @@ button .accordion-button collapsed {
 }
 .accordion-item p {
     font-family: var(--content--font);
-    font-size: 12px;
+    font-size: 13px;
 }
 .accordion-item ul{
     list-style: none;
@@ -895,15 +890,12 @@ button .accordion-button collapsed {
 .accordion-item a {
     text-decoration: none;
     font-family: var(--content--font);
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 15px;
     color:#000;
 }
 .accordion-item a:hover {
-    border-bottom: 2px solid var(--underline--color);
-}
-.accordion-item a:hover {
-    font-weight: bold;
+    border-bottom: 1px solid var(--underline--color);
+    font-weight: 500;
 }
 /*-------------  responsive --------------------*/
 @media screen and (min-width: 1024px){
@@ -911,7 +903,6 @@ button .accordion-button collapsed {
     .res-nav-details {
         display: none;
     }
-
 }
 @media screen and (max-width: 1024px){
     #map-img {
