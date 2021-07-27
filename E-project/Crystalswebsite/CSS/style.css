@@ -1128,7 +1128,6 @@ button .accordion-button collapsed {
 	font-size: 20px;
 	color: #000;
 	margin:6px 0 15px;
-    font-weight: bold;
     text-transform: uppercase;
     font-family: var(--head--font);
 }
@@ -1150,27 +1149,26 @@ button .accordion-button collapsed {
 	margin:0 0 10px;
 	text-transform: capitalize;
 	font-weight: 500;
-    font-family: var(--head--font);
+    font-family: var(--content--font);
 }
-.timeline-content p{
+.timeline-content p {
     color: #000;
-	font-size: 16px;
-	font-weight: 350;
+	font-size: 15px;
 	line-height: 22px;
     font-family: var(--content--font);
 }
-.ab-tl-title h2{
+.ab-tl-title h3{
     color: #000;
 	text-align: center;
 	text-transform: capitalize;
+    font-size: 35px;
 	font-weight: 500;
     font-family: var(--head--font);
 }
 .ab-tl-title p{
     color: #000;
     text-align: center;
-	font-size: 16px;
-	font-weight: 300;
+	font-size: 15px;
 	line-height: 22px;
     font-family: var(--content--font);
 }
@@ -1208,9 +1206,9 @@ button .accordion-button collapsed {
 	font-weight: 500;
   }
   .ab-heading {
-    margin-top: 10px;
-    font-size: 30px;
-    color: #81d8d0;
+    margin-top: 100px;
+    font-size: 35px;
+    font-family: var(--head--font);
   }
   .profiles {
     display: flex;
