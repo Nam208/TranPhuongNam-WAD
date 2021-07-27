@@ -3385,6 +3385,9 @@ color: #000 !important;
     .order_bag {
         padding-left: 0;
     }
+    .button_bag{
+        border-radius: 0 !important;
+    }
     @media screen and (max-width:767px){
         .order_bag {
             margin-left: 0 !important;
