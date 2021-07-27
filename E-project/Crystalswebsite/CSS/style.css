@@ -3294,6 +3294,13 @@ color: #000 !important;
 .sub_mit {
     width: 100%;
     margin: auto;
+    border-radius: 0;
+}
+.shipping_content {
+    margin-bottom: 0 !important;
+}
+.add_to_bag_main {
+    margin-bottom: 10%;
 }
 @media screen and (max-width:767px) {
     .checkout_info {
