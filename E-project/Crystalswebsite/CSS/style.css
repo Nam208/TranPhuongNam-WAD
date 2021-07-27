@@ -3405,11 +3405,17 @@ svg {
     font-family: var(--content--font);
     margin-top: 8px;
 }
+.breadcrumb {
+    margin-left: 80px;
+}
 .breadcrumb a {
     color: #000;
     text-decoration: none;
     font-family: var(--content--font);
     font-size: 12px;
+}
+.filter {
+    margin-left: 40px;
 }
 .filter ul {
     padding: 0px;
