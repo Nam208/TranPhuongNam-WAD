@@ -3382,13 +3382,20 @@ color: #000 !important;
         font-family: var(--head--font);
         font-size: 35px;
     }
+    .order_bag {
+        padding-left: 0;
+    }
     @media screen and (max-width:767px){
         .order_bag {
             margin-left: 0 !important;
             width: 100% !important;
+            padding-left: 5%;
         }
         .bag_check_content {
             margin-top: 10%;
+        }
+        .product_bag{
+            width: 90% !important;
         }
     }
     @media screen and (max-width:372px){
