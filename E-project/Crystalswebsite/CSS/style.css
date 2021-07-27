@@ -789,19 +789,18 @@ form .txt_field {
 .txt_field input:valid ~ span::before {
     width: 100%;
 }
+.sign a {
+    color: #000;
+    text-decoration: none;
+}
 .sign {
     border: 1px solid black;
     font-family: var(--content--font);
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 500;
     color:#000;
     background-color: white;
     padding: 8px 52px;
-}
-.sign:hover {
-    border: 1px solid var(--underline--color);
-    background-color: var(--underline--color);
-    color: white;
 }
 .hr-theme-slash-2 {
     display: flex;
@@ -823,7 +822,6 @@ form .txt_field {
     font-size: 15px;
     font-family: var(--content--font);
     font-weight: 600;
-    border-bottom: 1px solid #000;
     width: 135px;
     margin-bottom: 15px;
     padding-bottom: 2px;
