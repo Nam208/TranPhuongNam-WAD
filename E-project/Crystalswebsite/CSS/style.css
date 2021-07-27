@@ -2648,7 +2648,7 @@ svg {
         height: auto;
     }
     .product_content{
-        padding: 50px 10px 0px 10px;
+        padding: 0 10px 0px 10px !important;
     }
     
     .also_button_left{
@@ -3308,6 +3308,13 @@ color: #000 !important;
 .sub_mit {
     width: 100%;
     margin: auto;
+    border-radius: 0;
+}
+.shipping_content {
+    margin-bottom: 0 !important;
+}
+.add_to_bag_main {
+    margin-bottom: 10%;
 }
 @media screen and (max-width:767px) {
     .checkout_info {
@@ -3396,13 +3403,23 @@ color: #000 !important;
         font-family: var(--head--font);
         font-size: 35px;
     }
+    .order_bag {
+        padding-left: 0;
+    }
+    .button_bag{
+        border-radius: 0 !important;
+    }
     @media screen and (max-width:767px){
         .order_bag {
             margin-left: 0 !important;
             width: 100% !important;
+            padding-left: 5%;
         }
         .bag_check_content {
             margin-top: 10%;
+        }
+        .product_bag{
+            width: 90% !important;
         }
     }
     @media screen and (max-width:372px){
