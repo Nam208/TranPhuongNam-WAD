@@ -1391,9 +1391,8 @@ button .accordion-button collapsed {
 /* -----------------Special Offers---------------- */
 :root{
     --white-light: rgba(255, 255, 255, 0.5);
-    --alice-blue: #f8f9fa;
-    --carribean-green: #40c9a2;
-    --gray: #f3f0f0;
+    --carribean-green: #81d8d0;
+    --gray: #fafafa;
 }
 /* Utility stylings */
 .Special-Offer{
@@ -1403,7 +1402,7 @@ button .accordion-button collapsed {
 .md-title,
 .sm-title{
     font-family: 'Roboto', sans-serif;
-    padding: 0.6rem 0;
+    padding: 0.2rem 0;
     text-transform: capitalize;
 }
 .lg-title{
@@ -1439,8 +1438,7 @@ button .accordion-button collapsed {
 
 /* Special Offers section */
 .Special-Offers {
-    background: var(--alice-blue);
-    padding: 3.2rem 0;
+    padding: 1.2rem 0;
 }
 .Special-Offers .text-light{
     text-align: center;
@@ -1514,15 +1512,21 @@ button .accordion-button collapsed {
     color: #fff;
 }
 .SO-info{
-    background: white;
+    background: #fafafa;
     
 }
 .SO-info-top{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: var(--content--font);
+    font-weight: 550px;
+    font-size: 16px;
 }
-
+.SO-info-top a{
+    text-decoration: none;
+    color: black;
+}
 .SO-price{
    text-align: center;
     padding-top: 0.6rem;
@@ -1543,6 +1547,21 @@ button .accordion-button collapsed {
 }
 .SO-detail .SO-btns{
     opacity: 1;
+}
+.SO-name{
+    color: black;
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    font-family: var(--content--font);
+}
+.SO-info:hover .SO-name{
+    transition: all 0.6s ease;
+}
+.SO-info:hover a{
+    color: black;
 }
 .off-info .sm-title{
     background: var(--carribean-green);
@@ -1576,7 +1595,7 @@ button .accordion-button collapsed {
         grid-template-columns: repeat(3, 1fr);
     }
     .SO-detail{
-        margin-right: 1rem;
+        margin-right: 0rem;
         margin-left: 1rem;
     }
     .Special-Offers .text-light{
@@ -3421,11 +3440,17 @@ color: #000 !important;
     font-family: var(--content--font);
     margin-top: 8px;
 }
+.breadcrumb {
+    margin-left: 80px;
+}
 .breadcrumb a {
     color: #000;
     text-decoration: none;
     font-family: var(--content--font);
     font-size: 12px;
+}
+.filter {
+    margin-left: 40px;
 }
 .filter ul {
     padding: 0px;
