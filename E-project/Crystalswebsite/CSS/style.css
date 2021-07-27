@@ -2776,9 +2776,9 @@ svg {
     left: -1px;
     width: calc(100% + 2px);  
     background-color: white;
-    border-left: 1px solid rgba(0,0,0,0.125);
-    border-right: 1px solid rgba(0,0,0,0.125);
-    border-bottom: 1px solid rgba(0,0,0,0.125);
+    border-left: 1px solid rgba(0,0,0,1);
+    border-right: 1px solid rgba(0,0,0,1);
+    border-bottom: 1px solid rgba(0,0,0,1);
     padding-top: 0;
     font-size: 14px;
 }
@@ -2788,6 +2788,13 @@ svg {
 .container__rings .shadow-sm:hover .ring__item-tags{
     display: none;
 }
+.container__rings .shadow-sm:hover{
+    border-left: 1px solid rgba(0,0,0,1);
+    border-right: 1px solid rgba(0,0,0,1);
+    border-top: 1px solid rgba(0,0,0,1);
+    border-radius: 0%;
+}
+
 .carousel-inner .ring__item-tags{
     z-index: 11;
     position: absolute;
@@ -2998,7 +3005,16 @@ svg {
  font-size: 14px;
  font-weight: bold;
 }
-
+.buttons-rings{
+    display: inline-block;
+    height: 35px;
+    color: white !important;
+    background-color: black;
+}
+.buttons-rings:hover{
+background-color:var(--underline--color);
+color: #000 !important;
+}
 
 /*                    End Rings                                   */
 .hr-theme-slash-2 {
@@ -3443,7 +3459,7 @@ svg {
 .test-list {
     margin-top: 50px;
 }
-.test-list p {
+.test-list p.show__list-filter {
     margin-left: 80px;
     font-family: var(--content--font);
     font-size: 15px;
