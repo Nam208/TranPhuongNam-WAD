@@ -2769,9 +2769,10 @@ svg {
 
 .container__rings {
     margin: 0;
-    padding: 0;
+    padding: 0px 80px;
     /* float: right; */
     display: inline-block;
+ 
 }
 
 .container__rings .card-body {
@@ -2792,7 +2793,7 @@ svg {
     padding-top: 0;
     font-size: 14px;
 }
-.container__rings .shadow-sm:hover  .carousel-control-prev-icon, .container__rings .shadow-sm:hover .carousel-control-next-icon{
+.container__rings .shadow-sm:hover .carousel-control-prev-icon, .container__rings .shadow-sm:hover .carousel-control-next-icon{
     display: block;
 }
 .container__rings .shadow-sm:hover .ring__item-tags{
@@ -2817,13 +2818,13 @@ svg {
     ;
     
 }
-.carousel-control-prev{
+.container__rings .carousel-control-prev{
     left: -30px;
 }
-.carousel-control-next,.carousel-control-prev{
+.container__rings .carousel-control-next,.container__rings .carousel-control-prev{
     width: fit-content;
 }
-.carousel-control-next{
+.container__rings .carousel-control-next{
     right: -30px;
 }
 .carousel-inner .ring__item-tags p{
@@ -2934,6 +2935,13 @@ svg {
    #head-ban-res_rings {
        display: block;
    }
+   .container__rings {
+    margin: 0;
+    padding: 0px 30px;
+    /* float: right; */
+    display: inline-block;
+}
+
 }
 @media screen and (max-width:992px){
     .fix-boostrap .fix-boostrap_res,.filter-text{
@@ -2991,10 +2999,15 @@ svg {
     background-image: url(../Images/Rings/right-chevron\ \(1\).svg);
 }
 
-.carousel-control-prev-icon,.carousel-control-next-icon{
+.container__rings .carousel-control-prev-icon,.container__rings .carousel-control-next-icon{
     background-color: transparent;
     width: 20px;
     display: none;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: transparent;
+    width: 20px;
+    display: block;
 }
 .carousel-control-prev-icon{
     background-image: url(../Images/Rings/left-chevron.svg);
@@ -3017,9 +3030,10 @@ svg {
 }
 .buttons-rings{
     display: inline-block;
-    height: 35px;
+    height: 45px;
     color: white !important;
     background-color: black;
+    padding: 10px 20px;
 }
 .buttons-rings:hover{
 background-color:var(--underline--color);
@@ -3448,18 +3462,18 @@ color: #000 !important;
     font-family: var(--content--font);
     margin-top: 8px;
 }
-.breadcrumb {
+/* .breadcrumb {
     margin-left: 80px;
-}
+} */
 .breadcrumb a {
     color: #000;
     text-decoration: none;
     font-family: var(--content--font);
     font-size: 12px;
 }
-.filter {
+/* .filter {
     margin-left: 40px;
-}
+} */
 .filter ul {
     padding: 0px;
 }
