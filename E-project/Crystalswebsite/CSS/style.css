@@ -2783,8 +2783,9 @@ svg {
     border-bottom: 1px solid rgba(0,0,0,0.125);
     padding-top: 0;
     font-size: 14px;
-   
-    
+}
+.container__rings .shadow-sm:hover  .carousel-control-prev-icon, .container__rings .shadow-sm:hover .carousel-control-next-icon{
+    display: block;
 }
 .container__rings .shadow-sm:hover .ring__item-tags{
     display: none;
@@ -2800,6 +2801,15 @@ svg {
     border: solid 1px #FF0000
     ;
     
+}
+.carousel-control-prev{
+    left: -30px;
+}
+.carousel-control-next,.carousel-control-prev{
+    width: fit-content;
+}
+.carousel-control-next{
+    right: -30px;
 }
 .carousel-inner .ring__item-tags p{
     padding: 3px  8px;
@@ -2969,6 +2979,7 @@ svg {
 .carousel-control-prev-icon,.carousel-control-next-icon{
     background-color: transparent;
     width: 20px;
+    display: none;
 }
 .carousel-control-prev-icon{
     background-image: url(../Images/Rings/left-chevron.svg);
