@@ -2943,7 +2943,10 @@ svg {
 }
 
 }
+
+
 @media screen and (max-width:992px){
+
     .fix-boostrap .fix-boostrap_res,.filter-text{
         display: none;
     }
@@ -2979,6 +2982,30 @@ svg {
     .head-ban-text_rings {
         top: 8%;
      }
+}
+
+
+.res-body-container{
+    display: none;
+}
+.fullbody-product{
+    display: block;
+}
+
+
+@media screen and(max-width: 1024px) {
+
+    .res-body-container{
+    display: block;
+}
+
+.fullbody-product{
+    display: none;
+}
+
+.test-list{
+    display: none;
+}
 }
 .Rings_breadcrum-links{
     font-family: var(--content--font);
