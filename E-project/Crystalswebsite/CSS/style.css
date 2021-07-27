@@ -398,8 +398,8 @@
 }
 .head-ban-text a {
     font-family: var(--content--font);
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 500;
     color: #000;   
 }
 #head-ban-res {
@@ -452,7 +452,6 @@
     font-family: var(--head--font);
     font-size: 35px;
     font-weight: bold;
-    font-weight: 200;
     margin-top: 60px;
     margin-bottom: 50px;
 }
@@ -460,30 +459,30 @@
     text-decoration: none;
     color: #000;
 }
-.new-body h4 {
-    font-family: var(--content--font);
-    font-size: 16px;
-    font-weight: 600;
-    padding-top: 25px;
-}
 .new-body h5 {
     font-family: var(--content--font);
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+.new-body h5:last-child {
+    font-family: var(--content--font);
+    font-size: 15px;
+    font-weight: 500;
     padding-top: 5px;
     text-decoration: underline;
 }
 .new-body p {
     font-family: var(--content--font);
-    font-size: 14px;
+    font-size: 15px;
     margin-top: 15px;
 }
 .new-body a:las-child {
     text-decoration: underline;  
     color: #000;
     font-family: var(--content--font);
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 500;
 }
 .des1 {
     overflow: hidden;
@@ -531,7 +530,7 @@
 }
 .cry-head p {
     font-family: var(--content--font);
-    font-size: 14px;
+    font-size: 15px;
     text-align: left;
 }
 .top-text-box {
@@ -563,20 +562,16 @@
 }
 .bottom-head-text p {
     font-family: var(--content--font);
-    font-size: 16px;
+    font-size: 15px;
 }
 .bottom-head-text a {
     text-decoration: none;
     color: #000;
     font-family: var(--content--font);
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 500;
     border: 1px solid #000;
-    padding: 8px 52px;
-}
-.bottom-head-text a:hover {
-    background-color: var(--underline--color);
-    color: white;
+    padding: 10px 50px;
 }
 .table-cry {
     margin-top: 100px;
@@ -612,7 +607,6 @@
 .category-content p {
     font-family: var(--content--font);
     font-size: 15px;
-    font-weight: 400;
     margin-top: 15px;
 }
 #category {
@@ -629,12 +623,10 @@
 #category h5 {
     font-family: var(--content--font);
     font-size: 15px;
-    font-weight: 400;
     margin-top: 20px;
 }
 #category a:hover {
     border-bottom: 1px solid var(--underline--color);
-    font-weight: 500;
 }
 /*----------------------- Footer-banner -------------*/
 .footer-banner {
@@ -653,20 +645,20 @@
 }
 .footer-ban-text h3 {
     font-family: var(--head--font);
-    font-weight: 200;
     font-size: 35px;
     text-decoration: underline;
 }
 .footer-ban-text p {
     font-family: var(--content--font);
     font-size: 15px;
-    font-weight: 400;
 }
 .footer-ban-text a {
     font-family: var(--content--font);
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 15px;
     color: #000;   
+}
+.footer-ban-text a:last-child {
+    font-weight: 500;
 }
 #footer-ban-res {
     display: none;
@@ -707,8 +699,8 @@
     text-decoration: none;  
     color: #000;
     font-family: var(--content--font);
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 500;
 }
 #exper-res .col-lg a:last-child,
 .exper .col-lg a:last-child {
@@ -1144,12 +1136,13 @@ button .accordion-button collapsed {
     float: right;
 }
 .timeline-content h3{
-    font-size: 20px;
+    font-size: 25px;
 	color: #000;
 	margin:0 0 10px;
 	text-transform: capitalize;
 	font-weight: 500;
-    font-family: var(--content--font);
+    font-family: var(--head--font);
+    text-decoration: underline;
 }
 .timeline-content p {
     color: #000;
@@ -1237,22 +1230,23 @@ button .accordion-button collapsed {
   
   .user-name {
     margin-top: 30px;
-    font-size: 21px;
+    font-size: 15px;
+    font-family: var(--content--font);
   }
   
   .profile h5 {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     letter-spacing: .5px;
     color: #000;
   }
   
   .profile p {
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 13px;
     margin-top: 20px;
     text-align: center;
     color: #000;
+    font-family: var(--content--font);
   }
 /* responsive ab us*/
 @media(max-width: 767px){
@@ -1322,9 +1316,9 @@ button .accordion-button collapsed {
     height:450px;
     border-radius: 3px;
 }
-.location_detail h4{
-    font-family: var(--content--font);
-    font-weight: normal;
+.location_detail h3 {
+    font-family: var(--head--font);
+    font-size: 35px;
 }
 .contact_detail_1 i {
     font-size: 30px;
@@ -1332,11 +1326,13 @@ button .accordion-button collapsed {
 .contact_detail_1 .contact_detail_content {
     margin-left: 10%;
 }
-.contact_detail_1 h4 {
+.contact_detail_1 h5 {
     font-family: var(--content--font);
+    font-size: 20px;
 }
 .contact_detail_1 p {
     font-family: var(--content--font);
+    font-size: 15px;
 }
 .contact_mar {
     margin-bottom: 54px;
@@ -1860,7 +1856,7 @@ button .accordion-button collapsed {
 .by-gem .p-2 {
     background-color: var(--underline--color);
     font-family: var(--content--font);
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
 }
 /*--------------------- Eagle -----------------------*/
@@ -1874,7 +1870,7 @@ button .accordion-button collapsed {
 }
 .eagle-content p {
     font-family: var(--content--font);
-    font-size: 16px;
+    font-size: 15px;
     padding-top: 10px;
 }
 .eagle h5 {
@@ -1885,16 +1881,12 @@ button .accordion-button collapsed {
 }
 .eagle h5 a {
     border: 1px solid #000;
-    padding: 10px 30px;
+    padding: 15px 35px;
     text-decoration: none;
     color: #000;
     font-family: var(--content--font);
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
-}
-.eagle h5 a:hover {
-    background-color: var(--underline--color);
-    color: white;
 }
 /*--------------------- ban-foot -----------------------*/
 .all-jew-foot {
@@ -2051,7 +2043,7 @@ button .accordion-button collapsed {
 }
 .des p {
     font-family: var(--content--font);
-    font-size: 16px;
+    font-size: 15px;
 }
 .col-content-res {
     display: none;
@@ -2106,11 +2098,11 @@ button .accordion-button collapsed {
 }
 .animal p {
     font-family: var(--content--font);
-    font-size: 16px;
+    font-size: 15px;
 }
 .animal h5 {
     font-family: var(--content--font);
-    font-size: 16px;
+    font-size: 15px;
     padding-top: 10px;
 }
 .animal a {
@@ -2138,7 +2130,7 @@ button .accordion-button collapsed {
 .vase-office-res p,
 .vase-office-content p {
     font-family: var(--content--font);
-    font-size: 16px;
+    font-size: 15px;
 }
 .vase-office-res h5,
 .vase-office-content h5 {
@@ -2173,7 +2165,7 @@ button .accordion-button collapsed {
 .vase-ban2-res p,
 .vase-ban2 p {
     font-family: var(--content--font);
-    font-size: 16px;
+    font-size: 15px;
 }
 .vase-ban2-res h5,
 .vase-ban2 h5 {
@@ -2208,7 +2200,7 @@ button .accordion-button collapsed {
 .spec-ban1-res p,
 .spec-ban1-content p {
     font-family: var(--content--font);
-    font-size: 16px;
+    font-size: 15px;
 }
 .spec-ban1-res h5,
 .spec-ban1-content h5 {
@@ -2352,7 +2344,6 @@ button .accordion-button collapsed {
     padding: 0 !important;
     margin-top: 50px;
 }
-
 .img_product_zoom{
     width: 90px;
     height: 90px;
@@ -2408,26 +2399,21 @@ button .accordion-button collapsed {
     text-decoration: none;
     color: black;
 }
-.breadcum_detail li a{
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    font-weight:150;
-}
 #logo_info{
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+    font-family: var(--content--font);
+    font-size: 13px;
 }
 #heading_product{
-    font-family: 'Poppins', sans-serif;
-    font-size: 28px;
+    font-family: var(--content--font);
+    font-size: 35px;
 }
 #plus_product{
-    font-family: 'Poppins', sans-serif;
-    font-size: 17px;
+    font-family: var(--content--font);
+    font-size: 15px;
 }
 #quantity{
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+    font-family: var(--content--font);
+    font-size: 13px;
 }
 svg {
     margin-right: 5%;
@@ -2483,13 +2469,12 @@ svg {
 #descript {
     margin-top: 10%;
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
 }
 #descript_content,
 #detail li {
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    font-weight: 100;
+    font-size: 15px;
 }
 #detail{
     padding-left: 5%;
@@ -2521,8 +2506,8 @@ svg {
     padding: 0 !important;
 }
 .also_heading_content h3{
-    font-family: 'Lobster Two', cursive;
-    font-size: 32px;
+    font-family: var(--head--font);
+    font-size: 35px;
 }
 .also_img a {
     text-decoration: none;
@@ -2530,7 +2515,7 @@ svg {
 }
 .also_img a p{
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
 }
 .also_button_left{
     position: absolute;
@@ -2559,11 +2544,12 @@ svg {
 }
 .banner_product_content .banner_product_content_1 {
     font-family: var(--head--font);
-    font-size: 32px;
+    font-size: 35px;
+    text-decoration: underline;
 }
 .banner_product_content .banner_product_content_2 {
     font-family:var(--content--font);
-    font-size: 14px;
+    font-size: 15px;
 }
 @media screen and (max-width: 768px) { 
     .small_image_wrapper{
@@ -2588,13 +2574,11 @@ svg {
         width: 5%;
         left: 2.6%;
         bottom:22%;
-
     }
     .also_button_right{
         width: 5%;
         right: 3%;
         bottom:22%;
-
     }
     .banner_product_content {
         width: 30%;
@@ -2616,7 +2600,7 @@ svg {
     }
     .banner_product_content .banner_product_content_2 {
         font-family:var(--content--font);
-        font-size: 12px;
+        font-size: 15px;
     }
  }
 
@@ -2650,7 +2634,7 @@ svg {
     }
     .also_img a p{
         font-family: 'Poppins', sans-serif;
-        font-size: 9px;
+        font-size: 15px;
     }
     .banner_product_content .banner_product_content_2,
     .banner_product_content .banner_product_content_1 {
@@ -2663,7 +2647,7 @@ svg {
     }
     .breadcum_detail li a{
         font-family: 'Poppins', sans-serif;
-        font-size: 10px;
+        font-size: 15px;
         font-weight:150;
     }
     #heading_product{
@@ -2677,8 +2661,7 @@ svg {
     #descript_content,
     #detail li {
         font-family: 'Poppins', sans-serif;
-        font-size: 12px;
-        font-weight: 100;
+        font-size: 15px;
     }
  }
  @media screen and  (max-width:1199.98px){
@@ -2763,7 +2746,7 @@ svg {
     }
  }
 
-/* ----------------    --------------------          Rings          -------------------         */
+/* ------------------------------------ Rings -------------------*/
 
 .container__rings {
     margin: 0;
@@ -3272,14 +3255,14 @@ color: #000 !important;
 .checkout_product h5, 
 .checkout_info form h5 {
     font-family: var(--content--font);
-    font-size: 35;
+    font-size: 35px;
 }
 .checkout_product_1 p,
 .checkout_product p, 
 .checkout_info form p,
 .checkout_info form label{
     font-family: var(--content--font);
-    font-size: 35;
+    font-size: 15px;
 }
 .check_m_r,
 .check_m_l{
@@ -3291,10 +3274,12 @@ color: #000 !important;
 .checkout_product h5,
 .order_info h5{
     font-family: var(--head--font);
+    font-size: 35px;
 }
 .order_content th,
 .order_content td{
     font-family: var(--content--font);
+    font-size: 15px;
 }
 .check_m_l_1{
     width: 95%;
@@ -3307,6 +3292,7 @@ color: #000 !important;
 .label_content_1{
     margin-left: 2%;
     font-family: var(--content--font);
+    font-size: 15px;
 }
 .card_type a i {
     margin-right:20px;
