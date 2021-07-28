@@ -3496,11 +3496,16 @@ color: #000 !important;
     font-size: 15px;
     font-weight: 500;
 }
+
+.abc-res{
+    display: none;
+}
+
 @media screen and (max-width: 1024px) {
-    .abc {
+    .abc-product {
         display: none;
     }
-    .test-list .container-fluid {
+    .test-list .abc-res {
         display: block;
         padding: 30px;
     }
