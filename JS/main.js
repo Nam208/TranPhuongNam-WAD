@@ -57,7 +57,7 @@ var resjewWidth = resjew.clientWidth;
         resjew.style.width = null;
         resjew.style.display = 'none';
       }
-  }
+  };
   back.onclick = function() {
     var isClosed = resjew.clientWidth === resjewWidth;
     if (isClosed) {
