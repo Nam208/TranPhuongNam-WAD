@@ -3540,3 +3540,7 @@ color: #000 !important;
     color:#767676 ;
     font-weight: 500;
 }
+
+.container-fluid .row{
+    font-size: 15px;
+}
