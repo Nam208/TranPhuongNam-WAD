@@ -3514,7 +3514,7 @@ color: #000 !important;
     display: none;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 991px) {
     .abc-product {
         display: none;
     }
