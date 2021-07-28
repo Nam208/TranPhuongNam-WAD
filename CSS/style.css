@@ -3442,7 +3442,8 @@ color: #000 !important;
     font-size: 35px;
     font-family: var(--head--font);
     text-align: center;
-    margin: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .test-top a {
     color: #000;
