@@ -1560,6 +1560,21 @@ button .accordion-button collapsed {
     letter-spacing: 3px;
     cursor: pointer;
 }
+.off-info-1 .sm-title{
+    background: var(--carribean-green);
+    color: white;
+    display: inline-block;
+    padding: 0.5rem;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    z-index: 1;
+    letter-spacing: 3px;
+    cursor: pointer;
+    font-family: var(--content--font);
+}
 .check_special{
     position: relative;
 }
