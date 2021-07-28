@@ -2755,11 +2755,9 @@ svg {
     display: inline-block;
  
 }
-
 .container__rings .card-body {
     display: none;
 }
-
 .container__rings .shadow-sm:hover .card-body {
     display: block;
     position: absolute;
@@ -2922,12 +2920,8 @@ svg {
     /* float: right; */
     display: inline-block;
 }
-
 }
-
-
 @media screen and (max-width:992px){
-
     .fix-boostrap .fix-boostrap_res,.filter-text{
         display: none;
     }
@@ -2964,9 +2958,6 @@ svg {
         top: 8%;
      }
 }
-
-
-
 .Rings_breadcrum-links{
     font-family: var(--content--font);
     color:#000;
@@ -2974,7 +2965,6 @@ svg {
     border-bottom: 2px solid var(--underline--color) ;
     font-size: 12px; 
 }
-
 .breadcrumb-item + .breadcrumb-item::before{
     font-size: 12px;
 }
@@ -3452,18 +3442,12 @@ color: #000 !important;
     font-family: var(--content--font);
     margin-top: 8px;
 }
-/* .breadcrumb {
-    margin-left: 80px;
-} */
 .breadcrumb a {
     color: #000;
     text-decoration: none;
     font-family: var(--content--font);
     font-size: 12px;
 }
-/* .filter {
-    margin-left: 40px;
-} */
 .filter ul {
     padding: 0px;
 }
@@ -3492,10 +3476,6 @@ color: #000 !important;
 .dropdown-1:hover .dropdown-content-1 {
     display: block;
 }
-
-
-
-
 
 
 .test-list {
