@@ -1391,9 +1391,8 @@ button .accordion-button collapsed {
     text-transform: capitalize;
 }
 .lg-title{
-    font-size: 2.5rem;
+    font-size: 35px;
     font-family: var(--head--font);
-    font-weight: 500;
     text-align: center;
     padding: 1.3rem 0;
     opacity: 1;
@@ -1402,17 +1401,16 @@ button .accordion-button collapsed {
 
 }
 .md-title{
-    font-size: 1rem;
+    font-size: 15px;
     font-family: var(--content--font);
 }
 .sm-title{
-    font-weight: 400;
-    font-size: 1rem;
+    font-weight: 500;
+    font-size: 15px;
     font-family: var(--content--font);
 }
 .SO-text{
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 15px;
     line-height: 1.5;
     opacity: 1;
     margin: 0.4rem 0;
@@ -1498,15 +1496,15 @@ button .accordion-button collapsed {
 }
 .SO-info{
     background: #fafafa;
-    
+
 }
 .SO-info-top{
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: var(--content--font);
-    font-weight: 550px;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 15px;
 }
 .SO-info-top a{
     text-decoration: none;
