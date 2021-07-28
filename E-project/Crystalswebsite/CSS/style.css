@@ -3541,6 +3541,6 @@ color: #000 !important;
     font-weight: 500;
 }
 
-.container-fluid .row{
+.container-fluid .row,.dropdown-content-1 .checkbox{
     font-size: 15px;
 }
