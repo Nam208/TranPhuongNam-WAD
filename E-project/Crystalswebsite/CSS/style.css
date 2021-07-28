@@ -3502,5 +3502,21 @@ color: #000 !important;
     }
     .test-list .container-fluid {
         display: block;
+        padding: 30px;
     }
+}
+
+.product_details-list{
+    font-size: 12px;
+}
+
+.product_details-list p{
+    margin-bottom: 0px;
+    margin-top: 2px;
+    padding-left: 2px;
+    font-weight: 400;
+}
+.product_details-list p span{
+    color:#767676 ;
+    font-weight: 500;
 }
