@@ -2770,7 +2770,7 @@ svg {
     border-right: 1px solid rgba(0,0,0,1);
     border-bottom: 1px solid rgba(0,0,0,1);
     padding-top: 0;
-    font-size: 14px;
+    font-size: 15px;
 }
 .container__rings .shadow-sm:hover .carousel-control-prev-icon, .container__rings .shadow-sm:hover .carousel-control-next-icon{
     display: block;
@@ -3010,6 +3010,7 @@ svg {
     color: white !important;
     background-color: black;
     padding: 10px 20px;
+    font-weight: 500;
 }
 .buttons-rings:hover{
 background-color:var(--underline--color);
@@ -3525,14 +3526,14 @@ color: #000 !important;
 }
 
 .product_details-list{
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .product_details-list p{
     margin-bottom: 0px;
     margin-top: 2px;
     padding-left: 2px;
-    font-weight: 400;
+    font-weight: 500;
 }
 .product_details-list p span{
     color:#767676 ;
