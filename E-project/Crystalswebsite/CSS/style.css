@@ -90,7 +90,7 @@
     text-decoration: none;
     color: #000;
     font-family: var(--content--font);
-    font-size: 14px;
+    font-size: 15px;
 }
 .drop-btn a:hover,
 .drop-down:hover .drop-btn {
@@ -210,7 +210,7 @@
 }
 .drop-column h5 {
     font-family: var(--content--font);
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 500;
     padding-top: 5px;
     text-decoration: underline;
@@ -1668,8 +1668,8 @@ button .accordion-button collapsed {
 .signin-button {
     border: 1px solid black;
     font-family: var(--content--font);
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 500;
     color:#000;
     background-color: white;
     padding: 8px 52px;
@@ -1683,7 +1683,7 @@ button .accordion-button collapsed {
     background-color: var(--underline--color);
     color: white;
 }
-.create h4 {
+.create h3 {
     text-align: center;
     font-family: var(--head--font);
     font-size: 35px;
@@ -1694,8 +1694,8 @@ button .accordion-button collapsed {
     align-items: center;
     border: 1px solid black;
     font-family: var(--content--font);
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 500;
     color:#000;
     background-color: white;
     padding: 8px 52px;
@@ -1739,13 +1739,14 @@ button .accordion-button collapsed {
 }
 .signup-form {
     margin-top: 50px;
+    height: 100%;
 }
 .signup-btn {
     text-decoration: none;
     color: #000;
     font-family: var(--content--font);
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 500;
     border: 1px solid #000;
     padding: 8px 52px;
 }
@@ -3043,30 +3044,41 @@ color: #000 !important;
 }
 .new_content_1 p{
     font-family:var(--content--font);
+    font-size: 15px;
 }
-.new_content_2 h5 {
+.new_content_2 h3 {
     font-family: var(--head--font);
+    font-size: 35px;
 }
 .new_content_2 p {
     font-family:var(--content--font);
+    font-size: 15px;
 }
-.new_content_3 h4 {
+.new_content_3 h3 {
     font-family: var(--head--font);
+    font-size: 35px;
+    text-decoration: underline;
 }
 .new_content_3 p {
+    font-size: 15px;
     font-family:var(--content--font);
 }
-.new_content_4 h4{
+.new_content_4 h3{
     font-family: var(--head--font);
+    font-size: 35px;
+    text-decoration: underline;
 }
 .new_content_4 p{
     font-family:var(--content--font);
+    font-size: 15px;
 }
-.new_content_5 h5{
+.new_content_5 h3{
     font-family: var(--head--font);
+    font-size: 35px;
 }
 .new_content_5 p{
     font-family:var(--content--font);
+    font-size: 15px;
 }
 .new_img_3 .ring__item-tags{
     z-index: 11;
@@ -3161,16 +3173,15 @@ color: #000 !important;
 }
 /*---------------------SO SANH-----------------------*/
 
-.sp1 {
-    
+.sp1 {  
     width: 100%;
 }
-.sp1 img{
-    
+.sp1 img{  
     height: auto;
 }
-.sp1 h4{
+.sp1 h3{
     font-family: var(--head--font);
+    font-size: 35px;
 }
 .so_sanh_img{
     display: flex;
@@ -3182,19 +3193,21 @@ color: #000 !important;
 }
 .so_sanh_1 {
     font-family: var(--content--font);
+    font-size: 15px;
 }
 .so_sanh_1 td{
     font-family: var(--content--font);
+    font-size:15px;
 }
 @media screen and (max-width:442px) {
     .so_sanh_1 th{
-        font-size: 12px;
+        font-size: 15px;
     }
     .so_sanh_1 {
-        font-size: 13px;
+        font-size: 15px;
     }
     .so_sanh_1 td{
-        font-size: 11px;
+        font-size: 15px;
     }
 }
 
