@@ -41,7 +41,7 @@ var resnewWidth = resnew.clientWidth;
       resnew.style.display = 'block';
     } else {
       resnew.style.display = 'none';
-    } 
+    }  
   };
 //------------ Resjew --------------- //   
 var resjew = document.getElementById('res-jew');
