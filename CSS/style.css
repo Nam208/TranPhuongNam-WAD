@@ -192,7 +192,7 @@
 }
 .drop-column {
     float: left;
-    height: 400px;
+    height: 480px;
     margin-top: 23px;
     background-color: white;
 }
@@ -3250,7 +3250,7 @@ color: #000 !important;
 
 /*---------------------Checkout-----------------------*/
 .check_out {
-    margin-top: 56px;
+    margin-top: 20px;
     margin-bottom: 56px;
 }
 .img_check_out {
@@ -3337,7 +3337,7 @@ color: #000 !important;
 }
 @media screen and (max-width:767px) {
     .checkout_info {
-        margin-top: 56px;
+        margin-top: 20px;
     }
     .checkout_product {
         margin-top: 54px;
