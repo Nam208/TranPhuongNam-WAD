@@ -9,6 +9,8 @@ const menuBtn = document.querySelector('.menu-btn');
     } else {
       menuBtn.classList.remove('open');
       menuOpen = false;
+      resnew.style.display = 'none';
+      resjew.style.display = 'none';
     }
     });        
 
@@ -26,8 +28,8 @@ var whatnew = document.getElementById('what-new');
 var back = document.getElementById('backnew');
 var resnewWidth = resnew.clientWidth;
   whatnew.onclick = function() {
-    var isClosed = resnew.clientWidth === resnewWidth;
-      if (isClosed) {
+    var isClosed = resnew.clientWidth === resnewWidth;    
+    if (isClosed) {
         resnew.style.width = 'auto';
         resnew.style.display = 'block';
       } else {

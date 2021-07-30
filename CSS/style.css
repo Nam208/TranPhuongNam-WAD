@@ -395,6 +395,7 @@
     font-family: var(--content--font);
     font-size: 15px;
     font-weight: 400;
+    margin: 0;
 }
 .head-ban-text a {
     font-family: var(--content--font);
@@ -1218,13 +1219,12 @@ button .accordion-button collapsed {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    filter: grayscale(100%);
     cursor: pointer;
     transition: 400ms;
   }
   
   .profile:hover .profile-img {
-    filter: grayscale(0);
+
     transform: scale(1.1);
   }
   
