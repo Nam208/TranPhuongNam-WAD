@@ -395,6 +395,7 @@
     font-family: var(--content--font);
     font-size: 15px;
     font-weight: 400;
+    margin: 0;
 }
 .head-ban-text a {
     font-family: var(--content--font);
