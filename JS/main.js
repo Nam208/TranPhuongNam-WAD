@@ -271,3 +271,6 @@ var myCarousel = document.querySelector('#carouselExampleControlsNoTouching43');
 var carousel = new bootstrap.Carousel(myCarousel);
 var myCarousel = document.querySelector('#carouselExampleControlsNoTouching44');
 var carousel = new bootstrap.Carousel(myCarousel);
+
+/*----------------------------------------------Validate--------------------------------*/
+
