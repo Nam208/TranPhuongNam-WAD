@@ -1791,7 +1791,6 @@ button .accordion-button collapsed {
     font-weight: 500;
     border: 1px solid #000;
     padding: 8px 52px;
-    background-color: white;
 }
 .signup-btn:hover {
     color: white;
