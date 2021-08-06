@@ -1340,7 +1340,6 @@ button .accordion-button collapsed {
 .sub_mit{
     width: 100%;
     font-family: var(--content--font);
-    border: 1px solid #81d8d0;
     background-color: #81d8d0;
     color: white;
 }
@@ -1362,7 +1361,6 @@ button .accordion-button collapsed {
  {
     font-family: var(--head--font);
 }
-
 @media screen and (max-width:1024px){
     .contact_us_detail,
     .location_detail {
