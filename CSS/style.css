@@ -2349,7 +2349,18 @@ button .accordion-button collapsed {
     color: white;
     background-color: var(--underline--color);
 }
-
+.add_to_bag_main .text-muted {
+    color: #000 !important;
+}
+.add_to_bag_main h6,
+.add_to_bag_main span {
+    font-family: var(--content--font);
+    font-size: 15px;
+}
+.add_to_bag_main small {
+    font-family: var(--content--font);
+    font-size: 13px;
+}
 
 
 
