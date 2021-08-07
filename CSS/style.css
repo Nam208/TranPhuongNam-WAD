@@ -2319,9 +2319,36 @@ button .accordion-button collapsed {
     }
 }
 
-
-
-
+/*--------------------- checkout -----------------------*/
+.add_to_bag_main h4 {
+    font-family: var(--head--font);
+    font-size: 35px;
+}
+.add_to_bag_main label,
+.add_to_bag_main .invalid-feedback {
+    font-family: var(--content--font);
+    font-size: 15px;
+}
+#country,
+#state {
+    height: 38px;
+    font-family: var(--content--font);
+    font-size: 15px;
+}
+.continue-btn {
+    text-decoration: none;
+    color: #000;
+    font-family: var(--content--font);
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid #000;
+    padding: 10px 52px;
+    background-color: white;
+}
+.continue-btn:hover {
+    color: white;
+    background-color: var(--underline--color);
+}
 
 
 
