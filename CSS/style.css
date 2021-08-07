@@ -1337,14 +1337,18 @@ button .accordion-button collapsed {
 .contact_mar {
     margin-bottom: 54px;
 }
-.sub_mit{
-    width: 100%;
+.sub_mit {
     font-family: var(--content--font);
-    border: 1px solid #81d8d0;
-    background-color: #81d8d0;
-    color: white;
+    border: 1px solid #000;
+    font-size: 17px;
+    font-weight: 500;
+    width: 100%;
+    padding: 12px 0;
 }
-.your_message::placeholder { 
+.sub_mit:hover {
+    background-color: var(--underline--color);
+}
+.your_message::placeholder {
   position: absolute;
 }
 .FAQ_content {
@@ -1713,9 +1717,7 @@ button .accordion-button collapsed {
     width: 70%;
 }
 .signin-button:hover {
-    border: 1px solid var(--underline--color);
     background-color: var(--underline--color);
-    color: white;
 }
 .create h3 {
     text-align: center;
@@ -1739,9 +1741,7 @@ button .accordion-button collapsed {
 }
 #create:hover,
 #google:hover {
-    border: 1px solid var(--underline--color);
     background-color: var(--underline--color);
-    color: white;
 }
 #create-col {
     border-left: 1px solid var(--underline--color);
@@ -1794,7 +1794,6 @@ button .accordion-button collapsed {
     background-color: white;
 }
 .signup-btn:hover {
-    color: white;
     background-color: var(--underline--color);
 }
 .signup img {
@@ -2352,8 +2351,7 @@ button .accordion-button collapsed {
 .add_to_bag_main .text-muted {
     color: #000 !important;
 }
-.add_to_bag_main h6,
-.add_to_bag_main span {
+.add_to_bag_main h6 {
     font-family: var(--content--font);
     font-size: 15px;
 }
@@ -3372,7 +3370,6 @@ color: #000 !important;
     background-color: #81d8d0;
 }
 .sub_mit {
-    width: 100%;
     margin: auto;
     border-radius: 0;
 }
