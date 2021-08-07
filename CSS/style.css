@@ -791,6 +791,9 @@ form .txt_field {
     background-color: white;
     padding: 8px 52px;
 }
+.sign:hover {
+    background-color: var(--underline--color);
+}
 .hr-theme-slash-2 {
     display: flex;
     justify-content: center;
@@ -1340,7 +1343,7 @@ button .accordion-button collapsed {
 .sub_mit {
     font-family: var(--content--font);
     border: 1px solid #000;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 500;
     width: 100%;
     padding: 12px 0;
