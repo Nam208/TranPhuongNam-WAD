@@ -327,13 +327,13 @@
                         <h3 style="margin-bottom: 40px;">CONTACT US</h3>
                         <div class="row">
                             <div class="mb-4 col-6 check_mar">
-                                <input type="email" class="form-control" placeholder="Enter a valid email address" id="exampleInputEmail1" aria-describedby="emailHelp"required>
+                                <input type="email" class="form-control" placeholder="Enter a valid email address" id="exampleInputEmail1" aria-describedby="emailHelp" maxlength="50" required>
                                 <div class="invalid-feedback">
                                     Please enter a valid email address for contact.
                                   </div>
                             </div>
                             <div class="mb-4 col-6 check_mar">
-                                <input type="text" class="form-control" placeholder="Enter your name" id="exampleInputEmail1" aria-describedby="emailHelp"required>
+                                <input type="text" class="form-control" placeholder="Enter your name" id="exampleInputEmail1" aria-describedby="emailHelp" maxlength="50" required>
                                 <div class="invalid-feedback">
                                     Please enter your name.
                                   </div>
@@ -341,14 +341,14 @@
                         </div>
                         <div class="row">
                             <div class="mb-4 col">
-                                <input type="number" placeholder="Enter your phone number" class="form-control" id="exampleInputPassword1" required>
+                                <input type="number" placeholder="Enter your phone number" class="form-control" id="exampleInputPassword1" maxlength="15" required>
                                 <div class="invalid-feedback">
                                     Please enter a valid phone number.
                                   </div>
                             </div>
                         </div>
                         <div class="mb-4">
-                            <textarea type="text" placeholder="Enter your message" class="form-control your_message" id="exampleInputPassword1" style="height:200px;"required></textarea>
+                            <textarea maxlength="250" type="text" placeholder="Enter your message" class="form-control your_message" id="exampleInputPassword1" style="height:200px;"required></textarea>
                         </div>
                         <button type="submit" class="btn sub_mit"><a href="thank.html" style="text-decoration: none; color: black;" class="">Submit</a></button>
                       </form>
