@@ -93,7 +93,7 @@
     font-size: 15px;
 }
 .drop-btn a:hover,
-.drop-down:hover .drop-btn {
+.drop-down .drop-btn {
     font-weight: 500;
     border-bottom: 1px solid var(--underline--color);
 }
